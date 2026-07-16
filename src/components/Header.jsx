@@ -10,11 +10,11 @@ const NAV_LINKS = [
 ]
 
 const RESOURCE_LINKS = [
-  { label: 'About Us', to: '/resources/about' },
+  { label: 'About Us', to: '/about' },
   { label: 'Insights', to: '/resources/insights' },
-  { label: 'Request Support', to: '/resources/support' },
-  { label: 'Document & Data Sheets', to: '/resources/documents' },
-  { label: 'Application Guidance', to: '/resources/guidance' },
+  { label: 'Request Support', to: '/resources/technical-support' },
+  { label: 'Document & Data Sheets', to: '/resources/documents-data-sheets' },
+  { label: 'Application Guidance', to: '/resources/application-guidance' },
 ]
 
 function Header() {
