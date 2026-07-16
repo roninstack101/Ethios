@@ -25,12 +25,12 @@ function Header() {
       <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-6 lg:px-[115px]">
         {/* Logo */}
         <Link to="/" className="shrink-0">
-          <img
-            src="/assets/logo-header.png"
-            alt="Ethios Group"
-            className="h-[42px] w-[132px] object-contain"
-          />
-        </Link>
+  <img
+    src="/assets/logo-header.png"
+    alt="Ethios Group"
+    className="h-[68px] w-[210px] object-contain"
+  />
+</Link>
 
         {/* Navigation */}
         <nav className="hidden items-center gap-8 text-[15px] font-medium text-ink lg:flex">
