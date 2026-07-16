@@ -1,0 +1,37 @@
+{
+ "title": "Plaster and Block Adhesive",
+ "intro": "Providing specialized bonding solutions that securely fix blocks, bricks, and plaster to walls and surfaces, these adhesives ensure strong adhesion, minimize cracking, deliver a smooth finish, and enhance the durability and longevity of construction projects—making them ideal for residential, commercial, and industrial applications.",
+ "heroImage": "/assets/products/plaster-hero.png",
+ "products": [
+  {
+   "name": "Bronco Zip-It",
+   "image": "/assets/products/plaster-and-block-adhesive-01.png",
+   "description": "Bronco Zip-It is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Weber Blok Fix",
+   "image": "/assets/products/plaster-and-block-adhesive-02.png",
+   "description": "Weber Blok Fix is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Weber Blokset",
+   "image": "/assets/products/plaster-and-block-adhesive-03.png",
+   "description": "Weber Blokset is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Gyproc Expert",
+   "image": "/assets/products/plaster-and-block-adhesive-04.png",
+   "description": "Gyproc Expert is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Bronco Block Bond",
+   "image": "/assets/products/plaster-and-block-adhesive-05.png",
+   "description": "Bronco Block Bond is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Bronco Master Plast",
+   "image": "/assets/products/plaster-and-block-adhesive-06.png",
+   "description": "Bronco Master Plast is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "title": "Putty and Texture",
+ "intro": "Our putty products are premium surface preparation solutions designed to create smooth, even, and defect-free substrates for painting or finishing applications. They effectively fill minor cracks, surface imperfections, and uneven areas, ensuring a durable, uniform, and high-quality base that enhances the longevity, appearance, and performance of subsequent coatings across residential, commercial, and industrial projects.",
+ "heroImage": "/assets/products/putty-hero.png",
+ "products": [
+  {
+   "name": "Sikagard-694 F(I)",
+   "image": "/assets/products/putty-and-texture-01.png",
+   "description": "Sikagard-694 F(I) is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Durowhite Plaster",
+   "image": "/assets/products/putty-and-texture-02.png",
+   "description": "Durowhite Plaster is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Dampshield Wall",
+   "image": "/assets/products/putty-and-texture-03.png",
+   "description": "Dampshield Wall is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Cretex Perlina",
+   "image": "/assets/products/putty-and-texture-04.png",
+   "description": "Cretex Perlina is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Cretex Rustique",
+   "image": "/assets/products/putty-and-texture-05.png",
+   "description": "Cretex Rustique is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  }
+ ]
+}
