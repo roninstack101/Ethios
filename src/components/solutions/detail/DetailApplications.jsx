@@ -10,7 +10,7 @@ function DetailApplications({ eyebrow, title, items }) {
       <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
         {items.map((label, i) => (
           <Reveal key={label} delay={(i % 6) * 70} className="h-full">
-            <div className="h-[110px] rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
+            <div className="h-full min-h-[110px] rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
               <p className="text-[24px] font-bold capitalize text-forest">
                 {String(i + 1).padStart(2, '0')}.
               </p>
