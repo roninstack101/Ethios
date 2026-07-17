@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="relative min-h-[520px] md:min-h-[600px] xl:min-h-[664px] overflow-hidden bg-forest">
       <img
-        src="/assets/hero.png"
+        src="/assets/hero section extended.png"
         alt=""
         className="absolute inset-0 h-full w-full object-cover object-right animate-hero-zoom"
       />
