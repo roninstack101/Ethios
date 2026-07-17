@@ -122,7 +122,7 @@ function Header() {
 
   return (
     <>
-    <header className="fixed inset-x-0 top-0 z-50 h-[65px] bg-cream/80 backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-50 h-[65px] bg-cream/80 backdrop-blur-sm max-w-[2160px] mx-auto">
       <div className="flex h-full w-full items-center justify-between gap-3 px-4 sm:px-6 lg:px-8 xl:px-12">
         {/* Logo */}
         <Link to="/" className="shrink-0">
@@ -182,7 +182,7 @@ function Header() {
       {/* Mobile menu panel — outside the header because its backdrop-blur
           creates a containing block that would trap fixed positioning */}
       <div
-        className={`fixed inset-x-0 top-[65px] bottom-0 z-40 overflow-y-auto bg-cream transition-all duration-300 lg:hidden ${
+        className={`fixed inset-x-0 top-[65px] bottom-0 z-40 overflow-y-auto bg-cream transition-all duration-300 lg:hidden max-w-[2160px] mx-auto ${
           menuOpen ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-3 opacity-0'
         }`}
       >

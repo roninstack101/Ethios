@@ -21,7 +21,7 @@ import ComingSoon from './pages/ComingSoon.jsx'
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-cream relative flex flex-col">
+    <div className="mx-auto max-w-[2160px] w-full min-h-screen bg-cream relative flex flex-col">
       <ScrollToTop />
       <Header />
       <main className="flex-1">
