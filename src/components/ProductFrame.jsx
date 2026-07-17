@@ -26,25 +26,20 @@ function ProductFrame({ title, image, description }) {
     clearTimeout(closeTimer.current)
     const el = tileRef.current
     if (!el) return
-    const r = el.getBoundingClientRect()
-    // Card spans two product tiles wide (2 columns + the grid's column gap).
+    
+    // Using position: absolute avoids all CSS zoom coordinate translation bugs.
     const grid = el.closest('.grid')
     const columnGap = grid ? parseFloat(getComputedStyle(grid).columnGap) || 24 : 24
-    const extraWidth = 20 // adjust until it matches your design
-let width = Math.round(2 * r.width + columnGap + extraWidth)
-    // Never wider than the viewport allows.
-    width = Math.min(width, window.innerWidth - 20)
-    const height = r.height
-    const gap = 14
-    // Prefer to the right of the tile; flip left if it would overflow.
-    let left = r.right + gap
-    if (left + width > window.innerWidth - 10) left = r.left - width - gap
-    if (left < 10) left = Math.max(10, (window.innerWidth - width) / 2)
-    // Vertically align near the tile top, clamped to the viewport.
-    let top = r.top
-    top = Math.min(top, window.innerHeight - 220)
-    top = Math.max(10, top)
-    setCard({ left, top, width, height })
+    
+    // Internal coordinate system widths
+    const extraWidth = 20
+    const width = Math.round(2 * el.offsetWidth + columnGap + extraWidth)
+    
+    // Simple physical screen center check to decide if we should pop out left or right
+    const r = el.getBoundingClientRect()
+    const flip = r.left + r.width / 2 > window.innerWidth / 2
+    
+    setCard({ flip, width, height: el.offsetHeight })
   }
   const scheduleClose = () => {
     closeTimer.current = setTimeout(() => setCard(null), 140)
@@ -55,9 +50,7 @@ let width = Math.round(2 * r.width + columnGap + extraWidth)
     setCard(null)
   }
 
-  // The card is position:fixed with coordinates captured at open time, so
-  // scrolling would leave it glued to the viewport while its tile moves
-  // away. Close it as soon as the page scrolls or resizes.
+  // Close the card as soon as the page scrolls or resizes.
   useEffect(() => {
     if (!card) return undefined
     const dismiss = () => setCard(null)
@@ -70,7 +63,7 @@ let width = Math.round(2 * r.width + columnGap + extraWidth)
   }, [card])
 
   return (
-    <div ref={tileRef} className="group relative w-full">
+    <div ref={tileRef} className={`group relative w-full ${card ? 'z-50' : 'z-10'}`}>
       <svg viewBox="0 0 343 366" className="block h-auto w-full" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <clipPath id={clipId}>
@@ -169,8 +162,10 @@ let width = Math.round(2 * r.width + columnGap + extraWidth)
           aria-label={`${title} details`}
           onMouseEnter={cancelClose}
           onMouseLeave={closeCard}
-          style={{ position: 'fixed', left: card.left, top: card.top, width: card.width, height: card.height }}
-          className="z-50 overflow-y-auto rounded-[16px] bg-[#1c1c1c]/90 p-6 shadow-2xl ring-1 ring-white/10 backdrop-blur-md animate-[fadeIn_0.15s_ease-out]"
+          className={`absolute top-0 z-50 overflow-y-auto rounded-[16px] bg-[#1c1c1c]/90 p-6 shadow-2xl ring-1 ring-white/10 backdrop-blur-md animate-[fadeIn_0.15s_ease-out] ${
+             card.flip ? 'right-[calc(100%+14px)]' : 'left-[calc(100%+14px)]'
+          }`}
+          style={{ width: card.width, height: '100%' }}
           >
           <button
             type="button"

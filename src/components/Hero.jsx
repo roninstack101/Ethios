@@ -2,16 +2,16 @@ import { Reveal } from './ui.jsx'
 
 function Hero() {
   return (
-    <section className="relative min-h-[520px] md:min-h-[600px] xl:min-h-[664px] overflow-hidden bg-forest">
+    <section className="relative min-h-[520px] md:min-h-[600px] xl:min-h-[664px] 2xl:min-h-[800px] overflow-hidden bg-forest">
       <img
         src="/assets/hero.png"
         alt=""
-        className="absolute inset-0 h-full w-full object-cover object-right animate-hero-zoom"
+        className="absolute inset-0 h-full w-full object-cover object-[right_35%] animate-hero-zoom"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-forest via-forest/60 to-transparent opacity-95" />
 
-      <div className="relative mx-auto max-w-[1440px] px-6 pb-14 pt-[110px] md:pb-20 md:pt-[164px] lg:px-12 xl:px-[115px]">
+      <div className="relative mx-auto max-w-[1440px] px-6 pb-14 pt-[110px] md:pb-20 md:pt-[164px] 2xl:pb-32 2xl:pt-[240px] lg:px-12 xl:px-[115px]">
         <Reveal className="inline-flex h-[39px] items-center gap-2.5 rounded-full border border-gold bg-gold/10 px-5">
           <span className="size-1.5 rounded-full bg-gold" aria-hidden />
           <span className="text-[15px] font-medium uppercase text-gold">B2B Construction Solutions</span>

@@ -13,8 +13,8 @@ function ResourcesCategory() {
 
   return (
     <>
-      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
-        <img src={category.heroImage} alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] 2xl:min-h-[800px] items-center justify-center overflow-hidden bg-forest">
+        <img src={category.heroImage} alt="" className="absolute inset-0 h-full w-full object-cover object-[center_35%] animate-hero-zoom" />
         <div className="absolute inset-0 bg-forest/50" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
           <Reveal as="span" className="flex h-[39px] items-center rounded-full border border-[#e8e6e2] bg-black/10 px-[30px] text-[15px] font-medium uppercase text-[#e8e6e2]">

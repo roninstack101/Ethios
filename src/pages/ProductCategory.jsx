@@ -14,12 +14,12 @@ function ProductCategory() {
 
   return (
     <>
-      <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] 2xl:min-h-[800px] items-center justify-center overflow-hidden bg-forest">
         {(catalog.heroImage || category) && (
           <img
             src={catalog.heroImage || category.image}
             alt=""
-            className="absolute inset-0 h-full w-full object-cover animate-hero-zoom"
+            className="absolute inset-0 h-full w-full object-cover object-[center_35%] animate-hero-zoom"
           />
         )}
         <div className="absolute inset-0 bg-forest/70" />
