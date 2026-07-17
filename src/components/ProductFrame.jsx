@@ -1,4 +1,4 @@
-import { useId, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 
 /* Product tile for the catalog (sub-category) pages — exact Figma holder
    shape: a green frame whose bottom-right is a solid wedge formed by a big
@@ -54,6 +54,20 @@ let width = Math.round(2 * r.width + columnGap + extraWidth)
     clearTimeout(closeTimer.current)
     setCard(null)
   }
+
+  // The card is position:fixed with coordinates captured at open time, so
+  // scrolling would leave it glued to the viewport while its tile moves
+  // away. Close it as soon as the page scrolls or resizes.
+  useEffect(() => {
+    if (!card) return undefined
+    const dismiss = () => setCard(null)
+    window.addEventListener('scroll', dismiss, { passive: true, capture: true })
+    window.addEventListener('resize', dismiss)
+    return () => {
+      window.removeEventListener('scroll', dismiss, { capture: true })
+      window.removeEventListener('resize', dismiss)
+    }
+  }, [card])
 
   return (
     <div ref={tileRef} className="group relative w-full">

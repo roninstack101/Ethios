@@ -5,8 +5,11 @@ const NAV_LINKS = [
   { label: 'Solutions', to: '/solutions' },
   { label: 'OEM Services', to: '/oem-services' },
   { label: 'Products', to: '/products' },
-  { label: 'Scope', to: '/scope' },
-  { label: 'Projects', to: '/projects' },
+]
+
+const SCOPE_LINKS = [
+  { label: 'Overview', to: '/scope' },
+  { label: 'Clients', to: '/scope/clients' },
 ]
 
 const RESOURCE_LINKS = [
@@ -17,8 +20,46 @@ const RESOURCE_LINKS = [
   { label: 'Application Guidance', to: '/resources/application-guidance' },
 ]
 
+function Dropdown({ label, to, links, open, setOpen, width = 260 }) {
+  return (
+    <div className="relative" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+      <Link to={to} className="flex items-center gap-2 py-5 transition-colors duration-200 hover:text-forest">
+        {label}
+        <svg
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          fill="none"
+          className={`transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
+        >
+          <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </Link>
+
+      <div
+        style={{ width }}
+        className={`absolute left-1/2 top-full mt-2 -translate-x-1/2 rounded-2xl bg-white/95 p-2 shadow-xl backdrop-blur-lg transition-all duration-200 ${
+          open ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 -translate-y-2'
+        }`}
+      >
+        {links.map((item) => (
+          <Link
+            key={item.label}
+            to={item.to}
+            onClick={() => setOpen(false)}
+            className="block rounded-xl px-4 py-2.5 text-center text-[15px] font-medium text-ink transition-all duration-200 hover:bg-forest/5 hover:text-forest"
+          >
+            {item.label}
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 function Header() {
   const [resourceOpen, setResourceOpen] = useState(false)
+  const [scopeOpen, setScopeOpen] = useState(false)
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 h-[65px] bg-cream/80 backdrop-blur-sm">
@@ -44,57 +85,13 @@ function Header() {
             </Link>
           ))}
 
-          {/* Resources */}
-          <div
-            className="relative"
-            onMouseEnter={() => setResourceOpen(true)}
-            onMouseLeave={() => setResourceOpen(false)}
-          >
-            <Link
-              to="/resources"
-              className="flex items-center gap-2 py-5 transition-colors duration-200 hover:text-forest"
-            >
-              Resources
+          <Dropdown label="Scope" to="/scope" links={SCOPE_LINKS} open={scopeOpen} setOpen={setScopeOpen} width={180} />
 
-              <svg
-                width="10"
-                height="6"
-                viewBox="0 0 10 6"
-                fill="none"
-                className={`transition-transform duration-300 ${
-                  resourceOpen ? 'rotate-180' : ''
-                }`}
-              >
-                <path
-                  d="M1 1L5 5L9 1"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </Link>
+          <Link to="/projects" className="transition-colors duration-200 hover:text-forest">
+            Projects
+          </Link>
 
-            {/* Dropdown */}
-            <div
-              className={`absolute left-1/2 top-full mt-2 w-[260px] -translate-x-1/2 rounded-2xl bg-white/95 p-2 shadow-xl backdrop-blur-lg transition-all duration-200 ${
-                resourceOpen
-                  ? 'visible opacity-100 translate-y-0'
-                  : 'invisible opacity-0 -translate-y-2'
-              }`}
-            >
-              {RESOURCE_LINKS.map((item) => (
-                <Link
-                  key={item.label}
-                  to={item.to}
-                  onClick={() => setResourceOpen(false)}
-                  className="block rounded-xl px-4 py-2.5 text-center text-[15px] font-medium text-ink transition-all duration-200 hover:bg-forest/5 hover:text-forest"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
+          <Dropdown label="Resources" to="/resources" links={RESOURCE_LINKS} open={resourceOpen} setOpen={setResourceOpen} />
         </nav>
 
         {/* Contact Button */}
