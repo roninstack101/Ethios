@@ -21,6 +21,10 @@
   --color-brass: #d4af37;
 }
 
+html {
+  font-size: 80%;
+}
+
 html,
 body {
   /* Guard against sub-pixel/zoom rounding ever producing a horizontal

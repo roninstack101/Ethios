@@ -159,7 +159,7 @@ function PartnerAccordion() {
   const [active, setActive] = useState(PARTNER_POINTS.length - 1)
 
   return (
-    <div className="flex h-[566px] flex-col overflow-hidden" onMouseLeave={() => setActive(PARTNER_POINTS.length - 1)}>
+    <div className="flex h-[536px] flex-col overflow-hidden" onMouseLeave={() => setActive(PARTNER_POINTS.length - 1)}>
       {PARTNER_POINTS.map(({ title, description }, i) => {
         const isOpen = active === i
         return (
@@ -171,11 +171,11 @@ function PartnerAccordion() {
             onClick={() => setActive(i)}
             aria-expanded={isOpen}
             className={`shrink-0 overflow-hidden rounded-t-[20px] px-[26px] pt-[18px] text-left transition-[height] duration-300 ease-in-out ${
-              i > 0 ? '-mt-[14px]' : ''
+              i > 0 ? '-mt-[20px]' : ''
             } ${i % 2 === 0 ? 'bg-forest' : 'bg-forest-2'} ${
               i === PARTNER_POINTS.length - 1
                 ? isOpen ? 'h-[136px]' : 'h-[80px]'
-                : isOpen ? 'h-[150px]' : 'h-[94px]'
+                : isOpen ? 'h-[156px]' : 'h-[100px]'
             }`}
           >
             <span className="flex items-baseline justify-between gap-4">
@@ -331,15 +331,15 @@ function OemServices() {
             description="A manufacturing partner that stands behind your brand — from formulation to finished, packaged product."
           />
         </Reveal>
-        <div className="mt-12 grid items-end gap-8 xl:gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
-          <Reveal x={-28} y={0} className="group overflow-hidden rounded-[15px]">
+        <div className="mt-12 grid items-stretch gap-8 xl:gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
+          <Reveal x={-28} y={0} className="group h-full overflow-hidden rounded-[15px]">
             <img
               src="/assets/oem-partner.png"
               alt="Ethios OEM manufacturing line"
-              className="aspect-[550/440] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />
           </Reveal>
-          <Reveal x={28} y={0} delay={120}>
+          <Reveal x={28} y={0} delay={120} className="h-full">
             <PartnerAccordion />
           </Reveal>
         </div>

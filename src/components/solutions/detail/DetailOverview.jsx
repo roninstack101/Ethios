@@ -27,24 +27,31 @@ function DetailOverview({ eyebrow, title, description, image, items }) {
                   <button
                     type="button"
                     onClick={() => setActive(i)}
+                    onMouseEnter={() => setActive(i)}
                     aria-expanded={isActive}
-                    className={`w-full text-left transition-colors ${
+                    className={`w-full text-left transition-all duration-300 ease-in-out ${
                       isActive ? 'rounded-[15px] bg-card p-6 shadow-sm' : 'px-6 py-3'
                     }`}
                   >
                     <span
-                      className={`flex gap-5 text-[24px] font-bold capitalize leading-normal lg:text-[32px] ${
+                      className={`flex gap-5 text-[24px] font-bold capitalize leading-normal lg:text-[32px] transition-colors duration-300 ${
                         isActive ? 'text-ink' : 'text-smoke/80'
                       }`}
                     >
                       <span className="w-[52px] shrink-0 text-right">{number}</span>
                       <span>{itemTitle}</span>
                     </span>
-                    {isActive && (
-                      <span className="mt-3 block pl-[72px] text-[15px] font-medium text-ink">
-                        {itemDescription}
-                      </span>
-                    )}
+                    <div
+                      className={`grid transition-all duration-300 ease-in-out ${
+                        isActive ? 'grid-rows-[1fr] opacity-100 mt-3' : 'grid-rows-[0fr] opacity-0'
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <span className="block pl-[72px] text-[15px] font-medium text-ink pb-1">
+                          {itemDescription}
+                        </span>
+                      </div>
+                    </div>
                   </button>
                 </li>
               )

@@ -57,15 +57,35 @@ function TechAreaTile({ title, image }) {
   )
 }
 
-function ProcessStep({ code, title, description, isLast }) {
+function ProcessStep({ code, title, description, isLast, index, totalSteps }) {
   return (
-    <div className="relative flex-1 rounded-[15px] border border-line bg-card p-5">
-      <p className="text-[10px] font-medium uppercase tracking-[1.5px] text-brass">{code}</p>
-      <h3 className="mt-1 text-[24px] font-bold capitalize text-forest">{title}</h3>
-      <div className="mt-3 border-t border-line" />
-      <p className="mt-4 text-[15px] font-medium text-smoke">{description}</p>
+    <div className="relative flex-1 flex flex-col justify-between rounded-[15px] border border-line bg-card p-6 xl:p-8">
+      <div>
+        <p className="text-[11px] font-bold uppercase tracking-[1.5px] text-brass">{code}</p>
+        <h3 className="mt-2 text-[24px] font-bold capitalize text-forest">{title}</h3>
+        <div className="mt-4 border-t-[1.5px] border-dotted border-[#d6d6d6]" />
+        <p className="mt-4 text-[15px] font-medium leading-relaxed text-smoke">{description}</p>
+      </div>
+
+      <div className="mt-10 flex gap-[6px]">
+        {Array.from({ length: totalSteps }).map((_, stepIndex) => (
+          <div
+            key={stepIndex}
+            className={`h-[4px] flex-1 rounded-full ${
+              stepIndex < index
+                ? 'bg-forest'
+                : stepIndex === index
+                  ? isLast
+                    ? 'bg-brass'
+                    : 'bg-forest'
+                  : 'bg-[#e6e6e6]'
+            }`}
+          />
+        ))}
+      </div>
+
       {!isLast && (
-        <span className="absolute right-[-27px] top-1/2 z-10 hidden size-[25px] -translate-y-1/2 items-center justify-center rounded-full bg-gold text-forest lg:flex">
+        <span className="absolute right-[-27px] top-1/2 z-10 hidden size-[26px] translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-forest text-gold ring-[6px] ring-sand lg:flex">
           <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden>
             <path d="M1 5h7.5M5.5 1.5L9 5l-3.5 3.5" stroke="currentColor" strokeWidth="1.3" />
           </svg>
@@ -172,7 +192,12 @@ function Resources() {
           <div className="mt-10 flex flex-col gap-8 lg:flex-row lg:gap-[54px]">
             {PROCESS_STEPS.map((step, i) => (
               <Reveal key={step.code} delay={i * 110} className="flex-1">
-                <ProcessStep {...step} isLast={i === PROCESS_STEPS.length - 1} />
+                <ProcessStep 
+                  {...step} 
+                  isLast={i === PROCESS_STEPS.length - 1} 
+                  index={i} 
+                  totalSteps={PROCESS_STEPS.length} 
+                />
               </Reveal>
             ))}
           </div>

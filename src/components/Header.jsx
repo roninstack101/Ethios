@@ -123,7 +123,7 @@ function Header() {
   return (
     <>
     <header className="fixed inset-x-0 top-0 z-50 h-[65px] bg-cream/80 backdrop-blur-sm max-w-[1728px] mx-auto">
-      <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between gap-3 px-4 sm:px-6 lg:px-12 xl:px-[115px]">
+      <div className="flex h-full w-full items-center justify-between gap-3 px-4 sm:px-6 lg:px-8 xl:px-12">
         {/* Logo */}
         <Link to="/" className="shrink-0">
           <img
