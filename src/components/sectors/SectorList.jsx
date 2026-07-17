@@ -89,7 +89,7 @@ function SectorRow({ title, description, image, projectTypes, keySolutions }) {
 
 function SectorList() {
   return (
-    <section className="mx-auto max-w-[1440px] px-6 py-[63px] lg:px-[115px]">
+    <section className="mx-auto max-w-[1440px] px-6 py-[63px] lg:px-12 xl:px-[115px]">
       <div className="divide-y divide-line">
         {SECTORS.map((sector) => (
           <Reveal key={sector.title}>

@@ -30,7 +30,7 @@ function CategoryCard({ slug, title, image, description }) {
 function Products() {
   return (
     <>
-      <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
         <img
           src="/assets/products-hero.png"
           alt=""
@@ -53,7 +53,7 @@ function Products() {
       </section>
 
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[80px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[80px] lg:px-12 xl:px-[115px]">
           <div className="grid grid-cols-1 gap-x-[50px] gap-y-10 md:grid-cols-2 lg:grid-cols-3">
             {PRODUCT_CATEGORIES.map((category, i) => (
               <Reveal key={category.slug} delay={(i % 3) * 80} className="h-full">

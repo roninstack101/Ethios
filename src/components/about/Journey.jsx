@@ -79,7 +79,7 @@ function Journey() {
   }, [])
 
   return (
-    <section className="mx-auto max-w-[1440px] px-6 py-[57px] lg:px-[115px]">
+    <section className="mx-auto max-w-[1440px] px-6 py-[57px] lg:px-12 xl:px-[115px]">
       <Reveal>
         <SectionIntro eyebrow="Our Journey" title="A Decade of Growth" />
       </Reveal>

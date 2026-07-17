@@ -59,7 +59,7 @@ function StageCard({ code, title, icon, items, progress }) {
 function Lifecycle() {
   return (
     <section className="bg-sand">
-      <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Lifecycle"

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function ResourcesInsights() {
   return (
-    <section className="relative flex min-h-[800px] flex-col items-center justify-center overflow-hidden bg-forest">
+    <section className="relative flex min-h-[600px] md:min-h-[720px] xl:min-h-[800px] flex-col items-center justify-center overflow-hidden bg-forest">
       <img src="/assets/resources-insights-hero.png" alt="" className="absolute inset-0 h-full w-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-b from-forest via-forest/60 to-transparent opacity-95" />

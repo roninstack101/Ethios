@@ -12,7 +12,7 @@ const CERTIFICATIONS = [
 function Certifications() {
   return (
     <section className="bg-sand">
-      <div className="mx-auto max-w-[1440px] px-6 py-[74px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[74px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow="Infrastructure & Capability" title="Quality & Certifications" />
         </Reveal>

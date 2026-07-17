@@ -35,7 +35,7 @@ function WhyEthios() {
   const [expanded, setExpanded] = useState(DEFAULT_PILLAR)
 
   return (
-    <section className="mx-auto max-w-[1440px] px-6 py-[80px] lg:px-[115px]">
+    <section className="mx-auto max-w-[1440px] px-6 py-[80px] lg:px-12 xl:px-[115px]">
       <Reveal>
         <SectionIntro
           eyebrow="Why Ethios"

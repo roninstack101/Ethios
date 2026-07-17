@@ -38,7 +38,7 @@ function ProductCategory() {
       </section>
 
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[70px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[70px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro eyebrow="What We Supply" title="Our Products" />
           </Reveal>

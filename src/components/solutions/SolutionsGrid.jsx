@@ -219,7 +219,7 @@ function SolutionsGrid() {
 
   return (
     <section className="bg-sand">
-      <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-12 xl:px-[115px]">
         {/* Filter bar */}
         <div className="flex flex-col overflow-hidden rounded-[15px] border border-line bg-card lg:flex-row lg:items-stretch">
           <div className="relative flex flex-1 items-start gap-2">

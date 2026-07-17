@@ -204,7 +204,7 @@ function OemServices() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
         <img src="/assets/oem-hero.png" alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1d322c] via-[#1d322c]/70 to-[#1d322c]/40" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
@@ -224,7 +224,7 @@ function OemServices() {
 
       {/* OEM journey */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               eyebrow="Process"
@@ -250,7 +250,7 @@ function OemServices() {
       </section>
 
       {/* Manufacturing capacity */}
-      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Our Manufacturing Power"
@@ -285,7 +285,7 @@ function OemServices() {
 
       {/* OEM categories */}
       <section className="bg-mist">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               eyebrow="What We Manufacture"
@@ -323,7 +323,7 @@ function OemServices() {
       </section>
 
       {/* Why Ethios */}
-      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Why Ethios"
@@ -347,7 +347,7 @@ function OemServices() {
 
       {/* Who should partner */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro eyebrow="Partners" title="Who Should Partner with Us?" />
           </Reveal>

@@ -64,7 +64,7 @@ function ValueCard({ code, title, icon, description }) {
 function Values() {
   return (
     <section className="bg-mist">
-      <div className="mx-auto max-w-[1440px] px-6 py-[76px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[76px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow="What We Stand For" title="Our Values" />
         </Reveal>

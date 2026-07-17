@@ -126,7 +126,7 @@ function Scope() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
         <img src="/assets/scope-hero.png" alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
         <div className="absolute inset-0 bg-forest/60" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
@@ -144,7 +144,7 @@ function Scope() {
 
       {/* Stats band — five columns, including Team Members */}
       <section className="bg-mist">
-        <div className="mx-auto grid max-w-[1440px] grid-cols-2 gap-y-8 px-6 py-10 sm:grid-cols-3 lg:grid-cols-5 lg:px-[115px]">
+        <div className="mx-auto grid max-w-[1440px] grid-cols-2 gap-y-8 px-6 py-10 sm:grid-cols-3 lg:grid-cols-5 lg:px-12 xl:px-[115px]">
           {STATS.map(({ value, label }, i) => (
             <Reveal key={label} delay={i * 80}>
               <p className="text-[44px] font-bold leading-[1.28] text-forest lg:text-[60px]">
@@ -157,7 +157,7 @@ function Scope() {
       </section>
 
       {/* Sectors we serve */}
-      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Sectors We Serve"
@@ -187,7 +187,7 @@ function Scope() {
 
       {/* Why choose Ethios — forest band with three value cards */}
       <section className="bg-forest">
-        <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               light
@@ -214,7 +214,7 @@ function Scope() {
 
       {/* Our clients */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               eyebrow="Our Clients"

@@ -11,7 +11,7 @@ function OemDetail() {
 
   return (
     <>
-      <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
         <img src={detail.heroImage} alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1d322c] via-[#1d322c]/60 to-transparent opacity-95" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
@@ -27,7 +27,7 @@ function OemDetail() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1440px] px-6 py-[30px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[30px] lg:px-12 xl:px-[115px]">
         <div className="divide-y divide-line">
           {detail.sections.map(({ title, description, image }) => (
             <Reveal

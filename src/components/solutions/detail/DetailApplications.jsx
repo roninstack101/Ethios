@@ -2,7 +2,7 @@ import { SectionIntro, Reveal } from '../../ui.jsx'
 
 function DetailApplications({ eyebrow, title, items }) {
   return (
-    <section className="mx-auto max-w-[1440px] px-6 py-[65px] lg:px-[115px]">
+    <section className="mx-auto max-w-[1440px] px-6 py-[65px] lg:px-12 xl:px-[115px]">
       <Reveal>
         <SectionIntro eyebrow={eyebrow} title={title} />
       </Reveal>

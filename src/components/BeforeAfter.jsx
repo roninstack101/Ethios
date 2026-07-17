@@ -112,7 +112,7 @@ function RevealCard({ layer, title, before, after, initial, to }) {
 function BeforeAfter() {
   return (
     <section className="bg-sand">
-      <div className="mx-auto max-w-[1440px] px-6 py-[71px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[71px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Before / After Reveal"

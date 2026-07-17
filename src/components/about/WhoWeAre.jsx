@@ -3,7 +3,7 @@ import { SectionIntro, Reveal } from '../ui.jsx'
 function WhoWeAre() {
   return (
     <section className="bg-sand">
-      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-6 py-[83px] lg:grid-cols-[minmax(0,750px)_minmax(0,1fr)] lg:px-[115px]">
+      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-6 py-[83px] lg:grid-cols-[minmax(0,750px)_minmax(0,1fr)] lg:px-12 xl:px-[115px]">
         <Reveal x={-28} y={0}>
           <SectionIntro eyebrow="Who We Are" title="A construction material company built on performance." />
           <div className="mt-8 max-w-[734px] space-y-5 text-[15px] font-medium text-ink">

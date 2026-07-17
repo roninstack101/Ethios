@@ -84,7 +84,7 @@ function LayersExplorer() {
 
   return (
     <section className="bg-forest">
-      <div className="mx-auto max-w-[1440px] px-6 py-[58px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[58px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             center
@@ -131,7 +131,7 @@ function LayersExplorer() {
           {layer && (
             <aside
               key={active}
-              className="animate-slide-in-right absolute inset-y-0 right-0 flex w-full flex-col bg-cream/95 p-8 backdrop-blur-sm sm:max-w-[380px] sm:rounded-l-[20px]"
+              className="animate-slide-in-right fixed inset-x-0 bottom-0 z-40 flex max-h-[75vh] flex-col overflow-y-auto rounded-t-[20px] bg-cream/95 p-6 backdrop-blur-sm sm:absolute sm:inset-y-0 sm:left-auto sm:right-0 sm:z-auto sm:max-h-none sm:w-full sm:max-w-[380px] sm:rounded-l-[20px] sm:rounded-tr-none sm:p-8"
             >
               <button
                 type="button"

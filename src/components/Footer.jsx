@@ -51,9 +51,9 @@ function PhoneIcon() {
 function Footer() {
   return (
     <footer id="contact" className="bg-forest">
-      <div className="mx-auto max-w-[1440px] px-6 lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 xl:px-[115px]">
         {/* CTA */}
-        <div className="pt-[117px] text-center">
+        <div className="pt-16 text-center md:pt-[117px]">
           <h2 className="text-[30px] font-medium capitalize text-cream lg:text-[40px]">
             Ready to Strengthen Your Next Project?
           </h2>
@@ -78,7 +78,7 @@ function Footer() {
         </div>
 
         {/* Link columns */}
-        <div className="mt-[130px] grid gap-12 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_0.7fr_1.3fr]">
+        <div className="mt-16 md:mt-[130px] grid gap-12 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_0.7fr_1.3fr]">
           <div>
             <img src="/assets/logo-footer.svg" alt="Ethios Group" className="h-[50px] w-[155px]" />
             <p className="mt-6 text-[10px] font-medium text-line">Solutions that Strengthen.</p>

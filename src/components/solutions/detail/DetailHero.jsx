@@ -2,7 +2,7 @@ import { Reveal } from '../../ui.jsx'
 
 function DetailHero({ badge, title, intro, image }) {
   return (
-    <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+    <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
       <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1d322c] via-[#1d322c]/60 to-transparent opacity-95" />
 

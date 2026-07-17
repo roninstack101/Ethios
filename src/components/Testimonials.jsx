@@ -59,7 +59,7 @@ function Testimonials() {
 
   return (
     <section className="bg-mist">
-      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-6 py-[87px] lg:grid-cols-[455px_1fr] lg:px-[115px]">
+      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-6 py-[87px] lg:grid-cols-[455px_1fr] lg:px-12 xl:px-[115px]">
         <Reveal x={-28} y={0}>
           <p className="text-[15px] font-medium uppercase text-forest">Voices from the Field</p>
           <h2 className="mt-1 text-[30px] font-bold capitalize leading-[1.28] text-forest lg:text-[40px]">
@@ -115,7 +115,7 @@ function Testimonials() {
           x={28}
           y={0}
           delay={120}
-          className="relative flex min-h-[310px] flex-col overflow-hidden rounded-[15px] border border-line bg-card p-10 pb-12"
+          className="relative flex min-h-[310px] flex-col overflow-hidden rounded-[15px] border border-line bg-card p-6 pb-10 sm:p-10 sm:pb-12"
         >
           <svg width="44" height="32" viewBox="0 0 44 32" fill="none" aria-hidden className="text-brass">
             <path

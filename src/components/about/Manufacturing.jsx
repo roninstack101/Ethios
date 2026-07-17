@@ -30,7 +30,7 @@ const STATS = [
 
 function Manufacturing() {
   return (
-    <section className="mx-auto max-w-[1440px] px-6 py-[66px] lg:px-[115px]">
+    <section className="mx-auto max-w-[1440px] px-6 py-[66px] lg:px-12 xl:px-[115px]">
       <div className="grid items-start gap-12 lg:grid-cols-[minmax(0,610px)_minmax(0,1fr)]">
         <div>
           <SectionIntro eyebrow="Infrastructure & Capability" title="Manufacturing Excellence" />

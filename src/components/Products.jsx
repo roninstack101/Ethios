@@ -45,7 +45,7 @@ function ProductBubble({ title, image }) {
 function Products() {
   return (
     <section id="products" className="bg-mist">
-      <div className="mx-auto max-w-[1440px] px-6 py-[88px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[88px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="Products"

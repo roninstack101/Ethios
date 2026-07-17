@@ -8,7 +8,7 @@ function DetailOverview({ eyebrow, title, description, image, items }) {
 
   return (
     <section className="bg-sand">
-      <div className="mx-auto max-w-[1440px] px-6 py-[50px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[50px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow={eyebrow} title={title} description={description} />
         </Reveal>

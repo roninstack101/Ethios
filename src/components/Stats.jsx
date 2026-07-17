@@ -10,7 +10,7 @@ const STATS = [
 function Stats() {
   return (
     <section className="bg-mist">
-      <div className="mx-auto grid max-w-[1440px] grid-cols-2 gap-y-8 px-6 py-10 lg:grid-cols-4 lg:px-[115px]">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-2 gap-y-8 px-6 py-10 lg:grid-cols-4 lg:px-12 xl:px-[115px]">
         {STATS.map(({ value, label }, i) => (
           <Reveal key={label} delay={i * 90}>
             <p className="text-[44px] font-bold leading-[1.28] text-forest lg:text-[60px]">

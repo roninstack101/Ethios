@@ -21,7 +21,7 @@ function BenefitCard({ code, title, icon, bareIcon, description }) {
 function DetailBenefits({ eyebrow, title, items }) {
   return (
     <section className="bg-mist">
-      <div className="mx-auto max-w-[1440px] px-6 py-[76px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[76px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow={eyebrow} title={title} />
         </Reveal>

@@ -105,7 +105,7 @@ function Resources() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+      <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
         <img src="/assets/resources-hero.png" alt="" className="absolute inset-0 h-full w-full object-cover animate-hero-zoom" />
         <div className="absolute inset-0 bg-forest/50" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
@@ -123,7 +123,7 @@ function Resources() {
 
       {/* Three ways to get support */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               eyebrow="How Can We Help?"
@@ -142,7 +142,7 @@ function Resources() {
       </section>
 
       {/* Technical areas */}
-      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
             eyebrow="What We Help With"
@@ -161,7 +161,7 @@ function Resources() {
 
       {/* Process */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+        <div className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
           <Reveal>
             <SectionIntro
               eyebrow="Our Process"
@@ -180,7 +180,7 @@ function Resources() {
       </section>
 
       {/* Featured articles */}
-      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-[115px]">
+      <section className="mx-auto max-w-[1440px] px-6 py-[64px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow="Featured" title="Latest from Ethios" description="Highlighted blogs from our knowledge hub." />
         </Reveal>

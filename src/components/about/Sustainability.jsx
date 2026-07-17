@@ -18,7 +18,7 @@ const PILLARS = [
 function Sustainability() {
   return (
     <section className="bg-forest">
-      <div className="mx-auto max-w-[1440px] px-6 py-[58px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[58px] lg:px-12 xl:px-[115px]">
         <Reveal className="text-center">
           <p className="text-[15px] font-medium uppercase text-cream">Sustainability</p>
           <h2 className="mt-1 text-[30px] font-bold capitalize text-cream lg:text-[40px]">

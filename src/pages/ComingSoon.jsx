@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 /* Placeholder screen for sections that aren't built yet (Figma "Projects" node). */
 function ComingSoon() {
   return (
-    <section className="relative flex min-h-[800px] flex-col items-center justify-center overflow-hidden bg-forest">
+    <section className="relative flex min-h-[600px] md:min-h-[720px] xl:min-h-[800px] flex-col items-center justify-center overflow-hidden bg-forest">
       <img
         src="/assets/coming-soon-hero.png"
         alt=""

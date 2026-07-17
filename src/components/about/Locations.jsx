@@ -35,7 +35,7 @@ function MarqueeRow({ cities, reverse = false }) {
 function Locations() {
   return (
     <section className="bg-mist">
-      <div className="mx-auto max-w-[1440px] px-6 py-[67px] lg:px-[115px]">
+      <div className="mx-auto max-w-[1440px] px-6 py-[67px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro eyebrow="Our Locations" title="PAN India Presence" />
         </Reveal>

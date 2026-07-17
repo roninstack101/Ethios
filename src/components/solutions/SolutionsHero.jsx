@@ -2,7 +2,7 @@ import { Reveal } from '../ui.jsx'
 
 function SolutionsHero() {
   return (
-    <section className="relative flex min-h-[664px] items-center justify-center overflow-hidden bg-forest">
+    <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] items-center justify-center overflow-hidden bg-forest">
       <img
         src="/assets/solutions-hero.png"
         alt=""
