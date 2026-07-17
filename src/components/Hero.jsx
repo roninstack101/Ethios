@@ -3,14 +3,11 @@ import { Reveal } from './ui.jsx'
 function Hero() {
   return (
     <section className="relative min-h-[520px] md:min-h-[600px] xl:min-h-[664px] overflow-hidden bg-forest">
-      <picture>
-        <source media="(min-width: 1440px)" srcSet="/assets/hero%20section%20extended.png" />
-        <img
-          src="/assets/hero.png"
-          alt=""
-          className="absolute inset-0 h-full w-full object-cover object-right animate-hero-zoom"
-        />
-      </picture>
+      <img
+        src="/assets/hero.png"
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover object-right animate-hero-zoom"
+      />
       <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-forest via-forest/60 to-transparent opacity-95" />
 
