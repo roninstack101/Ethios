@@ -21,10 +21,10 @@ import ComingSoon from './pages/ComingSoon.jsx'
 
 function App() {
   return (
-    <>
+    <div className="mx-auto max-w-[1728px] w-full min-h-screen bg-cream relative flex flex-col">
       <ScrollToTop />
       <Header />
-      <main>
+      <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -46,7 +46,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
