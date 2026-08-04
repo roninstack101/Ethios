@@ -13,6 +13,7 @@ import OemServices from './pages/OemServices.jsx'
 import OemDetail from './pages/OemDetail.jsx'
 import Scope from './pages/Scope.jsx'
 import ScopeClients from './pages/ScopeClients.jsx'
+import Contact from './pages/Contact.jsx'
 import Resources from './pages/Resources.jsx'
 import ResourcesCategory from './pages/ResourcesCategory.jsx'
 import ResourcesTechnicalSupport from './pages/ResourcesTechnicalSupport.jsx'
@@ -37,6 +38,7 @@ function App() {
           <Route path="/oem-services/:slug" element={<OemDetail />} />
           <Route path="/scope" element={<Scope />} />
           <Route path="/scope/clients" element={<ScopeClients />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/technical-support" element={<ResourcesTechnicalSupport />} />
           <Route path="/resources/insights" element={<ResourcesInsights />} />

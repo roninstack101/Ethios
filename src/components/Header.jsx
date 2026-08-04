@@ -5,6 +5,7 @@ const NAV_LINKS = [
   { label: 'Solutions', to: '/solutions' },
   { label: 'OEM Services', to: '/oem-services' },
   { label: 'Products', to: '/products' },
+  { label: 'Sectors', to: '/sectors' },
 ]
 
 const SCOPE_LINKS = [
@@ -152,12 +153,12 @@ function Header() {
 
         <div className="flex items-center gap-2">
           {/* Contact button — compact on phones */}
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="flex h-[36px] items-center rounded-full bg-forest px-4 text-[14px] font-semibold text-gold transition-opacity hover:opacity-90 sm:h-[39px] sm:px-6 sm:text-[15px]"
           >
             Contact Us
-          </a>
+          </Link>
 
           {/* Hamburger — mobile / tablet only */}
           <button
@@ -210,13 +211,13 @@ function Header() {
 
           <MobileGroup label="Resources" to="/resources" links={RESOURCE_LINKS} onNavigate={closeMenu} />
 
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             onClick={closeMenu}
             className="mt-2 flex h-11 items-center justify-center rounded-full bg-forest text-[15px] font-semibold text-gold"
           >
             Contact Us
-          </a>
+          </Link>
         </nav>
       </div>
     </>
