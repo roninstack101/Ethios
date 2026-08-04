@@ -62,9 +62,9 @@ function Lifecycle() {
       <div className="mx-auto max-w-[1440px] px-6 py-[52px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
-            eyebrow="Lifecycle"
+            eyebrow="Across the Construction Lifecycle"
             title="From Structure to Finish"
-            description="Ethios products support every stage of construction — from core structural performance to final protection and surface finish."
+            description="From structural performance to final finishes, Ethios delivers solutions for every stage of the construction journey, with one trusted partner connecting them all."
           />
         </Reveal>
 

@@ -89,9 +89,9 @@ function LayersExplorer() {
           <SectionIntro
             center
             light
-            eyebrow="Hidden Layers Explorer"
-            title="Explore where Ethios materials live inside a building"
-            description="Click any layer to discover the products, applications, and technical systems working behind the surface."
+            eyebrow="Inside the Layers"
+            title="Discover where Ethios solutions work inside a building"
+            description="Most Ethios solutions strengthen the construction while staying out of sight, but consistently improving durability and performance."
           />
         </Reveal>
 
