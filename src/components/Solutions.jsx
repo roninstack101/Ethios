@@ -6,46 +6,47 @@ const SOLUTIONS = [
     title: 'Waterproofing',
     description:
       'Comprehensive waterproofing systems for basements, roofs, wet areas, and structural protection.',
-    tags: ['Roof', 'Terrace', 'Basement', 'Wet Areas'],
+    tags: ['Roof', 'Basement', 'Wet Areas', 'Pools', 'Facades'],
     image: '/assets/solution-waterproofing.png',
     category: 'New Construction Waterproofing',
   },
   {
     title: 'Repair & Rehabilitation',
     description:
-      'Structural repair solutions including crack injection, carbon fibre strengthening, and concrete restoration.',
-    tags: ['Concrete', 'Structures', 'Cracks', 'Spalls'],
+      'Structural and non-structural repair solutions including crack injection, carbon fibre strengthening, and concrete restoration.',
+    tags: ['Buildings', 'Bridges', 'Foundations', 'Industrial Facilities'],
     image: '/assets/solution-repair.png',
     category: 'Repair & Rehabilitation',
   },
   {
     title: 'Industrial Flooring',
     description:
-      'High-performance flooring systems for industrial, commercial, and specialized environments.',
-    tags: ['Concrete', 'Structures', 'Cracks', 'Spalls'],
+      'Heavy-duty flooring systems built for industrial, commercial, and specialised environments.',
+    tags: ['Manufacturing', 'Warehouses', 'Pharmacies', 'Workshops'],
     image: '/assets/solution-Industrial Flooring.png',
     category: 'Industrial Flooring & Sealants',
   },
   {
     title: 'Thermal Insulation',
     description:
-      'Energy-efficient insulation solutions for buildings, pipelines, and industrial applications.',
-    tags: ['Buildings', 'Pipelines', 'Industrial', 'HVAC'],
+      'Energy-efficient insulation materials and systems for buildings, pipelines, and industrial applications.',
+    tags: ['Buildings', 'Pipelines', 'Roofs', 'Facades'],
     image: '/assets/solution-thermal insulation.png',
     category: 'Thermal Insulation',
   },
   {
     title: 'Sealants & Joints',
-    description: 'Professional-grade sealants, protective coatings, and expansion joint systems.',
-    tags: ['Sealants', 'Coatings', 'Expansion Joints'],
+    description:
+      'Professional-grade sealants, protective coatings, and expansion joint systems for building durability and movement accommodation.',
+    tags: ['Industrial Floors', 'Buildings', 'Parking Decks', 'Bridges'],
     image: '/assets/solution-Sealants & Joints.png',
     category: 'Industrial Flooring & Sealants',
   },
   {
     title: 'Tile & Stone',
     description:
-      'Complete tiling systems including adhesives, grouts, waterproofing, and surface preparation.',
-    tags: ['Adhesives', 'Grouts', 'Waterproofing'],
+      'Complete tiling systems; adhesives, grouts, waterproofing, and surface preparation, working as one system.',
+    tags: ['Luxury Buildings', 'Industrial Processing Units', 'Wet Zones', 'Hospitals'],
     image: '/assets/solution-Tile & Stone.png',
     category: 'Tile Joint Fillers',
   },
@@ -95,9 +96,9 @@ function Solutions() {
     <section className="mx-auto max-w-[1440px] px-6 py-[72px] lg:px-12 xl:px-[115px]">
       <Reveal>
         <SectionIntro
-          eyebrow="What We Supply"
-          title="Construction Solutions for Every Application"
-          description="From waterproofing to structural strengthening, we provide engineered solutions backed by technical expertise and on-ground execution."
+          eyebrow="How We Help"
+          title="The Right Solution for Every Build"
+          description="Every project moves through the same risks: the wrong products, the wrong system, the wrong sequence, the wrong site conditions. We help you get it right, from the first pour to the final finish."
         />
       </Reveal>
 

@@ -6,7 +6,12 @@ const ROW_ONE = [
   { title: 'Waterproofing and Protection', image: '/assets/prod-waterproofing.png' },
   { title: 'Admixture and Curing Compound', image: '/assets/prod-admixture.png' },
   { title: 'Expansion Joint and Other Accessories', image: '/assets/prod-expansion.png' },
-  { title: 'Flooring and Grouting Repair Rehabilitation', image: '/assets/prod-flooring.png' },
+  {
+    title: 'Flooring, Grouting, Repair & Rehabilitation',
+    // Category page slug predates this label change — pin it explicitly.
+    slug: 'flooring-and-grouting-repair-rehabilitation',
+    image: '/assets/prod-flooring-2.png',
+  },
 ]
 
 const ROW_TWO = [
@@ -15,10 +20,10 @@ const ROW_TWO = [
   { title: 'Tile and Stone Adhesive', image: '/assets/prod-tile.png' },
 ]
 
-function ProductBubble({ title, image }) {
+function ProductBubble({ title, slug, image }) {
   return (
     <Link
-      to={`/products/${slugify(title)}`}
+      to={`/products/${slug || slugify(title)}`}
       className="group relative block h-[230px] w-[238px] shrink-0 overflow-hidden"
     >
       <img
@@ -48,9 +53,9 @@ function Products() {
       <div className="mx-auto max-w-[1440px] px-6 py-[88px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
-            eyebrow="Products"
+            eyebrow="Products & Systems"
             title="Products that become part of the structure"
-            description="Ethios products are applied, covered, embedded or finished over — but their performance remains. Every category disappears into a different layer of construction and stays engaged for decades."
+            description="Built into the structure and designed to perform for years after installation, Ethios products deliver lasting strength and protection from foundation to finish."
           />
         </Reveal>
 
@@ -76,7 +81,7 @@ function Products() {
             to="/products"
             className="flex h-10 items-center rounded-full bg-gold px-5 text-[15px] font-semibold text-forest transition-transform hover:-translate-y-0.5 hover:opacity-90"
           >
-            View all Products
+            View All Products
           </Link>
         </Reveal>
       </div>

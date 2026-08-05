@@ -29,7 +29,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/sectors" element={<Sectors />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/solutions/:slug" element={<SolutionDetail />} />
           <Route path="/products" element={<Products />} />
@@ -38,6 +37,7 @@ function App() {
           <Route path="/oem-services/:slug" element={<OemDetail />} />
           <Route path="/scope" element={<Scope />} />
           <Route path="/scope/clients" element={<ScopeClients />} />
+          <Route path="/scope/sectors" element={<Sectors />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/technical-support" element={<ResourcesTechnicalSupport />} />

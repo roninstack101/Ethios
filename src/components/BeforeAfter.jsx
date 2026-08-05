@@ -115,8 +115,9 @@ function BeforeAfter() {
       <div className="mx-auto max-w-[1440px] px-6 py-[71px] lg:px-12 xl:px-[115px]">
         <Reveal>
           <SectionIntro
-            eyebrow="Before / After Reveal"
-            title="From application to invisibility, performance remains"
+            eyebrow="Built to Disappear"
+            title="Applied once. Built to perform for years."
+            description="The most important construction systems often disappear beneath the finished surface. Explore four essential layers designed to keep protecting, bonding, strengthening and supporting the build long after installation."
           />
         </Reveal>
 
