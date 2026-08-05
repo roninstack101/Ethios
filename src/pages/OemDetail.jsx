@@ -40,7 +40,7 @@ function OemDetail() {
             <Reveal
               key={title}
               as="article"
-              className="grid items-start gap-10 py-[48px] lg:grid-cols-[minmax(0,674px)_minmax(0,1fr)] lg:gap-16"
+              className="grid items-end gap-10 py-[48px] lg:grid-cols-[minmax(0,674px)_minmax(0,1fr)] lg:gap-16"
             >
               <div>
                 <h2 className="text-[32px] font-bold capitalize text-forest">{title}</h2>
