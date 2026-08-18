@@ -1042,6 +1042,1011 @@ const SOLUTION_DETAILS = {
         'At Ethios Group, we ensure every surface is repaired not just to look new—but to perform better, last longer, and remain problem-free.',
     },
   },
+  'pu-polyurethane-flooring-system': {
+    badge: 'Solutions - PU (Polyurethane) Flooring System',
+    title: 'PU (Polyurethane) Flooring System',
+    intro:
+      "Ethios Group's PU (Polyurethane) Flooring System is built for zones exposed to extreme temperatures, heavy movement, and chemical exposure. With its elastic nature, UV resistance, and thermal shock tolerance, PU flooring offers a reliable and hygienic solution for food processing units, cold storage, and dynamic workspaces where traditional floors fail.",
+    heroImage: '/assets/sol-detail-pu-flooring-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Flexible Under Pressure. Tough Against Time.',
+      description:
+        'A PU floor is chosen for what a space demands from it — movement, temperature swings, spills, or sterility — and built to keep performing under all of it at once.',
+      image: '/assets/sol-detail-pu-flooring-overview.png',
+      items: [
+        {
+          title: 'Flexible & Durable Surface',
+          description:
+            'Delivers excellent flexibility, impact resistance, and durability—ideal for spaces exposed to vibration, heavy loads, or movement.',
+        },
+        {
+          title: 'Thermal & UV Stability',
+          description:
+            'Performs reliably in fluctuating temperatures and semi-exposed environments, offering long-term UV and thermal resistance.',
+        },
+        {
+          title: 'Hygienic & Seamless Finish',
+          description:
+            'Provides a seamless, non-porous surface that prevents bacterial growth—ideal for food, pharma, and healthcare sectors.',
+        },
+        {
+          title: 'Chemical & Spill Resistance',
+          description:
+            'Withstands exposure to chemicals, hot liquids, and industrial cleaners, offering easy maintenance and superior protection.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Food & Beverage Processing Areas',
+        'Cold Storage & Freezer Rooms',
+        'Pharmaceutical & Cleanrooms',
+        'Outdoor & Semi-Exposed Zones',
+        'Parking Decks & Ramps',
+        'Commercial Kitchens & Hospitality',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'High Flexibility',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Absorbs structural movement without cracking.',
+        },
+        {
+          code: 'V/02',
+          title: 'Thermal & UV Resistance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Ideal for cold rooms and exposed surfaces.',
+        },
+        {
+          code: 'V/03',
+          title: 'Chemical & Abrasion Resistance',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Withstands harsh cleaning and spillage.',
+        },
+        {
+          code: 'V/04',
+          title: 'Long-Term Durability',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Retains finish and strength under demanding use.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Maintenance & Hygienic',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Easy to clean and prevents microbial growth.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Flexible by design, tough by nature—PU flooring for demanding spaces.',
+      body:
+        'Ethios Group offers advanced PU flooring solutions tailored for environments exposed to thermal stress, heavy traffic, and high hygiene requirements. Known for their flexibility, UV resistance, and durability under dynamic loads, our PU floors provide a reliable surface that performs under pressure—indoors or outdoors, cold or hot.',
+    },
+  },
+  'polysulphide-sealants': {
+    badge: 'Solutions - Polysulphide Sealants',
+    title: 'Polysulphide Sealants',
+    intro:
+      "Ethios Group's Polysulphide Sealants offer a durable, flexible, and water-resistant solution for sealing construction joints. Designed to handle structural movement and harsh conditions, these sealants ensure long-term performance in both submerged and exposed environments. With excellent bonding properties and chemical resistance, they're ideal for critical infrastructure and industrial use.",
+    heroImage: '/assets/sol-detail-polysulphide-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Flexible & Long-Lasting Joint Sealing Solutions',
+      description:
+        'From high-movement structural joints to quick repairs, each polysulphide grade is formulated for a specific joint condition and exposure level.',
+      image: '/assets/sol-detail-polysulphide-overview.png',
+      items: [
+        {
+          title: 'Two-Part Sealants',
+          description: 'Ideal for high-movement joints; excellent elasticity and chemical resistance.',
+        },
+        {
+          title: 'Single-Part Gun-Grade Sealants',
+          description: 'Easy-to-apply solution for moderate-movement joints and quick repairs.',
+        },
+        {
+          title: 'Pour Grade Sealants',
+          description: 'Flowable sealant for wide horizontal joints in industrial floors and decks.',
+        },
+        {
+          title: 'Fuel-Resistant Variants',
+          description: 'Formulated for areas exposed to fuels and oils, such as refineries and garages.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Industrial Flooring Joints',
+        'Water-Retaining Structures',
+        'Perimeter Door/Window Joints',
+        'Precast Concrete Panels',
+        'Bridge Decks & Runways',
+        'Curtain Walls & Façade Gaps',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Flexible & Movement-Tolerant',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Handles structural shifts without cracking.',
+        },
+        {
+          code: 'V/02',
+          title: 'UV & Weather Resistance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Performs well in outdoor exposure over the long term.',
+        },
+        {
+          code: 'V/03',
+          title: 'Excellent Adhesion',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Bonds to concrete, steel, glass, and stone.',
+        },
+        {
+          code: 'V/04',
+          title: 'Chemical & Oil Resistant',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Withstands industrial and fuel-related conditions.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Maintenance',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Long service life with minimal upkeep required.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Seal with Strength. Flex with Confidence.',
+      body:
+        'With deep expertise in joint treatment systems, Ethios Group delivers precision application, premium materials, and project-specific guidance for long-lasting, watertight, and aesthetically clean joints. From design to execution, we ensure your structure remains sealed, protected, and flexible.',
+    },
+  },
+  'polyurethane-pu-sealants': {
+    badge: 'Solutions - Polyurethane (PU) Sealants',
+    title: 'Polyurethane (PU) Sealants',
+    intro:
+      "Ethios Group's Polyurethane (PU) Sealants are high-performance, moisture-curing elastomeric sealants designed for dynamic joints in modern construction. These sealants offer excellent flexibility, strong adhesion, and fast curing—making them ideal for both interior and exterior use in structures subjected to frequent movement, weather exposure, and vibration.",
+    heroImage: '/assets/sol-detail-pu-sealants-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'High-Elasticity Sealing Solutions for Dynamic Structures.',
+      description:
+        'Each PU sealant format is matched to how a joint is worked — tooled by hand, poured flat, painted over, or turned around fast for high-traffic zones.',
+      image: '/assets/sol-detail-pu-sealants-overview.png',
+      items: [
+        {
+          title: 'Gun-Grade PU Sealants',
+          description: 'Ideal for vertical and horizontal joints; provides excellent tooling and finish.',
+        },
+        {
+          title: 'Pourable PU Sealants',
+          description: 'Best suited for wide expansion joints and industrial flooring applications.',
+        },
+        {
+          title: 'Paintable PU Sealants',
+          description: 'Accepts coatings and paints post-curing, enabling aesthetic finishes.',
+        },
+        {
+          title: 'Fast-Curing Formulations',
+          description: 'Reduces downtime in high-traffic areas by allowing quicker recoating and use.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Precast Panel Joints',
+        'Podiums & Parking Decks',
+        'Facade & Curtain Wall Gaps',
+        'Floor-to-Wall Transitions',
+        'Balcony & Wet Area Joints',
+        'Metal Cladding & Expansion Joints',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'High Elastic Recovery',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Handles expansion and contraction without failure.',
+        },
+        {
+          code: 'V/02',
+          title: 'Fast Curing',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Enables quicker project turnaround and surface finishing.',
+        },
+        {
+          code: 'V/03',
+          title: 'UV & Weather Resistant',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Suitable for both internal and external environments.',
+        },
+        {
+          code: 'V/04',
+          title: 'Strong Adhesion',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Bonds to concrete, metal, tile, and stone.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Shrinkage & Crack Resistance',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Delivers clean, long-lasting joint lines.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Built to Flex. Sealed to Last.',
+      body:
+        'At Ethios Group, we ensure your joints are engineered for movement—sealed with precision and built for endurance. Our polyurethane sealants are applied by trained experts using the best tools and techniques to ensure leak-proof, flexible, and durable joints across a variety of architectural and industrial settings.',
+    },
+  },
+  'heavy-duty-floor-coatings': {
+    badge: 'Solutions - Heavy-Duty Floor Coatings',
+    title: 'Heavy-Duty Floor Coatings',
+    intro:
+      "Ethios Group's Heavy-Duty Floor Coatings are designed to withstand the toughest operational environments. These high-build coating systems provide superior resistance to abrasion, chemicals, impact, and wear—making them ideal for manufacturing floors, logistics hubs, cold storage units, and more. From mechanical stress to chemical exposure, our floor coatings offer a seamless, durable finish that enhances safety and longevity while reducing maintenance costs.",
+    heroImage: '/assets/sol-detail-heavy-duty-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Engineered Floor Protection for Heavy-Duty Performance',
+      description:
+        'The right coating system depends on what the floor sees every day — dry abrasion, thermal shock, static-sensitive equipment, or a showroom finish.',
+      image: '/assets/sol-detail-heavy-duty-overview.png',
+      items: [
+        {
+          title: 'High-Build Epoxy Coatings',
+          description:
+            'Provides thick, robust protection for dry, abrasion-prone environments such as warehouses and workshops.',
+        },
+        {
+          title: 'Polyurethane Screeds',
+          description:
+            'Excellent for thermal shock resistance and chemical protection in food, beverage, and pharmaceutical industries.',
+        },
+        {
+          title: 'Anti-Static (ESD) Coatings',
+          description:
+            'Prevents static buildup in sensitive areas like electronics manufacturing and data centers.',
+        },
+        {
+          title: 'Decorative Industrial Finishes',
+          description:
+            'Combines durability with aesthetics for showrooms, retail spaces, and industrial offices.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Manufacturing & Production Areas',
+        'Automobile Workshops & Assembly Lines',
+        'Pharma & Food Processing Facilities',
+        'Warehouses & Distribution Centers',
+        'Cold Storages & Freezer Rooms',
+        'Commercial Kitchens & Service Zones',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Abrasion & Impact Resistance',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Long-term surface durability under stress.',
+        },
+        {
+          code: 'V/02',
+          title: 'Chemical & Spill Protection',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Resists oils, acids, and alkalis in harsh environments.',
+        },
+        {
+          code: 'V/03',
+          title: 'Anti-Slip',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Textured finish for safer surfaces.',
+        },
+        {
+          code: 'V/04',
+          title: 'UV & Heat Stable',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Performs in all weather conditions.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Maintenance',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Long-lasting with minimal upkeep.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Stronger Surfaces. Smarter Protection.',
+      body:
+        "At Ethios Group, we go beyond surface-level solutions. Our Heavy-Duty Floor Coatings are custom-formulated and expertly applied to match your exact operational demands—ensuring that your facility's flooring is not just protected, but also optimized for performance, safety, and visual appeal.",
+    },
+  },
+  'puf-spray-insulation': {
+    badge: 'Solutions - PUF Spray Insulation',
+    title: 'PUF Spray Insulation',
+    intro:
+      'Ethios Group offers high-performance Polyurethane Foam (PUF) Spray Insulation, a cutting-edge solution for thermal insulation across industrial, commercial, and energy-efficient buildings. Applied directly to surfaces, PUF spray expands into a seamless, joint-free insulating layer, effectively reducing energy loss and improving indoor climate control. It is ideal for complex surfaces, curved substrates, and hard-to-reach areas, offering quick application and long-term reliability.',
+    heroImage: '/assets/sol-detail-puf-spray-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Advanced Thermal Barrier for Seamless Protection',
+      description:
+        'Sprayed directly onto the substrate, PUF expands to fill every gap and contour, forming one continuous insulating skin with no seams to fail.',
+      image: '/assets/sol-detail-puf-spray-hero.png',
+      items: [
+        {
+          title: 'Seamless Thermal Envelope',
+          description:
+            'Forms a monolithic, joint-free insulation layer that eliminates cold bridges and air gaps, enhancing thermal integrity.',
+        },
+        {
+          title: 'Quick & Efficient Application',
+          description:
+            'Rapid expansion and adhesion allow for faster coverage of large and complex areas, reducing project timelines.',
+        },
+        {
+          title: 'Versatile Surface Compatibility',
+          description:
+            'Adheres effectively to concrete, metal, wood, and even curved or irregular surfaces without sagging or shrinking.',
+        },
+        {
+          title: 'Moisture & Chemical Resistance',
+          description:
+            'PUF insulation is non-absorbent, ensuring resistance against moisture, microbial growth, and mild chemicals—ideal for both roofs and interiors.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Industrial Roofs',
+        'Cold Storages',
+        'HVAC Systems',
+        'Cavity Walls & Ceilings',
+        'Underdeck Roofs',
+        'Green Buildings',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Superior Thermal Efficiency',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Low thermal conductivity reduces energy usage and HVAC load.',
+        },
+        {
+          code: 'V/02',
+          title: 'Fast & Uniform Coverage',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Saves time on large or complex surfaces.',
+        },
+        {
+          code: 'V/03',
+          title: 'Moisture Barrier',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Prevents condensation and damp-related deterioration.',
+        },
+        {
+          code: 'V/04',
+          title: 'Durability & Dimensional Stability',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Retains insulation performance over time.',
+        },
+        {
+          code: 'V/05',
+          title: 'Eco-Friendly',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Available in CFC/HCFC-free and low-emission formulations.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Seamless spray. Smarter insulation. Sustainable comfort—delivered by Ethios Group.',
+      body:
+        'At Ethios Group, we bring advanced spray insulation technology backed by expert application, on-site technical guidance, and customized project integration. Our PUF solutions align with modern green-building norms, helping reduce energy bills and improve occupant comfort year-round.',
+    },
+  },
+  'puf-board-insulation': {
+    badge: 'Solutions - PUF Board Insulation',
+    title: 'PUF Board Insulation',
+    intro:
+      'Ethios Group delivers high-performance PUF (Polyurethane Foam) Board Insulation systems designed for precision thermal control in modern construction. These pre-formed, rigid panels offer superior insulation, long-term dimensional stability, and ease of installation—making them ideal for diverse structural needs across industrial, commercial, and modular applications.',
+    heroImage: '/assets/sol-detail-puf-board-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Rigid Thermal Panels for Structured Efficiency',
+      description:
+        'Pre-formed rigid boards bring factory-consistent insulation value to walls, roofs, and floors, cut and fitted precisely on site.',
+      image: '/assets/sol-detail-puf-board-hero.png',
+      items: [
+        {
+          title: 'High-Density, Rigid Panels',
+          description:
+            'Designed for high compressive strength and consistent insulation across walls, roofs, and floors.',
+        },
+        {
+          title: 'Easy-to-Cut & Shape Format',
+          description:
+            'Lightweight and customizable boards that adapt to varied surface sizes and design requirements.',
+        },
+        {
+          title: 'Compatibility with Structural Layers',
+          description:
+            'Easily integrates with sandwich panels, waterproofing systems, and metal or concrete finishes.',
+        },
+        {
+          title: 'Moisture & Climate Resistance',
+          description:
+            'Low water absorption and resistance to mold growth make it suitable for humid or temperature-sensitive environments.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Sandwich Panels',
+        'Cold Storage & Refrigeration Units',
+        'Floor Screed Insulation',
+        'HVAC Duct & Pipe Insulation',
+        'Modular Cabins & Prefab Buildings',
+        'Cladding & Facade Systems',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Uniform Thermal Efficiency',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Consistent insulation value across large surface areas.',
+        },
+        {
+          code: 'V/02',
+          title: 'Quick & Clean Installation',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Speeds up construction while reducing labor costs.',
+        },
+        {
+          code: 'V/03',
+          title: 'Moisture & Mold Resistant',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Supports hygiene and durability in closed environments.',
+        },
+        {
+          code: 'V/04',
+          title: 'Lightweight Strength',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Low dead load, high performance.',
+        },
+        {
+          code: 'V/05',
+          title: 'Eco & Energy Smart',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Sustainable and cost-saving.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Engineered panels. Lasting insulation. Trusted by Ethios Group.',
+      body:
+        'At Ethios Group, we combine product quality with technical know-how to deliver tailor-made insulation systems that improve comfort, sustainability, and operational efficiency. Our PUF Board Insulation solutions are backed by on-ground support and application expertise for flawless execution.',
+    },
+  },
+  'xps-insulation-board': {
+    badge: 'Solutions - XPS Insulation Board',
+    title: 'XPS Insulation Board',
+    intro:
+      'Ethios Group offers XPS (Extruded Polystyrene) Insulation Boards that are engineered for maximum thermal performance, moisture resistance, and compressive strength. Manufactured through a continuous extrusion process, these boards are ideal for demanding applications where long-term insulation and structural integrity are essential.',
+    heroImage: '/assets/sol-detail-xps-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'High-Performance Thermal Panels for Energy-Efficient Construction',
+      description:
+        "XPS's closed-cell structure holds its insulation value even under load and moisture, where softer boards would compress or absorb water.",
+      image: '/assets/sol-detail-xps-hero.png',
+      items: [
+        {
+          title: 'Closed-Cell Structure Design',
+          description:
+            'Provides superior resistance to water absorption and thermal conductivity, ensuring high energy efficiency.',
+        },
+        {
+          title: 'Uniform Thickness & Compressive Strength',
+          description:
+            'Consistent quality across the board makes it perfect for load-bearing surfaces and under screed applications.',
+        },
+        {
+          title: 'Weather & Moisture Tolerance',
+          description:
+            'Performs reliably in wet or damp environments such as inverted roofs, foundations, and basements.',
+        },
+        {
+          title: 'Lightweight & Easy to Install',
+          description:
+            'Simple to cut, handle, and install—reducing labor time and enabling quick deployment in all types of builds.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Inverted Roof Systems',
+        'Foundation & Basement Walls',
+        'Concrete Floor Slabs',
+        'External Wall Insulation (EIFS)',
+        'Cold Storage Facilities',
+        'Industrial Sheds & Pre-Engineered Buildings',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Superior Thermal Insulation',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Ensures low U-values and reduced HVAC load.',
+        },
+        {
+          code: 'V/02',
+          title: 'High Moisture Resistance',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Closed-cell design prevents water penetration.',
+        },
+        {
+          code: 'V/03',
+          title: 'Excellent Compressive Strength',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Withstands structural loads and mechanical pressure.',
+        },
+        {
+          code: 'V/04',
+          title: 'Long-Term Dimensional Stability',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Retains shape and insulation value over time.',
+        },
+        {
+          code: 'V/05',
+          title: 'Environmentally Friendly',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Low carbon footprint, recyclable, and supports green building standards.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Smart insulation. Long-term performance. Delivered by Ethios Group.',
+      body:
+        "At Ethios Group, we don't just provide insulation materials—we deliver comprehensive insulation systems that integrate seamlessly with your building's thermal envelope. Our XPS insulation boards are sourced from trusted brands and installed by trained professionals to maximize energy efficiency and durability.",
+    },
+  },
+  'eps-insulation-board': {
+    badge: 'Solutions - EPS Insulation Board',
+    title: 'EPS Insulation Board',
+    intro:
+      'Ethios Group provides EPS (Expanded Polystyrene) Insulation Boards—a lightweight, flexible, and cost-effective thermal insulation solution ideal for residential, commercial, and industrial applications. Manufactured from expanded polystyrene beads fused into a solid block, EPS offers excellent thermal resistance while remaining easy to handle and install.',
+    heroImage: '/assets/sol-detail-eps-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Smart Insulation: Light, Affordable & Versatile',
+      description:
+        'EPS delivers dependable insulation value at low cost and low weight, cut and fitted to whatever density a project calls for.',
+      image: '/assets/sol-detail-eps-hero.png',
+      items: [
+        {
+          title: 'Lightweight & Flexible Design',
+          description:
+            'Easily cut, shaped, and installed on-site, reducing construction time and labor effort.',
+        },
+        {
+          title: 'Cost-Effective Thermal Protection',
+          description:
+            'Offers reliable insulation performance at an economical price, ideal for large-scale and budget-sensitive projects.',
+        },
+        {
+          title: 'Versatile Density & Thickness Options',
+          description:
+            'Available in multiple densities and sizes to suit various project types—from ceilings to flooring systems.',
+        },
+        {
+          title: 'Compatible with Multiple Applications',
+          description:
+            'Can be integrated with waterproofing, screeds, walls, and duct systems without compromising performance.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'False Ceiling & Partition Walls',
+        'Duct & Equipment Insulation',
+        'Roof Gardens & Green Roofs',
+        'Wall Panel Infill for Modular Construction',
+        'Packaging & Protective Enclosures',
+        'Precast & Sandwich Panel Systems',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Cost-Efficient Thermal Insulation',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Offers good insulation performance at low investment.',
+        },
+        {
+          code: 'V/02',
+          title: 'Lightweight & Easy to Work With',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Reduces structural load and simplifies on-site installation.',
+        },
+        {
+          code: 'V/03',
+          title: 'Customizable Densities',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Suitable for diverse construction conditions and performance needs.',
+        },
+        {
+          code: 'V/04',
+          title: 'Eco-Friendly & Recyclable',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Sustainable material with low environmental impact.',
+        },
+        {
+          code: 'V/05',
+          title: 'Multi-Application Flexibility',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Compatible with various civil and architectural systems.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Light on structure. Big on insulation. Powered by Ethios Group.',
+      body:
+        "Ethios Group ensures that your insulation needs are met with precision, performance, and reliability. Our EPS boards are sourced from quality-certified manufacturers and tailored to fit your project requirements—whether you're working on a high-rise, a factory, or an energy-efficient villa.",
+    },
+  },
+  'insulation-screed-concrete': {
+    badge: 'Solutions - Insulation Screed Concrete',
+    title: 'Insulation Screed Concrete',
+    intro:
+      'Ethios Group brings to you Insulation Screed Concrete—a lightweight, high-performance screed formulated to provide both thermal insulation and sound dampening in modern construction. Designed for use in areas where structural load, energy efficiency, and acoustic comfort are all priorities, this solution combines the strength of concrete with insulating properties for a durable, multi-functional underlayer.',
+    heroImage: '/assets/sol-detail-screed-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Dual-Function Screed for Thermal & Acoustic Comfort',
+      description:
+        'A single lightweight layer that levels the surface, insulates it thermally, and dampens sound before the next system goes on top.',
+      image: '/assets/sol-detail-screed-hero.png',
+      items: [
+        {
+          title: 'Engineered Lightweight Mix',
+          description:
+            'Formulated using insulating aggregates and special binders to deliver lower thermal conductivity while keeping the load on structural elements minimal.',
+        },
+        {
+          title: 'Versatile Application Range',
+          description:
+            'Suitable for roofs, intermediate slabs, podiums, and more—ideal as a base layer before waterproofing or finishing.',
+        },
+        {
+          title: 'Enhanced Acoustic Control',
+          description:
+            'Effectively reduces sound transmission between floors and rooms, especially in high-rise residential and commercial setups.',
+        },
+        {
+          title: 'Seamless Compatibility with Other Systems',
+          description:
+            'Works well beneath tiles, membranes, or flooring systems, making it a flexible component in integrated construction solutions.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Roof Slabs & Terraces',
+        'Intermediate Floor Slabs',
+        'Podiums & Balconies',
+        'Bathrooms & Wet Areas',
+        'Green Buildings & Eco-Conscious Projects',
+        'Floors Above Temperature-Controlled Spaces',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Improves Thermal Resistance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Reduces energy consumption by acting as a heat barrier.',
+        },
+        {
+          code: 'V/02',
+          title: 'Acoustic Efficiency',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Helps suppress noise transmission between rooms or floors.',
+        },
+        {
+          code: 'V/03',
+          title: 'Lightweight Strength',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Lowers dead load while maintaining performance.',
+        },
+        {
+          code: 'V/04',
+          title: 'Waterproofing Friendly',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Ideal as a base layer for multi-layer waterproofing systems.',
+        },
+        {
+          code: 'V/05',
+          title: 'Durable & Easy',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Shrinkage control with a strong, dependable finish.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline:
+        'A screed that works harder—insulating, leveling, and protecting with every layer. Powered by Ethios Group.',
+      body:
+        'With expert formulation and project-based customization, Ethios Group delivers Insulation Screed Concrete that goes beyond traditional screeds. Whether you’re building a sustainable villa, a commercial high-rise, or a noise-sensitive office, we help you create a base that insulates, supports, and performs.',
+    },
+  },
+  'insulation-coating': {
+    badge: 'Solutions - Insulation Coating',
+    title: 'Insulation Coating',
+    intro:
+      'Insulation Coating is a high-performance protective layer designed to reduce heat transfer and enhance energy efficiency. It provides thermal insulation while safeguarding surfaces from moisture, corrosion, and environmental wear. Suitable for roofs, walls, pipelines, and industrial equipment, it helps maintain optimal temperatures and reduces energy costs. Durable and easy to apply, it ensures long-lasting protection and improved structural performance.',
+    heroImage: '/assets/sol-detail-insulation-coating-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Reduce heat. Protect surfaces. Enhance efficiency.',
+      description:
+        'Applied directly over concrete, metal, or existing coatings, this thermal barrier protects the substrate while cutting the heat that reaches it.',
+      image: '/assets/sol-detail-insulation-coating-hero.png',
+      items: [
+        {
+          title: 'High-Performance Thermal Barrier',
+          description:
+            'Designed using advanced insulating materials to reduce heat transfer, improving energy efficiency while protecting structural surfaces.',
+        },
+        {
+          title: 'Versatile Application Range',
+          description:
+            'Suitable for roofs, walls, pipelines, and industrial equipment, providing a reliable layer of protection before finishing or exposure to environmental conditions.',
+        },
+        {
+          title: 'Durable and Long-Lasting',
+          description:
+            'Offers resistance to moisture, corrosion, and environmental wear, ensuring prolonged structural integrity and performance.',
+        },
+        {
+          title: 'Seamless Compatibility',
+          description:
+            'Can be applied over concrete, metal, or existing coatings, making it an adaptable component in integrated construction and insulation solutions.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Roof Slabs & Terraces',
+        'Walls & Facades',
+        'Floors & Basements',
+        'Pipes & HVAC Ducts',
+        'Industrial & Commercial Surfaces',
+        'Roof & Wall Protection',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Improves Thermal Resistance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Acts as a barrier against heat, reducing energy usage.',
+        },
+        {
+          code: 'V/02',
+          title: 'Energy-Efficient',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Helps maintain desired indoor temperatures with less power.',
+        },
+        {
+          code: 'V/03',
+          title: 'Moisture-Resistant',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Stops water ingress, protecting the structure beneath.',
+        },
+        {
+          code: 'V/04',
+          title: 'Lightweight & Easy to Apply',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Reduces labor effort while providing strong coverage.',
+        },
+        {
+          code: 'V/05',
+          title: 'Durable & Long-Lasting',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Resists wear and shrinkage, maintaining performance over time.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Advanced Insulation Coating for Maximum Heat Resistance and Long-Lasting Surface Protection',
+      body:
+        'High-performance insulation coating that reduces heat transfer, protects surfaces, and enhances energy efficiency—backed by Ethios Group’s technical guidance from specification through application.',
+    },
+  },
+  'tile-joint-fillers': {
+    badge: 'Solutions - Tile Joint Fillers',
+    title: 'Tile Joint Fillers',
+    intro:
+      'Ethios Group offers high-performance Epoxy Tile Grouts that deliver exceptional bonding strength, chemical resistance, and a seamless aesthetic finish. Designed for demanding environments where hygiene, durability, and visual appeal are critical, our epoxy grouts outperform traditional cementitious grouts in every aspect.',
+    heroImage: '/assets/sol-detail-tile-joint-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Superior Strength. Hygienic Finish. Long-Lasting Appeal.',
+      description:
+        'A solvent-free epoxy system built to hold tile joints watertight and stain-free in the environments that punish grout the hardest.',
+      image: '/assets/sol-detail-tile-joint-hero.png',
+      items: [
+        {
+          title: 'Two-Component Resin System',
+          description:
+            'A solvent-free, highly durable resin and hardener blend that forms a dense, impermeable joint—perfect for critical installations.',
+        },
+        {
+          title: 'High Chemical & Stain Resistance',
+          description:
+            'Withstands acids, oils, cleaning agents, and heavy-duty detergents—ideal for industrial kitchens, labs, and wet zones.',
+        },
+        {
+          title: 'Color-Stable & UV Resistant Shades',
+          description:
+            'Available in a wide range of fade-proof colors that retain vibrancy over time, enhancing tile aesthetics.',
+        },
+        {
+          title: 'Non-Porous & Anti-Bacterial',
+          description:
+            'The seamless, smooth finish prevents microbial growth, making it ideal for hygiene-sensitive applications like hospitals and food zones.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Bathrooms & Wet Areas',
+        'Commercial Kitchens',
+        'Hospitals & Labs',
+        'Swimming Pools & Wet Zones',
+        'Industrial Processing Units',
+        'Luxury Residences & Hotels',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Superior Bonding & Flexibility',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Handles thermal and mechanical stress without cracking.',
+        },
+        {
+          code: 'V/02',
+          title: 'Waterproof & Non-Absorbent',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Perfect for submerged and wet applications.',
+        },
+        {
+          code: 'V/03',
+          title: 'Highly Durable',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Resists wear from heavy foot traffic and industrial use.',
+        },
+        {
+          code: 'V/04',
+          title: 'Low Maintenance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'No efflorescence, peeling, or fading—ever.',
+        },
+        {
+          code: 'V/05',
+          title: 'Aesthetic Excellence',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Delivers a polished, designer look with minimal upkeep.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Joints that seal clean and stay clean.',
+      body:
+        'Ethios Group pairs premium epoxy grout systems with expert application, ensuring every tiled surface—from hospital floors to luxury bathrooms—stays watertight, hygienic, and visually flawless for years to come.',
+    },
+  },
 }
 
 export function slugify(title) {
