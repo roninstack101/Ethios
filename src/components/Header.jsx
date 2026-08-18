@@ -5,11 +5,10 @@ const NAV_LINKS = [
   { label: 'Solutions', to: '/solutions' },
   { label: 'OEM Services', to: '/oem-services' },
   { label: 'Products', to: '/products' },
-  { label: 'Sectors', to: '/sectors' },
 ]
 
 const SCOPE_LINKS = [
-  { label: 'Overview', to: '/scope' },
+  { label: 'Sectors', to: '/scope/sectors' },
   { label: 'Clients', to: '/scope/clients' },
 ]
 

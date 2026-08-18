@@ -3,29 +3,29 @@ import { SectionIntro, Reveal } from './ui.jsx'
 
 const PILLARS = [
   {
-    title: 'Comprehensive Solutions',
+    title: 'Project-first Thinking',
     description:
-      'Dedicated technical service teams in every operating state. Specification to site, end to end.',
+      'We begin with the project requirement, site condition and expected performance, not with a standard catalogue recommendation.',
   },
   {
-    title: 'Engineering Expertise',
+    title: 'Right-fit Product Sourcing',
     description:
-      'Dedicated technical service teams in every operating state. Specification to site, end to end.',
+      'We help identify and source the most suitable system for the application, rather than limiting the choice to what is readily available.',
   },
   {
-    title: 'Quality Assurance',
+    title: 'Technical Guidance',
     description:
-      'Dedicated technical service teams in every operating state. Specification to site, end to end.',
+      'Our team supports product evaluation, method statements, technical documentation, relevant standards and site-specific recommendations.',
   },
   {
-    title: 'Sustainability',
+    title: 'Support Through Execution',
     description:
-      'Dedicated technical service teams in every operating state. Specification to site, end to end.',
+      'From product selection and application planning to on-site troubleshooting, we help carry the solution through to correct execution.',
   },
   {
-    title: 'Customer-Centric',
+    title: 'Accountability That Builds Trust',
     description:
-      'Dedicated technical service teams in every operating state. Specification to site, end to end.',
+      'Clear communication, dependable coordination and ownership across sourcing, technical support and site requirements help reduce uncertainty for project teams.',
   },
 ]
 
@@ -39,8 +39,8 @@ function WhyEthios() {
       <Reveal>
         <SectionIntro
           eyebrow="Why Ethios"
-          title="Built for the Long Run"
-          description="We're not a catalogue vendor. We're a technical partner that stands behind every specification — from product selection to perfect execution."
+          title="Built for every build"
+          description="We work alongside builders, developers, consultants and contractors to identify, source and deliver the right construction solutions, backed by technical guidance and practical site experience from selection through execution."
         />
       </Reveal>
 

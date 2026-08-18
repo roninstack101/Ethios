@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "mcp__figma__get_design_context"
+      "mcp__figma__get_design_context",
+      "Bash(curl -sI \"https://www.figma.com/api/mcp/asset/e3f89f0f-8328-4757-bcaa-c462d45a9c0f\")",
+      "Bash(curl -s \"https://www.figma.com/api/mcp/asset/e3f89f0f-8328-4757-bcaa-c462d45a9c0f\")",
+      "Bash(npm run *)",
+      "mcp__figma__get_screenshot",
+      "Bash(echo \"started with pid $!\")",
+      "Bash(timeout 20 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done')",
+      "Read(//tmp/**)",
+      "Bash(npx --version)",
+      "Bash(node -e \"try{require.resolve\\('playwright'\\)}catch\\(e\\){console.log\\('no playwright'\\)}\")",
+      "Bash(node -e ' *)",
+      "Bash(jobs -l)",
+      "Bash(lsof -ti:5174 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)"
     ]
   }
 }

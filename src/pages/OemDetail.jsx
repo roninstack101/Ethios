@@ -16,14 +16,21 @@ function OemDetail() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#1d322c] via-[#1d322c]/60 to-transparent opacity-95" />
         <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">
           <Reveal as="span" className="flex h-[39px] items-center rounded-full border border-[#e8e6e2] bg-black/10 px-[30px] text-[15px] font-medium uppercase text-[#e8e6e2]">
-            OEM Service
+            {detail.badge || 'OEM Service'}
           </Reveal>
           <Reveal as="h1" delay={120} className="mt-6 text-[38px] font-bold leading-tight text-cream sm:text-[48px] lg:text-[60px]">
             {detail.title}
           </Reveal>
-          <Reveal as="p" delay={240} className="mx-auto mt-6 max-w-[1170px] text-[16px] font-medium text-cream lg:text-[20px]">
-            {detail.intro}
-          </Reveal>
+          {(Array.isArray(detail.intro) ? detail.intro : [detail.intro]).map((paragraph, i) => (
+            <Reveal
+              key={i}
+              as="p"
+              delay={240 + i * 80}
+              className={`mx-auto max-w-[1170px] text-[16px] font-medium text-cream lg:text-[20px] ${i === 0 ? 'mt-6' : 'mt-2'}`}
+            >
+              {paragraph}
+            </Reveal>
+          ))}
         </div>
       </section>
 
@@ -37,7 +44,11 @@ function OemDetail() {
             >
               <div>
                 <h2 className="text-[32px] font-bold capitalize text-forest">{title}</h2>
-                <p className="mt-3 text-[15px] font-medium leading-[1.35] text-smoke">{description}</p>
+                {(Array.isArray(description) ? description : [description]).map((paragraph, i) => (
+                  <p key={i} className="mt-3 text-[15px] font-medium leading-[1.35] text-smoke">
+                    {paragraph}
+                  </p>
+                ))}
               </div>
               <div className="group overflow-hidden rounded-[15px] lg:justify-self-end">
                 <img

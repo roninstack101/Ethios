@@ -5,7 +5,7 @@ const QUICK_LINKS = [
   { label: 'About', to: '/about' },
   { label: 'Solutions', to: '/solutions' },
   { label: 'Products', to: '/products' },
-  { label: 'Sectors', to: '/sectors' },
+  { label: 'Sectors', to: '/scope/sectors' },
   { label: 'Projects', to: '/projects' },
   { label: 'Resources', to: '/resources' },
 ]
@@ -58,8 +58,8 @@ function Footer() {
             Ready to Strengthen Your Next Project?
           </h2>
           <p className="mx-auto mt-4 max-w-[779px] text-[15px] font-medium text-cream">
-            Our technical team is ready to discuss your requirements, provide solution guidance, and
-            support your project from start to finish.
+            Discuss your project with our technical team for solution selection, specification
+            support and practical guidance through execution.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
             <a
