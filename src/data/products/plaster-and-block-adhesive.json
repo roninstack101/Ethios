@@ -4,34 +4,39 @@
  "heroImage": "/assets/products/plaster-hero.png",
  "products": [
   {
-   "name": "Bronco Zip-It",
+   "name": "Bronco® Master Plast",
    "image": "/assets/products/plaster-and-block-adhesive-01.png",
-   "description": "Bronco Zip-It is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+   "description": "Bronco® Master Plast is a ready-to-use, polymer-modified cementitious plaster designed for superior bonding and smooth finish on internal and external walls. It offers excellent workability, crack resistance, and durability, eliminating the need for separate cement and sand mixing. Supplied in 40 kg bags with a 12-month shelf life."
   },
   {
-   "name": "Weber Blok Fix",
+   "name": "Bronco® Master Plast S",
    "image": "/assets/products/plaster-and-block-adhesive-02.png",
-   "description": "Weber Blok Fix is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+   "description": "Bronco® Master Plast S is a block/plaster adhesive from Ethios that provides strong bonding, minimal cracking, and a smooth, durable finish. Contact our technical team for the data sheet and application guidance."
+  },
+  {
+   "name": "Bronco® Block Bond",
+   "image": "/assets/products/plaster-and-block-adhesive-03.png",
+   "description": "Bronco® Block Bond is a ready-to-use, high-strength polymer-modified adhesive for laying AAC blocks, fly ash bricks, and concrete blocks. It provides excellent adhesion, reduced shrinkage, and faster application compared to traditional mortar. Supplied in 40 kg bags with a 12-month shelf life."
+  },
+  {
+   "name": "Bronco® Block Fix",
+   "image": "/assets/products/plaster-and-block-adhesive-04.png",
+   "description": "Bronco® Block Fix is a block/plaster adhesive from Ethios that provides strong bonding, minimal cracking, and a smooth, durable finish. Contact our technical team for the data sheet and application guidance."
+  },
+  {
+   "name": "Bronco® Zip-It",
+   "image": "/assets/products/plaster-and-block-adhesive-05.png",
+   "description": "BRONCO® ZIP-IT is a high-performance plaster bonding agent specially formulated for smooth RCC and concrete surfaces. Its polymer-rich formulation eliminates the need for surface hacking, ensuring superior adhesion and easy application. Ideal for internal plastering jobs, it enhances mechanical and chemical bonding with a single coat."
+  },
+  {
+   "name": "Weber Blokfix",
+   "image": "/assets/products/plaster-and-block-adhesive-06.png",
+   "description": "Weber Blokfix is a ready-to-mix, self-curing AAC block adhesive designed for high bonding strength and quick wall construction. Ideal for AAC, CLC, and concrete blocks, it ensures superior adhesion, minimal shrinkage, and crack-free finishes with a 4mm application. Perfect for fast, durable masonry work with consistent quality."
   },
   {
    "name": "Weber Blokset",
-   "image": "/assets/products/plaster-and-block-adhesive-03.png",
-   "description": "Weber Blokset is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
-  },
-  {
-   "name": "Gyproc Expert",
-   "image": "/assets/products/plaster-and-block-adhesive-04.png",
-   "description": "Gyproc Expert is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
-  },
-  {
-   "name": "Bronco Block Bond",
-   "image": "/assets/products/plaster-and-block-adhesive-05.png",
-   "description": "Bronco Block Bond is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
-  },
-  {
-   "name": "Bronco Master Plast",
-   "image": "/assets/products/plaster-and-block-adhesive-06.png",
-   "description": "Bronco Master Plast is a block/plaster adhesive from Ethios that provides strong bonding and reduces cracking on masonry work. Contact our technical team for the data sheet and coverage details."
+   "image": "/assets/products/plaster-and-block-adhesive-07.png",
+   "description": "Weber Blokset is a ready-to-mix, self-curing thin bed block adhesive designed for AAC, CLC, hollow, and concrete blocks. With superior bonding strength, minimized shrinkage, and compliance with ASTM C1660-09, it ensures fast, precise, and durable wall construction. Ideal for eco-friendly and water-saving masonry applications."
   }
  ]
 }

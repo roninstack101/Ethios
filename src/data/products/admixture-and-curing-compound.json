@@ -4,64 +4,79 @@
  "heroImage": "/assets/products/admixture-hero.png",
  "products": [
   {
-   "name": "Asian Paints",
+   "name": "Chryso AIR-PL",
    "image": "/assets/products/admixture-and-curing-compound-01.png",
-   "description": "Asian Paints is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "Sika Separol®-288 FD",
-   "image": "/assets/products/admixture-and-curing-compound-02.png",
-   "description": "Sika Separol®-288 FD is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "SikaControl WT-200 P",
-   "image": "/assets/products/admixture-and-curing-compound-03.png",
-   "description": "SikaControl WT-200 P is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "Chryso XEL 03",
-   "image": "/assets/products/admixture-and-curing-compound-04.png",
-   "description": "Chryso XEL 03 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "Chryso AIR PL",
-   "image": "/assets/products/admixture-and-curing-compound-05.png",
-   "description": "Chryso AIR PL is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "description": "CHRYSO® Air-PL is a high-performance air entraining admixture for concrete and mortar, specially designed to improve freeze-thaw resistance, workability, and durability. Ideal for dams, reservoirs, lightweight blocks, and extruded concrete, it forms stable micro-air bubbles that reduce segregation and bleeding. Supplied as a light amber liquid, with a 12-month shelf life, and compliant with IS 9103:2007 and ASTM C-260 standards."
   },
   {
    "name": "Chryso CWA 10",
-   "image": "/assets/products/admixture-and-curing-compound-06.png",
-   "description": "Chryso CWA 10 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "image": "/assets/products/admixture-and-curing-compound-02.png",
+   "description": "CHRYSO® CWA 10 is a high-performance crystalline waterproofing admixture for concrete, designed to block water ingress by forming insoluble crystals in pores and capillaries. Ideal for foundations, tunnels, water tanks, sewage plants, podium slabs, and more. It seals cracks up to 0.5 mm, is non-toxic, and compatible with all types of plasticizers. Supplied in 20 kg waterproof HDPE bags with a shelf life of 12 months, conforming to IS 2645:2003 and ACI 212.3R-10 standards."
   },
   {
    "name": "Chryso Struco Excel",
-   "image": "/assets/products/admixture-and-curing-compound-07.png",
-   "description": "Chryso Struco Excel is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "image": "/assets/products/admixture-and-curing-compound-03.png",
+   "description": "CHRYSO® STRUCO EXCEL is a liquid integral waterproofing compound for cement mortar and concrete, offering long-lasting damp-proofing by blocking capillary absorption. Ideal for roofs, slabs, marine structures, basements, and plastered brickwork, it resists efflorescence, weak acids, and fungal growth. Supplied in 1 kg, 5 kg, 20 kg, and 200 kg packs with a shelf life of 12 months, and conforms to IS 2645:2003 standards."
   },
   {
    "name": "Chryso Plast Delta G533",
-   "image": "/assets/products/admixture-and-curing-compound-08.png",
-   "description": "Chryso Plast Delta G533 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "Chryso CWA10 Pro",
-   "image": "/assets/products/admixture-and-curing-compound-09.png",
-   "description": "Chryso CWA10 Pro is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "image": "/assets/products/admixture-and-curing-compound-04.png",
+   "description": "CHRYSO® Plast Delta G533 is a next-generation polycarboxylate ether-based high-range water-reducing admixture that enhances flowability, compaction, and strength development in concrete. Ideal for all cement types and concretes with moderate to high SCM content, it offers excellent water reduction, workability retention, and cement optimization. Supplied as a light amber liquid, with a shelf life of 12 months, and conforms to IS 9103:2007 and ASTM C-494 (Type F & G)."
   },
   {
    "name": "Chryso Optima K9339",
+   "image": "/assets/products/admixture-and-curing-compound-04.png",
+   "description": "CHRYSO® Optima K9339 is a high-performance polycarboxylate ether-based superplasticizer designed for high-range water reduction and superior workability retention in Ready Mix and SCC concrete. It enhances concrete flow, strength, pumpability, and finish, while reducing shrinkage and cracking. Supplied as a brown liquid, with a shelf life of 12 months, and conforms to IS 9103:2007 and ASTM C494 Type G standards."
+  },
+  {
+   "name": "Chryso® Plast Delta G9310",
+   "image": "/assets/products/admixture-and-curing-compound-04.png",
+   "description": "Chryso® Plast Delta G9310 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+  },
+  {
+   "name": "Chryso® HP 6247",
+   "image": "/assets/products/admixture-and-curing-compound-04.png",
+   "description": "Chryso® HP 6247 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+  },
+  {
+   "name": "Chryso CWA10 Pro",
+   "image": "/assets/products/admixture-and-curing-compound-05.png",
+   "description": "CHRYSO® Plast Delta G933 is a new-generation polycarboxylate ether-based high-range water-reducing admixture designed for superior flowability, strength gain, and reduced water-cement ratio. Ideal for all concrete grades with moderate to high SCM, it enhances compaction, minimizes capillary absorption, and supports cement savings. Supplied as a light amber liquid, with a shelf life of 12 months, and conforms to IS 9103:2007 and ASTM C494 (Type F & G) standards."
+  },
+  {
+   "name": "Chryso XEL 03",
+   "image": "/assets/products/admixture-and-curing-compound-06.png",
+   "description": "CHRYSO® Xel 03 is a high-performance liquid quick-setting admixture for cement mortar and concrete, ideal for rapid strength gain, cold weather concreting, and leak-plugging. It accelerates initial setting (2–5 min) and final setting (8–12 min), enabling early de-shuttering and faster construction cycles. Supplied in 18/20 kg metal drums with a 12-month shelf life, it's widely used in precast yards, repair works, and waterproof sealing applications."
+  },
+  {
+   "name": "Chryso Optima K9339",
+   "image": "/assets/products/admixture-and-curing-compound-04.png",
+   "description": "CHRYSO® Optima K9339 is a high-performance polycarboxylate ether-based superplasticizer designed for high-range water reduction and superior workability retention in Ready Mix and SCC concrete. It enhances concrete flow, strength, pumpability, and finish, while reducing shrinkage and cracking. Supplied as a brown liquid, with a shelf life of 12 months, and conforms to IS 9103:2007 and ASTM C494 Type G standards."
+  },
+  {
+   "name": "Sika® Separol®-288 FD",
+   "image": "/assets/products/admixture-and-curing-compound-07.png",
+   "description": "Sika® Separol®-288 FD is a medium-viscosity, liquid concrete surface retarder used on formwork to create decorative exposed aggregate finishes or improve bonding for subsequent concrete layers. It ensures controlled depth retardation (up to 8 mm) without affecting concrete strength. Supplied in 25 L carboys and 205 L drums, with a shelf life of 12 months, and covers 6–12 m² per litre, depending on desired depth."
+  },
+  {
+   "name": "SmartCare Vitalia Neo",
+   "image": "/assets/products/admixture-and-curing-compound-08.png",
+   "description": "SmartCare Vitalia NEO is a liquid integral waterproofing compound designed for cement concrete, mortar, and plaster. It improves compressive strength, reduces water permeability and shrinkage cracks, and resists corrosion of reinforcement steel. Supplied in 1 L, 5 L, 10 L, and 20 L packs, with a shelf life of 2 years, and conforms to IS 9103 and IS 2645 standards."
+  },
+  {
+   "name": "SikaControl WT-200 P (IN)",
+   "image": "/assets/products/admixture-and-curing-compound-09.png",
+   "description": "SikaControl® WT-200 P (IN) is a crystalline waterproofing admixture that reduces concrete permeability and promotes self-healing by forming insoluble crystals within the capillary pores. Ideal for watertight structures like tunnels, tanks, basements, and foundations. Supplied in 20 kg and 25 kg bags with a shelf life of 12 months, and conforms to ACI 212 and IS 2645 standards."
+  },
+  {
+   "name": "Dr. Fixit Pidiproof LW+",
    "image": "/assets/products/admixture-and-curing-compound-10.png",
-   "description": "Chryso Optima K9339 is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "description": "Dr. Fixit Pidiproof LW+ is an integral liquid waterproofing admixture designed for cement concrete, plaster, and mortar. It improves workability, reduces water permeability, resists corrosion, and minimizes shrinkage cracks—ideal for basements, roofs, bathrooms, and water-retaining structures. Supplied in 200 ml to 100 L packs, with a shelf life of 2 years, and conforms to IS 2645:2003 standards."
   },
   {
-   "name": "Dr. Fixit Pidilite LW+",
+   "name": "Fosroc Cebex 100",
    "image": "/assets/products/admixture-and-curing-compound-11.png",
-   "description": "Dr. Fixit Pidilite LW+ is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
-  },
-  {
-   "name": "Cebex 100 (225 GM)",
-   "image": "/assets/products/admixture-and-curing-compound-12.png",
-   "description": "Cebex 100 (225 GM) is a concrete admixture / curing solution from Ethios that improves strength, workability, and durability. Contact our technical team for the data sheet and recommended dosage."
+   "description": "Fosroc Cebex 100 is a plasticised expanding grout admixture designed to reduce water-cement ratio while ensuring high fluidity, strength, and non-shrink performance. Ideal for bed grouting, duct grouting, joint filling, and non-shrink infilling, it compensates for plastic settlement and improves durability. Supplied in 225 g sachets and 25 kg bags, with a shelf life of 6 months, and conforms to BS 8110 and ASTM C827 standards."
   }
  ]
 }

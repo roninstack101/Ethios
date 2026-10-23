@@ -4,79 +4,74 @@
  "heroImage": "/assets/products/flooring-hero.png",
  "products": [
   {
-   "name": "Chryso Excem – V1",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-01.png",
-   "description": "Chryso Excem – V1 is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Chryso Excem C",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-02.png",
-   "description": "Chryso Excem C is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Chryso Excem – GP",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-03.png",
-   "description": "Chryso Excem – GP is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Chryso Resicrete 21LV",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-04.png",
-   "description": "Chryso Resicrete 21LV is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Chryso Polygrout",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-05.png",
-   "description": "Chryso Polygrout is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "P.P. Fiber - 6 MM",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-06.png",
-   "description": "P.P. Fiber - 6 MM is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Cemgrout GP80",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-07.png",
-   "description": "Cemgrout GP80 is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Weber Floor Cemen",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-08.png",
-   "description": "Weber Floor Cemen is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
-   "name": "Weber Grout Add",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-09.png",
-   "description": "Weber Grout Add is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
-  },
-  {
    "name": "Bronco NSPG",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-10.png",
-   "description": "Bronco NSPG is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-01.png",
+   "description": "Bronco® NSPG is a ready-to-use, non-shrink, high-strength cementitious grout formulated for precision grouting in heavy machinery foundations, base plates, columns, and anchor bolts. It provides excellent early and final compressive strength, ensuring long-term stability and load transfer. Bronco NSPG exhibits superior flowability, controlled expansion for void-free placement, and exceptional bonding with concrete and steel surfaces."
   },
   {
    "name": "Bronco NSPG 200",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-11.png",
-   "description": "Bronco NSPG 200 is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-02.png",
+   "description": "Bronco® NSPG 200 is a ready-to-use, non-shrink, high-performance cementitious grout specially formulated for precision grouting applications in heavy machinery foundations, base plates, columns, and anchor bolts. It delivers high early and ultimate compressive strength (up to 80 MPa at 28 days) with excellent flowability and controlled expansion to ensure void-free placement and superior load transfer."
   },
   {
    "name": "Cemgrout GP",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-12.png",
-   "description": "Cemgrout GP is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-03.png",
+   "description": "Bronco® CEMGROUT GP is a ready-to-use, non-shrink, general-purpose cementitious grout designed for a wide range of grouting applications, including base plates, columns, machinery foundations, and precast elements. It offers high compressive strength, excellent flowability, and controlled expansion to ensure complete void filling and superior structural support."
   },
   {
    "name": "Cemcon Floor Top",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-13.png",
-   "description": "Cemcon Floor Top is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-04.png",
+   "description": "Bronco® CEMCON FLOOR TOP is a pre-mixed, high-strength, non-shrink cementitious floor topping specially formulated for repairing, leveling, and resurfacing concrete floors. It provides excellent abrasion resistance, durability, and smooth finish, making it ideal for industrial floors, workshops, warehouses, and heavy-duty service areas."
   },
   {
    "name": "Cemcon Floor Top (M)",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-14.png",
-   "description": "Cemcon Floor Top (M) is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-05.png",
+   "description": "Bronco® CEMCON FLOOR TOP (M) is a single-component, high-performance, medium-duty cementitious floor topping designed for resurfacing and repairing concrete floors subjected to moderate mechanical wear. It provides a dense, durable, and non-shrink surface with excellent bonding strength to both old and new concrete substrates."
   },
   {
-   "name": "Cemsheild EF (SL)",
-   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-15.png",
-   "description": "Cemsheild EF (SL) is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+   "name": "Cemgrout GP80",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-06.png",
+   "description": "BRONCO® CEMGROUT GP80 is a high-performance, non-shrink, cement-based grout with excellent flow and ultra-high compressive strength. Ideal for grouting machine bases, anchor bolts, and structural columns. It offers superior durability, early strength gain, and is free from chlorides and metallic components."
+  },
+  {
+   "name": "Cemshield EF (SL)",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-07.png",
+   "description": "Bronco® CEMSHIELD EF (SL) is a high-performance, non-shrink, self-leveling cementitious grout ideal for precision grouting of machinery bases, columns, and floors. It offers excellent flow, high strength, and durable, void-free placement. Supplied in 25 kg HDPE bags with a 12-month shelf life."
+  },
+  {
+   "name": "Chryso Excem – V1",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-08.png",
+   "description": "CHRYSO® EXCEM V1 is a ready-to-use, non-shrink, high-strength cementitious grout designed for precision grouting in foundations, turbines, base plates, and anchorages. It offers high early and ultimate compressive strength (up to 75 MPa at 28 days), excellent flowability, and controlled expansion for void-free placement. Supplied in 25 kg waterproof HDPE bags, with a shelf life of 12 months."
+  },
+  {
+   "name": "Chryso Excem C",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-09.png",
+   "description": "CHRYSO® EXCEM C is a polymer-modified, non-shrink admixture designed for injection cement grouting in concrete structures. It enhances flowability, controls shrinkage with 2–4% expansion (ASTM C827), and ensures complete void filling with high strength and durability. Supplied in 20 kg waterproof HDPE bags, with a shelf life of 12 months, it’s ideal for underground structures, dams, reservoirs, and anchorage grouting."
+  },
+  {
+   "name": "Chryso Excem-GP",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-10.png",
+   "description": "Chryso Excem-GP is a flooring, grouting and repair solution from Ethios that restores surface integrity and delivers lasting durability. Contact our technical team for the data sheet and application guidance."
+  },
+  {
+   "name": "Chryso Resicrete 21LV",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-11.png",
+   "description": "CHRYSO® RESICRETE 21LV is a low-viscosity, solvent-free injectable epoxy grouting compound ideal for sealing fine cracks, voids, and joints in concrete structures. With a high compressive strength of 75 MPa in 7 days, it offers excellent adhesion, chemical resistance, and controlled flexibility. Supplied in 5 kg packs (4 kg Resin + 1 kg Hardener) with a shelf life of 12 months."
+  },
+  {
+   "name": "Chryso Polygrout",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-12.png",
+   "description": "CHRYSO® POLYGROUT is an aqua-reactive, expanding polyurethane grouting compound ideal for stopping water ingress in underground structures, tunnels, dams, and foundation soils. It forms a permanent, flexible seal even under high water pressure and chemically aggressive conditions. Supplied in 20 kg MS drums/buckets, it offers rapid gel time (40±10 sec) and a shelf life of 6 months."
+  },
+  {
+   "name": "P.P. Fiber - 6 MM",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-13.png",
+   "description": "PP Fiber is a high-performance micro-reinforcement made from 100% virgin polypropylene, engineered to reduce plastic shrinkage and control cracking in cementitious mixes. Suitable for slabs, pavements, shotcrete, and renders, it replaces traditional steel mesh while offering rust-free durability. Compliant with ASTM C1116 Type 3, it is available in lengths of 3 mm to 40 mm and packed in 0.6 to 0.9 kg bags."
+  },
+  {
+   "name": "Weber Floor Cemen-Tonic",
+   "image": "/assets/products/flooring-and-grouting-repair-rehabilitation-14.png",
+   "description": "Weberfloor Cementonic is a high-performance gel additive for traditional tile laying using cement slurry over fresh screed. It enhances bonding, reduces curing time, and improves screed strength. Ideal for internal floors, it ensures excellent workability, self-curing properties, and eliminates shrinkage cracks."
   }
  ]
 }
