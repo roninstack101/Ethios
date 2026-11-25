@@ -12,15 +12,15 @@ function AboutHero() {
 
       <div className="relative max-w-[1210px] px-6 pt-[65px] text-center">
         <Reveal as="h1" className="text-[40px] font-bold leading-tight text-cream sm:text-[52px] lg:text-[60px]">
-          Materials behind stronger construction.
+          Engineered for Stronger Structures
         </Reveal>
         <Reveal
           as="p"
           delay={150}
           className="mx-auto mt-6 max-w-[1210px] text-[17px] font-medium text-cream lg:text-[20px]"
         >
-          Ethios Group creates construction materials that become part of the building —
-          strengthening, protecting, and finishing structures across India.
+          From structural integrity to surface protection and finishing, we deliver solutions that
+          become an integral part of the building itself.
         </Reveal>
       </div>
     </section>

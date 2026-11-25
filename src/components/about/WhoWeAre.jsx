@@ -8,17 +8,15 @@ function WhoWeAre() {
           <SectionIntro eyebrow="Who We Are" title="A construction material company built on performance." />
           <div className="mt-8 max-w-[734px] space-y-5 text-[15px] font-medium text-ink">
             <p>
-              Ethios Group is a leading Indian construction materials company specializing in the
-              hidden performance layers that make buildings stronger, more durable, and better
-              finished. From waterproofing membranes that disappear beneath terraces to tile
-              adhesives that bond permanently beneath floors, our products are designed to perform
-              where they cannot be seen.
+              Ethios is a leading Indian construction materials company focused on the systems that
+              work beneath the surface of every building: the waterproofing beneath a terrace, the
+              adhesive under a floor, and the coating behind a wall. Our solutions are designed to
+              deliver lasting performance long after they disappear from view.
             </p>
             <p>
-              Founded on the belief that the most important materials are often invisible, Ethios
-              has grown into a multi-brand organization serving architects, contractors, developers,
-              and construction professionals across India. We don&rsquo;t just sell products — we
-              provide material systems engineered for long-term structural performance.
+              Founded on the belief that the most important materials are often invisible, we work as
+              a technical partner, helping teams select the right solutions for every application and
+              supporting their successful execution on site, from specification to completion.
             </p>
           </div>
         </Reveal>

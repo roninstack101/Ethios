@@ -5,10 +5,11 @@ const MILESTONES = [
   {
     year: '2011',
     title: 'Founded',
-    description: 'Ethios established in Ahmedabad, Gujarat with a focus on construction solutions.',
+    description:
+      'Ethios was established in Ahmedabad, Gujarat, with a focus on enabling greener construction solutions with AAC Blocks & Adhesives.',
   },
   {
-    year: '2013',
+    year: '2012',
     title: 'Portfolio Expansion',
     description: 'Expanded product range to cover waterproofing and repair solutions.',
   },
@@ -19,8 +20,9 @@ const MILESTONES = [
   },
   {
     year: '2017',
-    title: 'Multi-State Operations',
-    description: 'Services extended across multiple Indian states.',
+    title: 'Multi-State Operations & Portfolio Expansion',
+    description:
+      'Services extended across multiple Indian states & added industrial flooring, thermal insulation solutions.',
   },
   {
     year: '2019',
@@ -30,16 +32,16 @@ const MILESTONES = [
   {
     year: '2021',
     title: 'Diversified Solutions',
-    description: 'Added industrial flooring, thermal insulation, and OEM capabilities.',
+    description: 'Added white labelling / OEM capabilities and Toll manufacturing capabilities.',
   },
   {
     year: '2023',
     title: 'Pan-India & Global',
-    description: 'Present in 9+ states, serving international markets across 5 countries.',
+    description: 'Present in 8+ states, serving international markets.',
   },
   {
     year: '2026',
-    title: 'Future Focus',
+    title: 'Building What Comes Next',
     description: 'Innovation, quality, and sustainable growth continue to drive our vision.',
   },
 ]

@@ -22,7 +22,7 @@ const SECTORS = [
   {
     title: 'Commercial',
     image: '/assets/scope-sector-commercial.png',
-    description: 'Office buildings, shopping centres, hotels, and mixed use developments.',
+    description: 'Office buildings, shopping centres, hotels, and mixed-use developments.',
   },
   {
     title: 'Industrial',
@@ -32,12 +32,12 @@ const SECTORS = [
   {
     title: 'Infrastructure',
     image: '/assets/scope-sector-infrastructure.png',
-    description: 'Bridges, tunnels, water treatment facilities, and public infrastructure.',
+    description: 'Airports, power plants, sports arenas, bridges, tunnels, water treatment facilities, and public infrastructure.',
   },
   {
     title: 'Institutional',
     image: '/assets/scope-sector-institutional.png',
-    description: 'Schools, hospitals, government buildings, and cultural institutions.',
+    description: 'Schools, hotels & resorts, hospitals, government buildings, data centers, and cultural institutions.',
   },
 ]
 
@@ -46,7 +46,7 @@ const WHY_CARDS = [
   {
     code: 'V/01',
     title: 'Quality Products',
-    description: 'Manufactured to stringent quality standards with ISO 9001:2015 certification.',
+    description: 'Manufactured and sourced to stringent quality standards.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <path
@@ -62,7 +62,7 @@ const WHY_CARDS = [
   {
     code: 'V/02',
     title: 'Technical Support',
-    description: 'Dedicated team providing project-specific guidance and application advice.',
+    description: 'A dedicated team providing project-specific guidance and application advice.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <path
@@ -78,7 +78,7 @@ const WHY_CARDS = [
   {
     code: 'V/03',
     title: 'On-Time Delivery',
-    description: 'Reliable logistics ensuring materials reach your site when needed.',
+    description: 'Reliable logistics that get materials to your site exactly when needed.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <circle cx="13" cy="13" r="9.5" stroke="currentColor" strokeWidth="1.6" />
@@ -90,17 +90,32 @@ const WHY_CARDS = [
 
 /* Grey masked client logos (same technique as the home strip). */
 const CLIENT_LOGOS = [
+  { name: 'Adani Realty', src: '/assets/clients/network/net-01.png', w: 104, h: 68 },
+  { name: 'Torrent Power', src: '/assets/clients/network/net-03.png', w: 130, h: 40 },
   { name: 'Zydus', src: '/assets/clients/zydus.png', w: 96, h: 82 },
   { name: 'Shivalik', src: '/assets/clients/shivalik.svg', w: 106, h: 37 },
   { name: 'Shilp', src: '/assets/clients/shilp.png', w: 102, h: 31 },
   { name: 'Goyal & Co.', src: '/assets/clients/goyal.png', w: 128, h: 45 },
-  { name: 'L&T', src: '/assets/clients/lt.png', w: 62, h: 62 },
   { name: 'AFCONS', src: '/assets/clients/afcons.png', w: 104, h: 28 },
   { name: 'Rajpath Club', src: '/assets/clients/rajpath.png', w: 90, h: 84 },
   { name: 'Godrej Garden City', src: '/assets/clients/garden-city.svg', w: 124, h: 40 },
+  /* Opaque-background logo: shown as a greyscale image instead of a mask. */
+  { name: 'Nirma University', src: '/assets/clients/network/net-04.png', w: 130, h: 58, opaque: true },
 ]
 
-function GreyLogo({ name, src, w, h }) {
+function GreyLogo({ name, src, w, h, opaque }) {
+  if (opaque) {
+    return (
+      <img
+        src={src}
+        alt={name}
+        width={w}
+        height={h}
+        className="inline-block shrink-0 object-contain opacity-70 grayscale transition-[filter,opacity] duration-300 hover:opacity-100 hover:grayscale-0"
+        style={{ width: w, height: h }}
+      />
+    )
+  }
   return (
     <span
       role="img"
@@ -134,10 +149,11 @@ function Scope() {
             Scope
           </Reveal>
           <Reveal as="h1" delay={120} className="mt-6 max-w-[1210px] text-[38px] font-bold leading-tight text-cream sm:text-[48px] lg:text-[60px]">
-            Building India&rsquo;s Infrastructure, One Project at a Time
+            Building Better Across India
           </Reveal>
           <Reveal as="p" delay={240} className="mx-auto mt-6 max-w-[1170px] text-[17px] font-medium text-cream lg:text-[20px]">
-            Ethios has delivered construction solutions across residential, commercial, industrial, and infrastructure sectors.
+            Across India, Ethios supports residential, commercial, industrial and infrastructure projects with
+            construction material solutions built for lasting performance.
           </Reveal>
         </div>
       </section>
@@ -161,8 +177,8 @@ function Scope() {
         <Reveal>
           <SectionIntro
             eyebrow="Sectors We Serve"
-            title="Construction Solutions for Every Application"
-            description="From waterproofing to structural strengthening, we provide engineered solutions backed by technical expertise and on-ground execution."
+            title="Solutions for Every Type of Construction"
+            description="From waterproofing and flooring to repair and structural strengthening, Ethios delivers construction solutions backed by technical expertise and reliable on-site support."
           />
         </Reveal>
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -191,9 +207,9 @@ function Scope() {
           <Reveal>
             <SectionIntro
               light
-              eyebrow="Why Choose Us"
-              title="Backed by Product and On-Site Expertise"
-              description="From waterproofing to structural strengthening, we provide engineered solutions backed by technical expertise and on-ground execution."
+              eyebrow="Why Ethios"
+              title="Built to Support Every Sector"
+              description="From product selection to application support, Ethios helps project teams choose the right system and use it with confidence."
             />
           </Reveal>
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:mx-auto lg:max-w-[950px] lg:grid-cols-3">
@@ -218,13 +234,13 @@ function Scope() {
           <Reveal>
             <SectionIntro
               eyebrow="Our Clients"
-              title="Trusted by Leading Names"
-              description="We are proud to work with some of the most respected developers, contractors, and consultants in the construction industry."
+              title="Trusted by Industry Leaders"
+              description="Ethios supports residential, commercial, industrial, infrastructure and institutional projects with products and technical guidance suited to real site demands."
             />
           </Reveal>
-          <div className="mt-12 grid grid-cols-2 items-center justify-items-center gap-x-6 gap-y-12 sm:grid-cols-3 lg:grid-cols-4">
+          <div className="mt-12 grid grid-cols-2 items-center justify-items-center gap-x-6 gap-y-12 sm:grid-cols-3 lg:grid-cols-5">
             {CLIENT_LOGOS.map((logo, i) => (
-              <Reveal key={logo.name} delay={(i % 4) * 80}>
+              <Reveal key={logo.name} delay={(i % 5) * 80}>
                 <GreyLogo {...logo} />
               </Reveal>
             ))}

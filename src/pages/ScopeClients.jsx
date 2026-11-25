@@ -8,8 +8,9 @@ import Testimonials from '../components/Testimonials.jsx'
 const WHY_CARDS = [
   {
     code: 'V/01',
-    title: 'Dual Expertise',
-    description: 'In both product supply & on-site technical support.',
+    title: 'Complete Project Support',
+    description:
+      'Products, application-specific solutions and on-site technical support from one team, giving you one clear relationship and single-point accountability.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <path d="M3 9.5L13 4l10 5.5-10 5.5L3 9.5z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
@@ -19,20 +20,9 @@ const WHY_CARDS = [
   },
   {
     code: 'V/02',
-    title: 'ISO-Certified Solutions',
-    description: 'Quality systems certified to ISO 9001:2015 across our plants.',
-    icon: (
-      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
-        <circle cx="13" cy="10" r="6.5" stroke="currentColor" strokeWidth="1.6" />
-        <path d="M10.5 15.5L9 23l4-2.5L17 23l-1.5-7.5" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
-        <path d="M10.7 10l1.6 1.6 3-3.2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
-    code: 'V/03',
-    title: 'Dedicated Technical Support',
-    description: 'Site execution assistance & customized solutions.',
+    title: 'Customised Technical Guidance',
+    description:
+      'Requirement-led advice and project-specific guidance, matched to your site conditions and specifications.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <path
@@ -46,14 +36,43 @@ const WHY_CARDS = [
     ),
   },
   {
+    code: 'V/03',
+    title: 'Prompt Site Support',
+    description:
+      'Hands-on application assistance and site execution support, when and where the project needs it.',
+    icon: (
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
+        <path
+          d="M13 23.5s7.5-6.6 7.5-12.5a7.5 7.5 0 0 0-15 0c0 5.9 7.5 12.5 7.5 12.5z"
+          stroke="currentColor"
+          strokeWidth="1.6"
+          strokeLinejoin="round"
+        />
+        <circle cx="13" cy="11" r="2.8" stroke="currentColor" strokeWidth="1.6" />
+      </svg>
+    ),
+  },
+  {
     code: 'V/04',
-    title: 'On-Time Delivery & Quality Assurance',
-    description: 'Even in large-scale projects.',
+    title: 'On-Time Delivery & Reliable Sourcing',
+    description: 'Dependable supply and delivery, even on large-scale projects where delays cost the most.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
         <circle cx="10.5" cy="13" r="8" stroke="currentColor" strokeWidth="1.6" />
         <path d="M10.5 8.5V13l3 2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
         <path d="M18 17.5l2.2 2.2 4-4.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    code: 'V/05',
+    title: 'Product Confidence & Quality Assurance',
+    description: 'Consistent, proven product quality, so teams can specify and apply with confidence.',
+    icon: (
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden>
+        <circle cx="13" cy="10" r="6.5" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M10.5 15.5L9 23l4-2.5L17 23l-1.5-7.5" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <path d="M10.7 10l1.6 1.6 3-3.2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -103,15 +122,12 @@ function ScopeClients() {
             Clients
           </Reveal>
           <Reveal as="h1" delay={120} className="mt-6 text-[38px] font-bold leading-tight text-cream sm:text-[48px] lg:text-[56px]">
-            Build With Ethios Group
+            Build With Ethios
           </Reveal>
           <Reveal as="p" delay={240} className="mx-auto mt-6 max-w-[1210px] text-[15px] font-medium leading-relaxed text-cream lg:text-[17px]">
-            At Ethios Group, we take immense pride in being a comprehensive construction solutions provider, seamlessly
-            blending high-performance construction products with onsite technical support. From towering residential
-            developments to state-of-the-art industrial and commercial spaces, our footprint spans across some of the most
-            iconic and demanding projects in India. Backed by our rich industry experience, expert technical support, and a
-            diversified product portfolio, we empower architects, developers, and contractors to build with strength, speed,
-            and sustainability.
+            Ethios is a trusted construction materials partner, delivering high-performance products backed by technical
+            expertise and reliable on-site support. Our solutions have been used across residential, commercial, industrial,
+            institutional, and infrastructure projects throughout India.
           </Reveal>
         </div>
       </section>
@@ -120,11 +136,15 @@ function ScopeClients() {
       <section className="bg-sand">
         <div className="mx-auto max-w-[1440px] px-6 py-[60px] lg:px-12 xl:px-[115px]">
           <Reveal>
-            <SectionIntro eyebrow="Our Journey" title="Why Choose Ethios Group for Your Clients?" />
+            <SectionIntro eyebrow="Our Journey" title="Why Project Teams Choose Ethios" />
           </Reveal>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 flex flex-wrap justify-center gap-6">
             {WHY_CARDS.map(({ code, title, description, icon }, i) => (
-              <Reveal key={code} delay={(i % 4) * 90} className="h-full">
+              <Reveal
+                key={code}
+                delay={(i % 3) * 90}
+                className="w-full sm:w-[calc(50%-12px)] lg:w-[calc((100%-48px)/3)]"
+              >
                 <article className="h-full rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-lg">
                   <span className="flex size-[50px] items-center justify-center rounded-[5px] bg-mist text-forest">{icon}</span>
                   <p className="mt-5 text-[10px] font-medium uppercase tracking-[1.5px] text-brass">{code}</p>
@@ -146,7 +166,7 @@ function ScopeClients() {
           <SectionIntro
             eyebrow="Trusted Partners"
             title="Client Network"
-            description="We are proud to be the preferred partner of real estate and infrastructure giants who trust Ethios for both reliable material supply and technical services. Our clientele includes:"
+            description="Our products and technical expertise are trusted by leading developers, contractors, consultants, and organisations across a wide range of construction projects."
           />
         </Reveal>
       </section>
@@ -157,7 +177,7 @@ function ScopeClients() {
       </Reveal>
 
       {/* Voices from the field */}
-      <Testimonials />
+      <Testimonials eyebrow="Voices From the Field" title="Trusted by India's Most Demanding Builders" />
 
       {/* Our commitment */}
       <section className="relative flex min-h-[470px] items-center justify-center overflow-hidden bg-forest py-14">
@@ -168,12 +188,12 @@ function ScopeClients() {
         />
         <div className="absolute inset-0 bg-forest/70" />
         <Reveal className="relative mx-6 max-w-[980px] px-6 py-12 text-center text-cream">
-          <p className="text-[15px] font-medium uppercase">Ethios Group</p>
-          <h2 className="mt-2 text-[30px] font-bold capitalize leading-tight lg:text-[40px]">Our Commitment</h2>
+          <p className="text-[15px] font-medium uppercase">Our Commitment</p>
+          <h2 className="mt-2 text-[30px] font-bold leading-tight lg:text-[40px]">Our Promise to Every Project</h2>
           <p className="mx-auto mt-5 max-w-[840px] text-[15px] font-medium leading-relaxed lg:text-[17px]">
-            We believe in delivering more than just materials. We deliver solutions. With a team of trained professionals,
-            in-house applicators, and a deep understanding of on-site challenges, we make sure every project is executed to
-            perfection.
+            We believe in delivering more than just construction materials. We provide complete solutions backed by technical
+            expertise, trained professionals, and hands-on project support. By understanding real site conditions, we help
+            ensure every product is applied correctly and performs as intended.
           </p>
         </Reveal>
       </section>

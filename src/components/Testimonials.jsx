@@ -23,7 +23,7 @@ const TESTIMONIALS = [
   {
     quote:
       '“Their technical team was on site within a day of our call. Specification support like this is rare in this industry.”',
-    initials: 'RM',
+    initials: 'AJ',
     name: 'Andesh Jain',
     role: 'Director, Wagad Buildcon',
   },
@@ -43,7 +43,10 @@ const TESTIMONIALS = [
   },
 ]
 
-function Testimonials() {
+function Testimonials({
+  eyebrow = 'Proven in Practice',
+  title = <>Trusted on India&rsquo;s most complex projects</>,
+}) {
   const [index, setIndex] = useState(2)
   const [paused, setPaused] = useState(false)
   const { quote, initials, name, role } = TESTIMONIALS[index]
@@ -61,9 +64,9 @@ function Testimonials() {
     <section className="bg-mist">
       <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-6 py-[87px] lg:grid-cols-[455px_1fr] lg:px-12 xl:px-[115px]">
         <Reveal x={-28} y={0}>
-          <p className="text-[15px] font-medium uppercase text-forest">Proven in Practice</p>
+          <p className="text-[15px] font-medium uppercase text-forest">{eyebrow}</p>
           <h2 className="mt-1 text-[30px] font-bold capitalize leading-[1.28] text-forest lg:text-[40px]">
-            Trusted on India&rsquo;s most complex projects
+            {title}
           </h2>
 
           <div className="mt-12 flex items-center gap-3">
