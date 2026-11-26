@@ -18,8 +18,8 @@ function SectorsHero() {
           Sectors We Serve
         </Reveal>
         <Reveal as="p" delay={240} className="mx-auto mt-6 max-w-[1170px] text-[17px] font-medium text-cream lg:text-[20px]">
-          From homes and offices to factories and public infrastructure — Ethios materials
-          strengthen every kind of structure across India.
+          From residential developments to large-scale infrastructure, Ethios delivers reliable
+          construction solutions backed by technical expertise and consistent quality.
         </Reveal>
       </div>
     </section>

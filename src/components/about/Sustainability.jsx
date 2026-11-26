@@ -11,7 +11,7 @@ const PILLARS = [
   },
   {
     title: 'Green Building',
-    description: 'Products that contribute to IGBC and GRIHA certification credits.',
+    description: 'Products that contribute to IGBC, LEED and GRIHA certification credits.',
   },
 ]
 
@@ -21,8 +21,8 @@ function Sustainability() {
       <div className="mx-auto max-w-[1440px] px-6 py-[58px] lg:px-12 xl:px-[115px]">
         <Reveal className="text-center">
           <p className="text-[15px] font-medium uppercase text-cream">Sustainability</p>
-          <h2 className="mt-1 text-[30px] font-bold capitalize text-cream lg:text-[40px]">
-            Sustainability
+          <h2 className="mt-1 text-[30px] font-bold text-cream lg:text-[40px]">
+            Built to Perform. Made with the Future in Mind.
           </h2>
           <p className="mx-auto mt-4 max-w-[973px] text-[15px] font-medium text-cream">
             Ethios is committed to sustainable construction through durable materials that extend

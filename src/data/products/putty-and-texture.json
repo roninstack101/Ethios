@@ -4,29 +4,39 @@
  "heroImage": "/assets/products/putty-hero.png",
  "products": [
   {
-   "name": "Sikagard-694 F(I)",
-   "image": "/assets/products/putty-and-texture-01.png",
-   "description": "Sikagard-694 F(I) is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
-  },
-  {
    "name": "Durowhite Plaster",
-   "image": "/assets/products/putty-and-texture-02.png",
-   "description": "Durowhite Plaster is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+   "image": "/assets/products/putty-and-texture-01.png",
+   "description": "Durowhite Plaster is a premium-grade, white cement-based wall plaster ideal for interior and exterior applications. It provides a smooth, crack-free, and paint-ready surface with superior bonding and water resistance. Perfect for modern construction, it ensures excellent finish, workability, and long-term durability."
   },
   {
-   "name": "Dampshield Wall",
+   "name": "Dampshield Wall Putty",
+   "image": "/assets/products/putty-and-texture-02.png",
+   "description": "Dampshield Wall Putty (20 Kg) is a high-performance, white cement-based putty specially formulated to resist dampness and efflorescence on interior and exterior walls. It provides a smooth, water-resistant, and paint-ready surface with superior adhesion and durability. Ideal for long-lasting wall protection in all weather conditions."
+  },
+  {
+   "name": "Cretex Rustique",
    "image": "/assets/products/putty-and-texture-03.png",
-   "description": "Dampshield Wall is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+   "description": "Cretex Rustique is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
   },
   {
    "name": "Cretex Perlina",
    "image": "/assets/products/putty-and-texture-04.png",
-   "description": "Cretex Perlina is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+   "description": "CRETEX PERLINA is a fine-grain decorative wall coating formulated to create a smooth, natural stone-like textured finish. Designed for both interior and exterior applications, it produces a soft, uniform pattern that enhances the appearance of surfaces while maintaining a light, refined visual appeal."
   },
   {
-   "name": "Cretex Rustique",
+   "name": "Wall Primer",
    "image": "/assets/products/putty-and-texture-05.png",
-   "description": "Cretex Rustique is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+   "description": "Wall Primer is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Wetlock",
+   "image": "/assets/products/putty-and-texture-06.png",
+   "description": "Wetlock is a wall putty / texture solution from Ethios that creates smooth, even surfaces as a durable base for paint finishes. Contact our technical team for the data sheet and coverage details."
+  },
+  {
+   "name": "Sikagard®-694 F(I)",
+   "image": "/assets/products/putty-and-texture-07.png",
+   "description": "Sikagard-694 F(I), Component A is a high-performance epoxy-based sealing system used for concrete protection and structural waterproofing. Formulated as a durable paste, it offers excellent adhesion, chemical resistance, and long-lasting barrier properties. Ideal for industrial, infrastructure, and marine applications requiring superior protective coatings."
   }
  ]
 }

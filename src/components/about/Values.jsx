@@ -17,17 +17,17 @@ const VALUES = [
   },
   {
     code: 'V/03',
-    title: 'Technical Rigor',
+    title: 'Technical Rigour',
     icon: '/assets/icon-value-rigor.svg',
     description:
-      'Independent testing, batch quality control, and continuous R&D ensure consistent product excellence.',
+      'Independent testing, batch quality control, and continuous R&D, so performance stays consistent, batch after batch.',
   },
   {
     code: 'V/04',
     title: 'Application Expertise',
     icon: '/assets/icon-value-application.svg',
     description:
-      'We understand construction sites. Our products are designed for real-world application challenges.',
+      'We understand construction sites, not just formulations. Our products are built for real-world application, not ideal conditions.',
   },
   {
     code: 'V/05',

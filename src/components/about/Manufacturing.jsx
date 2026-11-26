@@ -5,19 +5,19 @@ const CAPABILITIES = [
     title: 'Manufacturing',
     icon: '/assets/icon-mfg-factory.svg',
     description:
-      'ISO 9001:2015 certified manufacturing facilities with automated batching, quality testing laboratories, and traceability systems.',
+      'Our ISO 9001:2015 certified facilities combine automated production, in-house quality testing, and end-to-end batch traceability to ensure consistent performance across every product that leaves our plants.',
   },
   {
     title: 'R&D Laboratory',
     icon: '/assets/icon-mfg-lab.svg',
     description:
-      'In-house formulation development, performance testing, and product improvement driven by application feedback.',
+      'From formulation development to performance validation, our in-house R&D teams continuously refine products based on evolving technologies and real-world site feedback.',
   },
   {
     title: 'Logistics Network',
     icon: '/assets/icon-mfg-logistics.svg',
     description:
-      'PAN India distribution with regional warehouses ensuring consistent product availability and timely delivery.',
+      'A robust pan-India distribution network and strategically located warehouses ensure that products are delivered where and when they’re needed.',
   },
 ]
 

@@ -5,7 +5,7 @@ import { slugify } from '../../data/solutionDetails.js'
 
 const CATEGORIES = [
   'All',
-  'New Construction Waterproofing',
+  'Waterproofing',
   'Repair & Rehabilitation',
   'Industrial Flooring & Sealants',
   'Thermal Insulation',
@@ -16,143 +16,146 @@ const CATEGORIES = [
 const SOLUTIONS = [
   {
     title: 'New Construction Waterproofing',
-    category: 'New Construction Waterproofing',
+    category: 'Waterproofing',
     image: '/assets/sol-new-construction.png',
     description:
-      'Build with confidence. Ethios Group delivers advanced waterproofing solutions from day one to protect structures from leaks, dampness, and water damage.',
+      'Build with confidence. Ethios delivers advanced waterproofing solutions from day one to protect structures from leaks, dampness, and water damage.',
+  },
+  {
+    title: 'Liquid Membranes',
+    category: 'Waterproofing',
+    image: '/assets/sol-liquid-membranes-v2.jpg',
+    description:
+      "Ethios delivers seamless liquid-applied waterproofing systems, including cementitious, acrylic, PU, and polyurea coatings, selected to suit every project's needs.",
+  },
+  {
+    title: 'Preformed Sheet Membranes',
+    slug: 'sheet-membranes',
+    category: 'Waterproofing',
+    image: '/assets/sol-sheet-membranes-v2.jpg',
+    description:
+      'Sheet membrane systems provide durable, high-strength waterproofing with long-term water resistance. Ethios supplies and installs HDPE, APP, SBS, and TPO membranes tailored to diverse construction needs.',
+  },
+  {
+    title: 'Basement Waterproofing',
+    category: 'Waterproofing',
+    image: '/assets/sol-basement-v2.jpg',
+    description:
+      'Basements are highly susceptible to groundwater seepage and hydrostatic pressure. Ethios provides advanced waterproofing solutions that protect against dampness, leaks, and structural deterioration.',
+  },
+  {
+    title: 'Podium & Terrace Waterproofing',
+    category: 'Waterproofing',
+    image: '/assets/sol-podium-terrace-v2.jpg',
+    description:
+      'Podiums and terraces face constant exposure to weather and temperature changes, making them prone to leaks and surface deterioration. Ethios provides specialized waterproofing systems for long-lasting protection and performance.',
   },
   {
     title: 'Repair & Rehabilitation Waterproofing',
-    category: 'New Construction Waterproofing',
-    image: '/assets/sol-repair-rehab-wp.png',
+    category: 'Waterproofing',
+    image: '/assets/sol-repair-rehab-wp-v2.jpg',
     description:
       'Our Repair & Rehabilitation Waterproofing solutions restore aging structures by resolving leaks, dampness, cracks, and the underlying causes of deterioration.',
   },
   {
-    title: 'Liquid Membranes',
-    category: 'New Construction Waterproofing',
-    image: '/assets/sol-liquid-membranes.png',
-    description:
-      "Ethios Group delivers seamless liquid-applied waterproofing systems, including cementitious, acrylic, PU, and polyurea coatings, selected to suit every project's needs.",
-  },
-  {
-    title: 'Sheet Membranes',
-    category: 'New Construction Waterproofing',
-    image: '/assets/sol-sheet-membranes.png',
-    description:
-      'Sheet membrane systems provide durable, high-strength waterproofing with long-term water resistance. Ethios Group supplies and installs APP, SBS, HDPE, and TPO membranes tailored to diverse construction needs.',
-  },
-  {
-    title: 'Basement Waterproofing',
-    category: 'New Construction Waterproofing',
-    image: '/assets/sol-basement.png',
-    description:
-      'Basements are highly susceptible to groundwater seepage and hydrostatic pressure. Ethios Group provides advanced waterproofing solutions that protect against dampness, leaks, and structural deterioration.',
-  },
-  {
-    title: 'Podium & Terrace Waterproofing',
-    category: 'New Construction Waterproofing',
-    image: '/assets/sol-podium-terrace.png',
-    description:
-      'Podiums and terraces face constant exposure to weather and temperature changes, making them prone to leaks and surface deterioration. Ethios Group provides specialized waterproofing systems for long-lasting protection and performance.',
-  },
-  {
     title: 'Structural Strengthening',
     category: 'Repair & Rehabilitation',
-    image: '/assets/sol-structural.png',
+    image: '/assets/sol-structural-v2.jpg',
     description:
-      'Aging, damaged, or overloaded structures require reliable reinforcement. Ethios Group delivers advanced structural strengthening solutions that restore load-bearing capacity and extend service life with minimal disruption.',
+      'Aging, damaged, or overloaded structures require reliable rehabilitation. Ethios delivers advanced structural strengthening solutions that restore load-bearing capacity and extend service life with minimal disruption.',
   },
   {
     title: 'Crack Injection Grouting',
     category: 'Repair & Rehabilitation',
-    image: '/assets/sol-crack-injection.png',
+    image: '/assets/sol-crack-injection-v2.jpg',
     description:
-      'Concrete cracks can compromise structural safety and durability. Ethios Group provides advanced crack injection grouting solutions that seal cracks, restore structural integrity, and prevent further deterioration.',
+      'Concrete cracks can compromise structural safety and durability. Ethios provides advanced crack injection grouting solutions that seal cracks, restore structural integrity, and prevent further deterioration.',
   },
   {
     title: 'Surface Restoration',
     category: 'Repair & Rehabilitation',
     image: '/assets/sol-surface-restoration.png',
     description:
-      "Water damage and weather exposure can lead to cracks, dampness, and surface deterioration. Ethios Group's Surface Restoration solutions repair, protect, and renew surfaces while addressing the root cause for lasting performance.",
+      "Ageing, water damage and weather exposure can lead to cracks, dampness, and surface deterioration. Ethios's Surface Protection & Restoration solutions repair, protect, and renew surfaces while addressing the root cause for lasting performance.",
   },
   {
     title: 'Anti-Corrosion Treatment',
     category: 'Repair & Rehabilitation',
     image: '/assets/sol-anti-corrosion.png',
     description:
-      'Reinforced concrete is vulnerable to corrosion caused by moisture and chemical exposure. Ethios Group provides advanced anti-corrosion treatments that protect steel reinforcement and extend structural life.',
+      'Reinforced concrete is vulnerable to corrosion caused by moisture and chemical exposure. Ethios provides advanced anti-corrosion treatments that protect steel reinforcement and extend structural life.',
   },
   {
     title: 'Epoxy Flooring Systems',
     category: 'Industrial Flooring & Sealants',
     image: '/assets/sol-epoxy-flooring.png',
     description:
-      "Ethios Group's epoxy flooring systems deliver high-strength, chemical-resistant, and hygienic surfaces with a durable, seamless finish for demanding industrial and commercial environments.",
+      "Ethios's epoxy flooring systems deliver high-strength, chemical-resistant, and hygienic surfaces with a durable, seamless finish for demanding industrial and commercial environments.",
   },
   {
     title: 'PU (Polyurethane) Flooring System',
     category: 'Industrial Flooring & Sealants',
     image: '/assets/sol-pu-flooring.png',
     description:
-      "Ethios Group's PU flooring systems provide durable, flexible, and chemical-resistant surfaces that withstand extreme temperatures, heavy traffic, and demanding industrial environments.",
+      "Ethios's PU flooring systems provide durable, flexible, and chemical-resistant surfaces that withstand extreme temperatures, heavy traffic, and demanding industrial environments.",
   },
   {
     title: 'Polysulphide Sealants',
+    slug: 'polysulphide-polyurethane-sealants',
     category: 'Industrial Flooring & Sealants',
     image: '/assets/sol-polysulphide.png',
     description:
-      "Ethios Group's polysulphide sealants provide durable, flexible, and water-resistant joint sealing for long-lasting performance in demanding structural and industrial applications.",
+      "Ethios's polysulphide sealants provide durable, flexible, and water-resistant joint sealing for long-lasting performance in demanding structural and industrial applications.",
   },
   {
     title: 'Polyurethane (PU) Sealants',
+    slug: 'polysulphide-polyurethane-sealants',
     category: 'Industrial Flooring & Sealants',
     image: '/assets/sol-pu-sealants.png',
     description:
-      "Ethios Group's PU sealants provide flexible, high-performance joint sealing with excellent adhesion and weather resistance for long-lasting protection in dynamic structures.",
+      "Ethios's PU sealants provide flexible, high-performance joint sealing with excellent adhesion and weather resistance for long-lasting protection in dynamic structures.",
   },
   {
     title: 'Heavy-Duty Floor Coatings',
     category: 'Industrial Flooring & Sealants',
     image: '/assets/sol-heavy-duty.png',
     description:
-      "Ethios Group's heavy-duty floor coatings provide seamless, abrasion- and chemical-resistant surfaces designed to withstand demanding industrial environments while enhancing durability and safety.",
+      "Ethios's heavy-duty floor coatings provide seamless, abrasion and chemical-resistant surfaces designed to withstand demanding industrial environments while enhancing durability and safety.",
   },
   {
     title: 'PUF Spray Insulation',
     category: 'Thermal Insulation',
     image: '/assets/sol-puf-spray.png',
     description:
-      "Ethios Group's PUF spray insulation creates a seamless, joint-free thermal barrier that improves energy efficiency and indoor comfort across industrial and commercial applications.",
+      "Ethios's PUF spray insulation creates a seamless, joint-free thermal barrier that improves energy efficiency and indoor comfort across industrial and commercial applications.",
   },
   {
     title: 'PUF Board Insulation',
     category: 'Thermal Insulation',
     image: '/assets/sol-puf-board.png',
     description:
-      "Ethios Group's PUF board insulation systems provide superior thermal performance, dimensional stability, and easy installation for industrial and commercial applications.",
+      "Ethios's PUF board insulation systems provide superior thermal performance, dimensional stability, and easy installation for industrial and commercial applications.",
   },
   {
     title: 'XPS Insulation Board',
     category: 'Thermal Insulation',
     image: '/assets/sol-xps.png',
     description:
-      "Ethios Group's XPS insulation boards deliver superior thermal performance, moisture resistance, and high compressive strength for long-lasting insulation.",
+      "Ethios's XPS insulation boards deliver superior thermal performance, moisture resistance, and high compressive strength for long-lasting insulation.",
   },
   {
     title: 'EPS Insulation Board',
     category: 'Thermal Insulation',
     image: '/assets/sol-eps.png',
     description:
-      "Ethios Group's EPS insulation boards provide lightweight, cost-effective thermal insulation with reliable performance for residential, commercial, and industrial applications.",
+      "Ethios's EPS insulation boards provide lightweight, cost-effective thermal insulation with reliable performance for residential, commercial, and industrial applications.",
   },
   {
     title: 'Insulation Screed Concrete',
     category: 'Thermal Insulation',
     image: '/assets/sol-screed.png',
     description:
-      "Ethios Group's insulation screed concrete provides lightweight thermal insulation and sound dampening while enhancing energy efficiency and reducing structural load.",
+      "Ethios's insulation screed concrete provides lightweight thermal insulation and sound dampening while enhancing energy efficiency and reducing structural load.",
   },
   {
     title: 'Insulation Coating',
@@ -166,11 +169,11 @@ const SOLUTIONS = [
     category: 'Tile Joint Fillers',
     image: '/assets/sol-tile-joint.png',
     description:
-      "Ethios Group's epoxy tile grouts provide superior bonding, chemical resistance, and a seamless finish for durable, hygienic, and high-performance tiled surfaces.",
+      "Ethios's epoxy tile grouts provide superior bonding, chemical resistance, and a seamless finish for durable, hygienic, and high-performance tiled surfaces.",
   },
 ]
 
-function SolutionCard({ title, category, image, description }) {
+function SolutionCard({ title, slug, category, image, description }) {
   return (
     <article className="group flex h-[494px] flex-col rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
       <div className="relative h-[205px] shrink-0 overflow-hidden rounded-[10px]">
@@ -187,7 +190,7 @@ function SolutionCard({ title, category, image, description }) {
       <p className="mt-2 text-[15px] leading-normal text-[#414141]">{description}</p>
       <div className="mt-auto border-t border-line pt-5">
         <Link
-          to={`/solutions/${slugify(title)}`}
+          to={`/solutions/${slug || slugify(title)}`}
           className="inline-flex h-10 items-center gap-2 rounded-full border border-forest px-5 text-[15px] font-medium uppercase text-forest transition-colors hover:bg-forest hover:text-cream"
         >
           Know More

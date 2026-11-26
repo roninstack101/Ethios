@@ -18,8 +18,8 @@ function SolutionsHero() {
           Solutions for Every Site Condition
         </Reveal>
         <Reveal as="p" delay={240} className="mx-auto mt-6 max-w-[848px] text-[17px] font-medium text-cream lg:text-[20px]">
-          Application-specific products and systems backed by technical expertise, quality
-          manufacturing, and proven performance across thousands of projects.
+          Products, application-specific solutions and technical support for waterproofing, repair,
+          flooring, insulation and surface protection across a wide range of site conditions.
         </Reveal>
       </div>
     </section>

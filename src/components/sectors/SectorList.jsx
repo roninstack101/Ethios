@@ -1,63 +1,107 @@
 import { Reveal } from '../ui.jsx'
 
+/* Residential and commercial share the same key solutions list. */
+const BUILDING_SOLUTIONS = [
+  'Waterproofing systems',
+  'Tile adhesives',
+  'Structural repairs',
+  'Flooring solutions',
+  'Concrete admixtures',
+  'Wall putty',
+  'Textures',
+  'Car park systems',
+  'Thermal insulation',
+]
+
+const HEAVY_DUTY_SOLUTIONS = [
+  'Waterproofing systems',
+  'Tile adhesives',
+  'Structural repairs',
+  'Flooring solutions',
+  'Concrete admixtures',
+  'Wall putty',
+  'Textures',
+  'Epoxy & PU floor coatings',
+  'Thermal insulation',
+  'Joint sealants',
+]
+
 const SECTORS = [
   {
     title: 'Residential',
     description:
-      'From high-rise apartments and luxury villas to large-scale townships and affordable housing developments, Ethios provides comprehensive construction solutions for the residential sector. Our systems address waterproofing, flooring, tile installation, and structural repair needs across diverse residential project types.',
+      'From high-rise apartments and townships to luxury villas and affordable housing, Ethios supports critical stages of residential construction with admixtures, waterproofing, tile installation, flooring and structural repair systems.',
     image: '/assets/sector-residential.png',
-    projectTypes: ['High-rise apartments', 'Gated villas', 'Townships', 'Affordable housing'],
-    keySolutions: ['Waterproofing systems', 'Tile adhesives', 'Structural repairs', 'Flooring solutions'],
+    projectTypes: ['High-rise apartments', 'Gated villas', 'Townships', 'Affordable housing', 'Luxury residences'],
+    keySolutions: BUILDING_SOLUTIONS,
   },
   {
     title: 'Commercial',
     description:
-      'Office complexes, retail spaces, hospitality projects, and mixed-use developments demand solutions that balance aesthetics with performance. Ethios delivers waterproofing, flooring, and finishing solutions that meet the high-traffic, durability, and visual requirements of commercial spaces.',
+      'Ethios offers construction solutions for office buildings, retail spaces, hotels, and mixed-use developments. Our products are designed to deliver long-lasting performance, durability, and high-quality finishes in demanding commercial environments.',
     image: '/assets/sector-commercial.png',
     projectTypes: ['Office complexes', 'Retail spaces', 'Hotels', 'Mixed-use developments'],
-    keySolutions: ['Industrial flooring', 'Waterproofing membranes', 'Sealants & coatings', 'Surface protection'],
+    keySolutions: BUILDING_SOLUTIONS,
   },
   {
     title: 'Industrial',
     description:
-      'Manufacturing plants, warehouses, power facilities, and processing units require construction solutions that withstand heavy loads, chemical exposure, and continuous operations. Our industrial flooring, waterproofing, and repair systems are engineered for demanding environments.',
+      'Manufacturing plants, warehouses, logistics parks, power plants and processing facilities face heavy use and harsh conditions. Ethios provides flooring, coating, sealing and strengthening systems designed for dependable long-term performance.',
     image: '/assets/sector-industrial.png',
     projectTypes: ['Manufacturing plants', 'Warehouses', 'Power plants', 'Processing units'],
-    keySolutions: ['Epoxy flooring', 'Chemical-resistant coatings', 'Structural strengthening', 'Joint sealants'],
+    keySolutions: HEAVY_DUTY_SOLUTIONS,
   },
   {
     title: 'Infrastructure',
     description:
-      'Bridges, roads, water treatment facilities, and public infrastructure projects require long-lasting, high-performance construction solutions. Ethios supplies specialized materials for concrete repair, waterproofing, and protective coatings that extend the service life of critical infrastructure.',
+      'Ethios delivers construction solutions for bridges, roads, water treatment facilities, and other public infrastructure projects. Our products are designed to improve durability, protect structures from environmental exposure, and support long-term performance in demanding conditions.',
     image: '/assets/sector-infrastructure.png',
-    projectTypes: ['Bridges & flyovers', 'Roads & highways', 'Water treatment facilities', 'Public buildings'],
-    keySolutions: ['Concrete repair', 'Bridge deck waterproofing', 'Protective coatings', 'Expansion joint systems'],
+    projectTypes: [
+      'Bridges & flyovers',
+      'Roads & highways',
+      'Water treatment facilities',
+      'Public buildings',
+      'Airports',
+      'Ports',
+    ],
+    keySolutions: HEAVY_DUTY_SOLUTIONS,
   },
   {
     title: 'Institutional',
     description:
-      'Schools, hospitals, government buildings, and cultural institutions have specific requirements for safety, durability, and compliance. Ethios provides certified solutions that meet the stringent standards of institutional construction projects.',
+      'Ethios provides construction solutions for schools, hospitals, government buildings, and cultural institutions. Our products are designed to meet the performance, durability, and quality standards required for institutional projects while ensuring long-lasting protection and reliability.',
     image: '/assets/sector-institutional.png',
-    projectTypes: ['Educational institutions', 'Healthcare facilities', 'Government buildings', 'Cultural centers'],
-    keySolutions: ['Hygienic flooring', 'Waterproofing', 'Repair systems', 'Tile installation'],
+    projectTypes: ['Educational institutions', 'Healthcare facilities', 'Government buildings', 'Cultural centres'],
+    keySolutions: [
+      'Hygienic flooring',
+      'Waterproofing',
+      'Repair systems',
+      'Tile adhesives',
+      'Self-levelling micro toppings',
+      'Thermal insulation',
+    ],
   },
 ]
 
 function InfoCard({ heading, items, dark = false }) {
+  /* Long lists (e.g. key solutions) get a wider card split into two columns. */
+  const wide = items.length > 6
   return (
     <div
-      className={`min-h-[150px] w-[240px] shrink-0 rounded-[15px] p-4 ${
+      className={`min-h-[150px] w-full shrink-0 rounded-[15px] p-4 ${wide ? 'sm:w-[400px]' : 'sm:w-[240px]'} ${
         dark ? 'bg-forest' : 'border border-line bg-card'
       }`}
     >
       <p className={`text-[18px] font-semibold ${dark ? 'text-gold' : 'text-forest'}`}>{heading}</p>
       <ul
-        className={`mt-2 list-disc pl-[15px] text-[14px] font-medium leading-[1.7] ${
+        className={`mt-2 list-disc pl-[15px] text-[14px] font-medium leading-[1.7] ${wide ? 'sm:columns-2 sm:gap-x-8' : ''} ${
           dark ? 'text-cream' : 'text-smoke'
         }`}
       >
         {items.map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} className="break-inside-avoid">
+            {item}
+          </li>
         ))}
       </ul>
     </div>

@@ -8,7 +8,7 @@ const SOLUTIONS = [
       'Comprehensive waterproofing systems for basements, roofs, wet areas, and structural protection.',
     tags: ['Roof', 'Basement', 'Wet Areas', 'Pools', 'Facades'],
     image: '/assets/solution-waterproofing.png',
-    category: 'New Construction Waterproofing',
+    category: 'Waterproofing',
   },
   {
     title: 'Repair & Rehabilitation',

@@ -4,89 +4,74 @@
  "heroImage": "/assets/products/expansion-hero.png",
  "products": [
   {
-   "name": "AP-5670 HDPE Sheet – 80",
-   "image": "/assets/products/expansion-joint-and-other-accessories-01.png",
-   "description": "AP-5670 HDPE Sheet – 80 is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
-  },
-  {
-   "name": "AP HDPE 80 Heatweld",
-   "image": "/assets/products/expansion-joint-and-other-accessories-02.png",
-   "description": "AP HDPE 80 Heatweld is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
-  },
-  {
    "name": "Backer Rod 6MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-03.png",
-   "description": "Backer Rod 6MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-01.png",
+   "description": "6 mm Backer Rod is a closed-cell polyethylene foam ideal for narrow joints in window glazing, doors, and partitions. It prevents sealant adhesion at the base, ensures proper tooling, and provides insulation. Supplied in custom lengths, with excellent flexibility, and resistant to water, oil, and chemicals"
   },
   {
    "name": "Backer Rod 10MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-04.png",
-   "description": "Backer Rod 10MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-01.png",
+   "description": "10 mm Backer Rod is a compressible, closed-cell PE foam ideal for sealant backing in medium width joints, including pre-cast units and pavement repairs. It ensures optimal sealant bond break and wetting. Chemically inert, non-staining, and supplied in dark grey with 32 kg/m³ density."
   },
   {
    "name": "Backer Rod 20MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-05.png",
-   "description": "Backer Rod 20MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-01.png",
+   "description": "20 mm Backer Rod provides an effective bond breaker and insulator for expansion joints in construction, partitions, and log homes. Made of closed-cell polyethylene foam, it fits joint widths of 15–20 mm, with excellent resistance to water, oil, and most solvents. Flexible and easy to install."
   },
   {
    "name": "Backer Rod 30MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-06.png",
-   "description": "Backer Rod 30MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-01.png",
+   "description": "30 mm Backer Rod is designed for wide construction joints, glazing, and infrastructure works, offering high compressibility and sealant support. It prevents three-sided adhesion and maintains joint insulation. Resistant to chemicals and supplied in rolls with tensile strength of 50 PSI."
   },
   {
    "name": "EPE Sheet - 25 MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-07.png",
-   "description": "EPE Sheet - 25 MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-02.png",
+   "description": "EPE Sheet – 25 mm is a semi-closed cell polyethylene foam ideal for light-duty construction applications such as expansion joint filler, tile cushioning, and surface protection. It offers excellent flexibility, compressibility, and water resistance, with a density of 28–30 kg/m³, thermal conductivity of 0.033 W/m·K, and working temperature from -40°C to +75°C."
   },
   {
    "name": "EPE Sheet - 75 MM",
-   "image": "/assets/products/expansion-joint-and-other-accessories-08.png",
-   "description": "EPE Sheet - 75 MM is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-03.png",
+   "description": "EPE Sheet – 75 mm is a high-thickness polyethylene foam designed for heavy-duty construction site needs like slab edge protection, expansion joints, and vibration isolation. It provides superior compressibility, chemical resistance, and insulation, with density 28–30 kg/m³, thermal conductivity 0.033 W/m·K, and a usage range of -40°C to +75°C."
   },
   {
-   "name": "SikaSwell-912",
-   "image": "/assets/products/expansion-joint-and-other-accessories-09.png",
-   "description": "SikaSwell-912 is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "name": "SikaSwell®-912",
+   "image": "/assets/products/expansion-joint-and-other-accessories-04.png",
+   "description": "SIKASWELL®-912 is a one-component, moisture-curing swelling paste sealant that expands up to 250% upon contact with water, forming a watertight barrier in construction joints, pipe penetrations, and concrete interfaces. It bonds to concrete, steel, and plastics, and offers chemical and saline resistance. Supplied in 310 ml cartridges, with a shelf life of 9 months, and suitable for applications between +5°C to +40°C."
   },
   {
-   "name": "SikaDur®-32 LP",
-   "image": "/assets/products/expansion-joint-and-other-accessories-10.png",
-   "description": "SikaDur®-32 LP is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "name": "Sikadur®-32 LP",
+   "image": "/assets/products/expansion-joint-and-other-accessories-05.png",
+   "description": "Sikadur®-32 LP IN is a two-component, solvent-free epoxy bonding agent ideal for structural bonding of concrete, stone, metals, masonry, wood, and more. It offers high mechanical strength, long pot life, and superior adhesion even on damp substrates. Supplied in 6 kg and 30 kg kits, with a shelf life of 12 months, and compliant with ASTM C881-78 Type II, Grade 2, Class B+C."
   },
   {
-   "name": "Hryso Swellseal",
-   "image": "/assets/products/expansion-joint-and-other-accessories-11.png",
-   "description": "Hryso Swellseal is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
-  },
-  {
-   "name": "Preprufe 1.5W Membrane",
-   "image": "/assets/products/expansion-joint-and-other-accessories-12.png",
-   "description": "Preprufe 1.5W Membrane is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
-  },
-  {
-   "name": "Dr. Fixit Epoxy Bonding",
-   "image": "/assets/products/expansion-joint-and-other-accessories-13.png",
-   "description": "Dr. Fixit Epoxy Bonding is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "name": "Chryso® Swellseal",
+   "image": "/assets/products/expansion-joint-and-other-accessories-06.png",
+   "description": "CHRYSO® SWELLSEAL is a hydro-swelling joint sealant strip designed to expand up to 3 times its volume upon water contact, effectively sealing construction joints, cold joints, pipe penetrations, and precast concrete elements. It offers reversible swelling, exceptional flexibility, and chemical resistance. Supplied in sizes like 20×5 mm, 20×6 mm, 20×10 mm, and 10×3 mm, with a shelf life of 12 months."
   },
   {
    "name": "Dr. Fixit Polybar Plus",
-   "image": "/assets/products/expansion-joint-and-other-accessories-14.png",
-   "description": "Dr. Fixit Polybar Plus is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-07.png",
+   "description": "POLYBAR+ 20x5 mm is a hydrophilic waterstop made from synthetic rubber, designed for sealing construction joints in concrete structures. It expands up to 500% in rainwater and 400% in concrete water, providing durable watertight protection even after multiple wet-dry cycles. Resistant to chemicals and weather, it performs in temperatures from -20°C to +75°C and is supplied in 10 m rolls (5 rolls per box)."
   },
   {
    "name": "PVC Water Stopper",
-   "image": "/assets/products/expansion-joint-and-other-accessories-15.png",
-   "description": "PVC Water Stopper is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-08.png",
+   "description": "High-Performance Joint Seal Strip – 200 mm × 8 mm is engineered to protect concrete structures by sealing construction and expansion joints against water ingress. It delivers excellent tensile strength (13 MPa), 300% elongation, and high tear resistance (38.6 N/mm), with low water absorption and superior flexibility. Supplied in 25-meter rolls, ideal for slabs, basements, tanks, and retaining walls."
+  },
+  {
+   "name": "Dr. Fixit Epoxy Bonding",
+   "image": "/assets/products/expansion-joint-and-other-accessories-09.png",
+   "description": "Dr. Fixit Epoxy Bonding Agent is a two-component, solvent-free epoxy adhesive formulated for bonding old to new concrete, bricks, tiles, and steel components. With excellent adhesion, chemical resistance, and a pot life of 30–50 minutes, it forms a high-strength, moisture-tolerant bond. Supplied in 1 kg packs, with a shelf life of 24 months, and conforms to ASTM C881 & BS 6319 standards."
   },
   {
    "name": "Technonicol Ultraflex",
-   "image": "/assets/products/expansion-joint-and-other-accessories-16.png",
-   "description": "Technonicol Ultraflex is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-10.png",
+   "description": "TECHNONICOL ULTRAFLEX SA 7000-X is a self-adhesive, carrier-less SBS-modified bitumen membrane designed for waterproofing foundations and protecting against radon ingress. With high elongation (≥800%), excellent self-healing, and dimensional stability, it ensures long-lasting waterproofing in tough site conditions. Supplied in rolls of 1 m x 20 m with 1.5 mm thickness and 12-month shelf life, it performs reliably even at temperatures down to -15°C."
   },
   {
    "name": "Vapor Barrier",
-   "image": "/assets/products/expansion-joint-and-other-accessories-17.png",
-   "description": "Vapor Barrier is an expansion-joint accessory from Ethios that accommodates structural movement and helps prevent cracks and water ingress. Contact our technical team for specifications and installation guidance."
+   "image": "/assets/products/expansion-joint-and-other-accessories-11.png",
+   "description": "TECHNONICOL VAPOR BARRIER is a high-performance self-adhesive SBS-modified bitumen membrane reinforced with a glass net and protected by aluminum foil. Ideal for flat roof insulation systems, it ensures exceptional vapor control, peel resistance (≥50 N/50mm), and tensile strength (600±120 N/50mm), even in extreme temperatures down to -25°C. Supplied in rolls of 1.08 m × 50 m, with a shelf life of 12 months."
   }
  ]
 }

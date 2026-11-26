@@ -68,12 +68,18 @@ const OEM_SERVICES = {
         image: "/assets/oem-wp-2.png",
       },
       {
-        title: "Solar Reflective & Bituminous Coatings",
+        title: "Solar Reflective",
         description: [
           "Our solar reflective coatings help reduce surface temperatures and minimise heat absorption, making them ideal for terraces and industrial roofs.",
-          "Our bituminous coatings create a seamless, flexible layer that helps seal cracks and protects concrete surfaces from water penetration and weather exposure. We can develop water-based bitumen emulsions, rubber-modified coatings, protective coatings and primers based on the required application and substrate conditions.",
         ],
         image: "/assets/oem-wp-3.png",
+      },
+      {
+        title: "Bituminous Coatings",
+        description: [
+          "Our bituminous coatings create a seamless, flexible layer that helps seal cracks and protects concrete surfaces from water penetration and weather exposure. We can develop water-based bitumen emulsions, rubber-modified coatings, protective coatings and primers based on the required application and substrate conditions.",
+        ],
+        image: "/assets/oem-wp-4.png",
       },
       {
         title: "Integral Waterproofing Admixtures",
@@ -81,7 +87,7 @@ const OEM_SERVICES = {
           "Our integral waterproofing admixtures are added directly to concrete and mortar to reduce water absorption and improve durability. Available in liquid and powder forms, they help protect structures from water penetration while enhancing long-term performance.",
           "Suitable for plasters, slabs, foundations, and precast elements, they offer a simple and cost-effective way to improve waterproofing from within.",
         ],
-        image: "/assets/oem-wf-5.png",
+        image: "/assets/oem-wp-5.png",
       },
     ],
     quote: {
