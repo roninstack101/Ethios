@@ -1889,6 +1889,274 @@ const SOLUTION_DETAILS = {
         'Ethios pairs premium epoxy grout systems with expert application, ensuring every tiled surface, from hospital floors to luxury bathrooms, stays watertight, hygienic, and visually flawless for years to come.',
     },
   },
+  'polysulphide-sealants': {
+    badge: 'Solutions - Polysulphide Sealants',
+    title: 'Polysulphide Sealants',
+    intro:
+      "Ethios Group's Polysulphide Sealants offer a durable, flexible, and water-resistant solution for sealing construction joints. Designed to handle structural movement and harsh conditions, these sealants ensure long-term performance in both submerged and exposed environments. With excellent bonding properties and chemical resistance, they're ideal for critical infrastructure and industrial use.",
+    heroImage: '/assets/sol-detail-polysulphide-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Flexible & Long-Lasting Joint Sealing Solutions',
+      description:
+        'From high-movement structural joints to quick repairs, each polysulphide grade is formulated for a specific joint condition and exposure level.',
+      image: '/assets/sol-detail-polysulphide-overview.png',
+      items: [
+        {
+          title: 'Two-Part Sealants',
+          description: 'Ideal for high-movement joints; excellent elasticity and chemical resistance.',
+        },
+        {
+          title: 'Single-Part Gun-Grade Sealants',
+          description: 'Easy-to-apply solution for moderate-movement joints and quick repairs.',
+        },
+        {
+          title: 'Pour Grade Sealants',
+          description: 'Flowable sealant for wide horizontal joints in industrial floors and decks.',
+        },
+        {
+          title: 'Fuel-Resistant Variants',
+          description: 'Formulated for areas exposed to fuels and oils, such as refineries and garages.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Industrial Flooring Joints',
+        'Water-Retaining Structures',
+        'Perimeter Door/Window Joints',
+        'Precast Concrete Panels',
+        'Bridge Decks & Runways',
+        'Curtain Walls & Façade Gaps',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Flexible & Movement-Tolerant',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Handles structural shifts without cracking.',
+        },
+        {
+          code: 'V/02',
+          title: 'UV & Weather Resistance',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Performs well in outdoor exposure over the long term.',
+        },
+        {
+          code: 'V/03',
+          title: 'Excellent Adhesion',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Bonds to concrete, steel, glass, and stone.',
+        },
+        {
+          code: 'V/04',
+          title: 'Chemical & Oil Resistant',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Withstands industrial and fuel-related conditions.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Maintenance',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Long service life with minimal upkeep required.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Seal with Strength. Flex with Confidence.',
+      body:
+        'With deep expertise in joint treatment systems, Ethios Group delivers precision application, premium materials, and project-specific guidance for long-lasting, watertight, and aesthetically clean joints. From design to execution, we ensure your structure remains sealed, protected, and flexible.',
+    },
+  },
+  'polyurethane-pu-sealants': {
+    badge: 'Solutions - Polyurethane (PU) Sealants',
+    title: 'Polyurethane (PU) Sealants',
+    intro:
+      "Ethios Group's Polyurethane (PU) Sealants are high-performance, moisture-curing elastomeric sealants designed for dynamic joints in modern construction. These sealants offer excellent flexibility, strong adhesion, and fast curing—making them ideal for both interior and exterior use in structures subjected to frequent movement, weather exposure, and vibration.",
+    heroImage: '/assets/sol-detail-pu-sealants-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'High-Elasticity Sealing Solutions for Dynamic Structures.',
+      description:
+        'Each PU sealant format is matched to how a joint is worked — tooled by hand, poured flat, painted over, or turned around fast for high-traffic zones.',
+      image: '/assets/sol-detail-pu-sealants-overview.png',
+      items: [
+        {
+          title: 'Gun-Grade PU Sealants',
+          description: 'Ideal for vertical and horizontal joints; provides excellent tooling and finish.',
+        },
+        {
+          title: 'Pourable PU Sealants',
+          description: 'Best suited for wide expansion joints and industrial flooring applications.',
+        },
+        {
+          title: 'Paintable PU Sealants',
+          description: 'Accepts coatings and paints post-curing, enabling aesthetic finishes.',
+        },
+        {
+          title: 'Fast-Curing Formulations',
+          description: 'Reduces downtime in high-traffic areas by allowing quicker recoating and use.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Precast Panel Joints',
+        'Podiums & Parking Decks',
+        'Facade & Curtain Wall Gaps',
+        'Floor-to-Wall Transitions',
+        'Balcony & Wet Area Joints',
+        'Metal Cladding & Expansion Joints',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'High Elastic Recovery',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Handles expansion and contraction without failure.',
+        },
+        {
+          code: 'V/02',
+          title: 'Fast Curing',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Enables quicker project turnaround and surface finishing.',
+        },
+        {
+          code: 'V/03',
+          title: 'UV & Weather Resistant',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Suitable for both internal and external environments.',
+        },
+        {
+          code: 'V/04',
+          title: 'Strong Adhesion',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Bonds to concrete, metal, tile, and stone.',
+        },
+        {
+          code: 'V/05',
+          title: 'Low Shrinkage & Crack Resistance',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Delivers clean, long-lasting joint lines.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Built to Flex. Sealed to Last.',
+      body:
+        'At Ethios Group, we ensure your joints are engineered for movement—sealed with precision and built for endurance. Our polyurethane sealants are applied by trained experts using the best tools and techniques to ensure leak-proof, flexible, and durable joints across a variety of architectural and industrial settings.',
+    },
+  },
+  'puf-board-insulation': {
+    badge: 'Solutions - PUF Board Insulation',
+    title: 'PUF Board Insulation',
+    intro:
+      'Ethios Group delivers high-performance PUF (Polyurethane Foam) Board Insulation systems designed for precision thermal control in modern construction. These pre-formed, rigid panels offer superior insulation, long-term dimensional stability, and ease of installation—making them ideal for diverse structural needs across industrial, commercial, and modular applications.',
+    heroImage: '/assets/sol-detail-puf-board-hero.png',
+    overview: {
+      eyebrow: 'Overview',
+      title: 'Rigid Thermal Panels for Structured Efficiency',
+      description:
+        'Pre-formed rigid boards bring factory-consistent insulation value to walls, roofs, and floors, cut and fitted precisely on site.',
+      image: '/assets/sol-detail-puf-board-hero.png',
+      items: [
+        {
+          title: 'High-Density, Rigid Panels',
+          description:
+            'Designed for high compressive strength and consistent insulation across walls, roofs, and floors.',
+        },
+        {
+          title: 'Easy-to-Cut & Shape Format',
+          description:
+            'Lightweight and customizable boards that adapt to varied surface sizes and design requirements.',
+        },
+        {
+          title: 'Compatibility with Structural Layers',
+          description:
+            'Easily integrates with sandwich panels, waterproofing systems, and metal or concrete finishes.',
+        },
+        {
+          title: 'Moisture & Climate Resistance',
+          description:
+            'Low water absorption and resistance to mold growth make it suitable for humid or temperature-sensitive environments.',
+        },
+      ],
+    },
+    applications: {
+      eyebrow: 'Applications',
+      title: 'Typical Applications',
+      items: [
+        'Sandwich Panels',
+        'Cold Storage & Refrigeration Units',
+        'Floor Screed Insulation',
+        'HVAC Duct & Pipe Insulation',
+        'Modular Cabins & Prefab Buildings',
+        'Cladding & Facade Systems',
+      ],
+    },
+    benefits: {
+      eyebrow: 'What We Stand For',
+      title: 'Key Benefits',
+      items: [
+        {
+          code: 'V/01',
+          title: 'Uniform Thermal Efficiency',
+          icon: '/assets/icon-benefit-energy.svg',
+          bareIcon: true,
+          description: 'Consistent insulation value across large surface areas.',
+        },
+        {
+          code: 'V/02',
+          title: 'Quick & Clean Installation',
+          icon: '/assets/icon-benefit-maintenance.svg',
+          description: 'Speeds up construction while reducing labor costs.',
+        },
+        {
+          code: 'V/03',
+          title: 'Moisture & Mold Resistant',
+          icon: '/assets/icon-benefit-seepage.svg',
+          description: 'Supports hygiene and durability in closed environments.',
+        },
+        {
+          code: 'V/04',
+          title: 'Lightweight Strength',
+          icon: '/assets/icon-benefit-lifespan.svg',
+          bareIcon: true,
+          description: 'Low dead load, high performance.',
+        },
+        {
+          code: 'V/05',
+          title: 'Eco & Energy Smart',
+          icon: '/assets/icon-benefit-finishes.svg',
+          description: 'Sustainable and cost-saving.',
+        },
+      ],
+    },
+    quote: {
+      image: '/assets/sol-detail-quote-bg.png',
+      headline: 'Engineered panels. Lasting insulation. Trusted by Ethios Group.',
+      body:
+        'At Ethios Group, we combine product quality with technical know-how to deliver tailor-made insulation systems that improve comfort, sustainability, and operational efficiency. Our PUF Board Insulation solutions are backed by on-ground support and application expertise for flawless execution.',
+    },
+  },
 }
 
 export function slugify(title) {
