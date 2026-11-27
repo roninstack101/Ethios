@@ -84,11 +84,14 @@ const SECTORS = [
 ]
 
 function InfoCard({ heading, items, dark = false }) {
-  /* Long lists (e.g. key solutions) get a wider card split into two columns. */
-  const wide = items.length > 6
+  /* Key Solutions (dark) cards are always the wide two-column card so every
+     sector matches; other long lists also go wide. */
+  const wide = dark || items.length > 6
   return (
     <div
-      className={`min-h-[150px] w-full shrink-0 rounded-[15px] p-4 ${wide ? 'sm:w-[400px]' : 'sm:w-[240px]'} ${
+      /* sm:min-h matches the tallest card (6-row Key Solutions list) so every
+         sector's cards are the same size, even with shorter lists. */
+      className={`min-h-[150px] w-full shrink-0 rounded-[15px] p-4 sm:min-h-[205px] ${wide ? 'sm:w-[400px]' : 'sm:w-[240px]'} ${
         dark ? 'bg-forest' : 'border border-line bg-card'
       }`}
     >

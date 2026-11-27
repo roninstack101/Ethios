@@ -1,9 +1,15 @@
 import { Reveal } from '../../ui.jsx'
 
-function DetailHero({ badge, title, intro, image }) {
+/* imagePosition lets a page match its Figma crop; most pages use the default. */
+function DetailHero({ badge, title, intro, image, imagePosition = 'center 35%' }) {
   return (
     <section className="relative flex min-h-[520px] md:min-h-[600px] xl:min-h-[664px] 2xl:min-h-[800px] items-center justify-center overflow-hidden bg-forest">
-      <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover object-[center_35%] animate-hero-zoom" />
+      <img
+        src={image}
+        alt=""
+        style={{ objectPosition: imagePosition }}
+        className="absolute inset-0 h-full w-full object-cover animate-hero-zoom"
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1d322c] via-[#1d322c]/60 to-transparent opacity-95" />
 
       <div className="relative flex max-w-[1210px] flex-col items-center px-6 pt-[65px] text-center">

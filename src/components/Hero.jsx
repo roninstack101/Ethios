@@ -18,14 +18,13 @@ function Hero() {
         </Reveal>
 
         <Reveal as="h1" delay={120} className="mt-6 text-[40px] font-bold leading-[1.28] sm:text-[52px] lg:text-[60px]">
-          <span className="text-cream">Building Trust,</span>
+          <span className="text-cream">Solutions That</span>
           <br />
-          <span className="text-gold">Engineering Solutions.</span>
+          <span className="text-gold">Strengthen</span>
         </Reveal>
 
         <Reveal as="p" delay={240} className="mt-2 max-w-[648px] text-[17px] font-medium leading-normal text-cream lg:text-[20px]">
-          From waterproofing systems to high-performance admixtures, Ethios Group delivers
-          construction chemistry that holds up — at landmark projects across India and beyond.
+          Ethios helps builders, contractors, developers, and institutional project teams identify, source, and implement the right construction products, systems, and services for stronger, more reliable project outcomes.
         </Reveal>
 
         <Reveal delay={360} className="mt-8 flex flex-wrap items-center gap-3">

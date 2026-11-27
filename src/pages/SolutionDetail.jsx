@@ -15,7 +15,13 @@ function SolutionDetail() {
 
   return (
     <>
-      <DetailHero badge={detail.badge} title={detail.title} intro={detail.intro} image={detail.heroImage} />
+      <DetailHero
+        badge={detail.badge}
+        title={detail.title}
+        intro={detail.intro}
+        image={detail.heroImage}
+        imagePosition={detail.heroImagePosition}
+      />
       <DetailOverview {...detail.overview} />
       <DetailApplications {...detail.applications} />
       <DetailBenefits {...detail.benefits} />

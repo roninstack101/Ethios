@@ -27,6 +27,7 @@ const SECTORS = [
   {
     title: 'Industrial',
     image: '/assets/scope-sector-industrial.png',
+    imagePosition: 'center top', // Figma pins this photo to the top of the card
     description: 'Manufacturing plants, warehouses, logistics hubs, and industrial parks.',
   },
   {
@@ -182,13 +183,14 @@ function Scope() {
           />
         </Reveal>
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {SECTORS.map(({ title, image, description }, i) => (
+          {SECTORS.map(({ title, image, imagePosition = 'center', description }, i) => (
             <Reveal key={title} delay={(i % 3) * 90} className="h-full">
               <article className="group h-full rounded-[15px] border border-line bg-card p-[15px] transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
                 <div className="h-[268px] overflow-hidden rounded-[10px]">
                   <img
                     src={image}
                     alt={title}
+                    style={{ objectPosition: imagePosition }}
                     className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     loading="lazy"
                   />
