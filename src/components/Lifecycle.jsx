@@ -42,7 +42,7 @@ function StageCard({ code, title, icon, items, progress }) {
       <ul className="mt-[18px] space-y-[15px]">
         {items.map((item) => (
           <li key={item} className="flex items-center gap-1.5">
-            <span className="h-[2px] w-[10px] rounded-[1px] bg-brass" aria-hidden />
+            <span className="h-0 w-[10px] shrink-0 border-t-2 border-brass" aria-hidden />
             <span className="text-[12px] font-medium text-smoke">{item}</span>
           </li>
         ))}

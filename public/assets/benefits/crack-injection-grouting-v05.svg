@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="5" fill="#E6E8E8"/>
+<svg x="12.5" y="13.75" width="25" height="22.5" viewBox="0 0 25 22.5" fill="none" overflow="visible">
+<g id="Group">
+<path id="Vector" d="M15 1.25H20C20.9946 1.25 21.9484 1.64509 22.6517 2.34835C23.3549 3.05161 23.75 4.00544 23.75 5V17.5C23.75 18.4946 23.3549 19.4484 22.6517 20.1517C21.9484 20.8549 20.9946 21.25 20 21.25H5C4.00544 21.25 3.05161 20.8549 2.34835 20.1517C1.64509 19.4484 1.25 18.4946 1.25 17.5V5C1.25 4.00544 1.64509 3.05161 2.34835 2.34835C3.05161 1.64509 4.00544 1.25 5 1.25H10" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke="#194339"/>
+<path id="Vector_2" d="M10 5L13.75 8.75L11.25 11.25L15 15L12.5 17.5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke="#194339"/>
+</g>
+</svg>
+</svg>

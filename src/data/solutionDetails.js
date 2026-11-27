@@ -61,39 +61,38 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Longer Lifespan',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/new-construction-waterproofing-v01.svg',
           description: 'Increases the lifespan of concrete and foundational elements.',
         },
         {
           code: 'V/02',
           title: 'Lower Maintenance',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/new-construction-waterproofing-v02.svg',
           description: 'Minimises future maintenance and repair costs.',
         },
         {
           code: 'V/03',
           title: 'Long-Term Protection',
-          icon: '/assets/icon-protect.svg',
+          icon: '/assets/benefits/new-construction-waterproofing-v03.svg',
           description: 'Provides long-lasting protection against water ingress.',
         },
         {
           code: 'V/04',
           title: 'Finish Compatibility',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/new-construction-waterproofing-v04.svg',
           description:
             'Compatible with various finishes including tiles, pavers, screeds, and exposed coatings.',
         },
         {
           code: 'V/05',
           title: 'Seepage Protection',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/new-construction-waterproofing-v05.svg',
           description: 'Reduces long-term water seepage and leakage risk across critical zones.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Waterproofing as a proactive solution, not a reactive repair.',
       body:
         'We use a combination of liquid-applied membranes, crystalline admixtures, cementitious coatings, and HDPE sheets, selected based on the site conditions and exposure levels. Every system is selected for the area, exposure and construction method, giving the project dependable protection from the start. Our focus is on delivering integrated waterproofing systems that protect the structure and provide long-term reliability.',
@@ -158,40 +157,38 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Leak Control',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/repair-rehabilitation-waterproofing-v01.svg',
           description:
             'Stops active leakage at the source and helps protect treated areas from further water ingress.',
         },
         {
           code: 'V/02',
           title: 'Safer Structures',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/repair-rehabilitation-waterproofing-v02.svg',
           description: 'Improves safety and durability of aged concrete and masonry elements.',
         },
         {
           code: 'V/03',
           title: 'Weather Resistance',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/repair-rehabilitation-waterproofing-v03.svg',
           description: 'Increases resistance to chemicals, weather, and UV exposure.',
         },
         {
           code: 'V/04',
           title: 'Broad Compatibility',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/repair-rehabilitation-waterproofing-v04.svg',
           description: 'Compatible with both heritage and modern construction.',
         },
         {
           code: 'V/05',
           title: 'Lower Lifecycle Cost',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/repair-rehabilitation-waterproofing-v05.svg',
           description: 'Reduces life-cycle maintenance costs with long-lasting treatment systems.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'A Waterproofing Strategy Built Around the Structure',
       body:
         'We use a combination of liquid-applied membranes, crystalline admixtures, cementitious coatings, and HDPE sheets, selected based on site conditions, structural damage, and exposure levels. Our focus is on delivering a seamless, multi-layered waterproofing system that reintegrates with the existing structure and performs reliably for years.',
@@ -201,7 +198,7 @@ const SOLUTION_DETAILS = {
     badge: 'Solutions - Liquid Membranes',
     title: 'Liquid Membranes',
     intro:
-      'Liquid membranes form a continuous waterproofing layer across flat, curved and hard-to-reach surfaces. Ethios selects the right system for the substrate, exposure and movement expected on the project, helping deliver reliable protection without joints or gaps.',
+      'Liquid membranes form a continuous waterproofing layer across flat, curved and hard-to-reach surfaces. Ethios selects the right system for the substrate, exposure and movement expected on the project, helping deliver reliable.',
     heroImage: '/assets/sol-detail-liquid-membranes-hero.png',
     overview: {
       eyebrow: 'Overview',
@@ -256,39 +253,37 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Faster Application',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/liquid-membranes-v01.svg',
           description: 'Selected systems cure quickly, helping work move ahead with less waiting time.',
         },
         {
           code: 'V/02',
           title: 'Complex Detailing',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/liquid-membranes-v02.svg',
           description: 'Liquid application covers corners, curves, joints and complex shapes with ease.',
         },
         {
           code: 'V/03',
           title: 'Joint-Free Protection',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/liquid-membranes-v03.svg',
           description: 'Forms a continuous seamless layer without joints or overlaps.',
         },
         {
           code: 'V/04',
           title: 'Strong Surface Bond',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/liquid-membranes-v04.svg',
           description: 'Designed to adhere to suitable concrete, metal, tile and masonry surfaces.',
         },
         {
           code: 'V/05',
           title: 'Flexible Performance',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/liquid-membranes-v05.svg',
           description: 'Selected systems bridge minor cracks and accommodate movement.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Seamless protection that adapts to every surface, every challenge.',
       body:
         "With proper surface preparation and expert application, Ethios's liquid membrane systems provide an efficient and highly reliable waterproofing solution tailored to modern construction challenges.",
@@ -306,6 +301,7 @@ const SOLUTION_DETAILS = {
       description:
         'Pre-formed membranes bring factory-controlled consistency to site; each material suits a different substrate, exposure, and installation method.',
       image: '/assets/sol-detail-sheet-membranes-overview.png',
+      imagePosition: 'top', // Figma pins this square photo to the top of the frame
       items: [
         {
           title: 'HDPE (High-Density Polyethylene) Membranes',
@@ -348,42 +344,40 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Consistent Factory Quality',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/sheet-membranes-v01.svg',
           description:
             'Manufactured under controlled conditions for uniform thickness and dependable performance.',
         },
         {
           code: 'V/02',
           title: 'Engineered for Demanding Environments',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/sheet-membranes-v02.svg',
           description:
             'Resists weathering, root penetration, mechanical stress, and environmental exposure.',
         },
         {
           code: 'V/03',
           title: 'Versatile Installation Options',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/sheet-membranes-v03.svg',
           description:
             'Available in torch-applied, self-adhesive, and mechanically fixed systems to suit different project needs.',
         },
         {
           code: 'V/04',
           title: 'Reliable Surface Protection',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/sheet-membranes-v04.svg',
           description: 'Suitable for both horizontal and vertical waterproofing applications.',
         },
         {
           code: 'V/05',
           title: 'Compatible with Multiple Finishes',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/sheet-membranes-v05.svg',
           description: 'Works seamlessly beneath screeds, tiles, pavers, and protective toppings.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Strong Protection Starts with Precise Detailing',
       body:
         'From residential rooftops to critical below-grade applications, Ethios ensures precise installation and correct detailing of sheet membranes for long-lasting, watertight security across all types of structures.',
@@ -443,42 +437,40 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Long-Term Protection',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/basement-waterproofing-v01.svg',
           description:
             'Long-lasting resistance to seepage, capillary rise, and dampness in below-ground areas.',
         },
         {
           code: 'V/02',
           title: 'Healthier Spaces',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/basement-waterproofing-v02.svg',
           description:
             'Helps control the moisture conditions that contribute to mould, odour, bacteria, and structural corrosion.',
         },
         {
           code: 'V/03',
           title: 'Material Compatibility',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/basement-waterproofing-v03.svg',
           description: 'Compatibility with RCC, blockwork, and precast elements.',
         },
         {
           code: 'V/04',
           title: 'Site-Specific Systems',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/basement-waterproofing-v04.svg',
           description: 'Customised systems based on water table levels and structural conditions.',
         },
         {
           code: 'V/05',
           title: 'Usable Basements',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/basement-waterproofing-v05.svg',
           description:
             'Enhances the longevity and usability of basements for storage, parking, or occupancy.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Protect what lies beneath.',
       body:
         "Every basement presents different site conditions, water pressures, and construction challenges. We design and execute waterproofing systems tailored to each project's structural and environmental requirements.",
@@ -543,40 +535,38 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'All-Weather Protection',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/podium-terrace-waterproofing-v01.svg',
           description: 'Systems designed for UV exposure, rain and changing temperatures.',
         },
         {
           code: 'V/02',
           title: 'Built to Last',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/podium-terrace-waterproofing-v02.svg',
           description: 'Long-lasting performance even in exposed conditions.',
         },
         {
           code: 'V/03',
           title: 'Finish Friendly',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/podium-terrace-waterproofing-v03.svg',
           description: 'Supports surface finishes without compromising performance.',
         },
         {
           code: 'V/04',
           title: 'Leakage Control',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/podium-terrace-waterproofing-v04.svg',
           description: 'Reduces risk of leakage into interior spaces below.',
         },
         {
           code: 'V/05',
           title: 'Improves Structural Durability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/podium-terrace-waterproofing-v05.svg',
           description:
             'Protects concrete surfaces from moisture-related deterioration and extends service life.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Built for Every Layer Above the Slab',
       body:
         'From terraces and balconies to podium slabs and landscaped roofs, we design waterproofing systems that withstand weather, manage water drainage effectively, and deliver dependable long-term protection.',
@@ -631,41 +621,39 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Cost-Effective Rehabilitation',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/structural-strengthening-v01.svg',
           description: 'Can provide a practical alternative to demolition and reconstruction.',
         },
         {
           code: 'V/02',
           title: 'Works with Modern Repair Systems',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/structural-strengthening-v02.svg',
           description:
             'Integrates with FRP, micro-concrete, bonding agents and other repair materials.',
         },
         {
           code: 'V/03',
           title: 'Restored Capacity',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/structural-strengthening-v03.svg',
           description: 'Improves the performance of weakened or overloaded structural members.',
         },
         {
           code: 'V/04',
           title: 'Less Disruption',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/structural-strengthening-v04.svg',
           description:
             'Allows strengthening work to be planned around ongoing building use or operations.',
         },
         {
           code: 'V/05',
           title: 'Ready for New Demands',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/structural-strengthening-v05.svg',
           description: 'Supports upgrades for added loads, adaptive reuse or seismic improvement.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Strengthen the Structure. Reinforce What Matters.',
       body:
         'Every structure presents unique engineering challenges. We evaluate existing conditions, identify the most effective strengthening strategy, and execute solutions that restore structural performance with precision and long-term reliability.',
@@ -683,6 +671,7 @@ const SOLUTION_DETAILS = {
       description:
         'Using high-pressure injection techniques, we fill and seal cracks internally, ensuring deep penetration and long-lasting results without the need for surface demolition.',
       image: '/assets/sol-detail-crack-overview.png',
+      imagePosition: '70% top', // Figma crop: shifted right, pinned to the top
       items: [
         {
           title: 'Epoxy Injection Grouting',
@@ -720,42 +709,40 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Deep Crack Penetration',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/crack-injection-grouting-v01.svg',
           description: 'Seals cracks from within for durable, long-lasting performance.',
         },
         {
           code: 'V/02',
           title: 'Compatible with Existing Structures',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/crack-injection-grouting-v02.svg',
           description:
             'Works effectively with reinforced concrete and existing structural systems.',
         },
         {
           code: 'V/03',
           title: 'Performs Under Water Pressure',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/crack-injection-grouting-v03.svg',
           description: 'PU grouting effectively seals active leaks even under hydrostatic pressure.',
         },
         {
           code: 'V/04',
           title: 'Restores Structural Integrity',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/crack-injection-grouting-v04.svg',
           description:
             'Re-establishes continuity and improves the performance of cracked concrete members.',
         },
         {
           code: 'V/05',
           title: 'Minimal Surface Disruption',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/crack-injection-grouting-v05.svg',
           description:
             'Repairs internal defects with limited demolition and faster project completion.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Sealing the unseen. Restore stability from within.',
       body:
         'Our team conducts a thorough site inspection, crack mapping, and material selection to ensure the best-fit injection technique for every project. With high-precision equipment and globally trusted grouting materials, we deliver lasting results that reinforce the strength and safety of your structure from within.',
@@ -773,6 +760,7 @@ const SOLUTION_DETAILS = {
       description:
         'We don’t just cover up the damage—we address its root cause, apply corrective treatment, and rebuild the surface to restore integrity and long-term performance.',
       image: '/assets/sol-detail-surface-overview.png',
+      imagePosition: 'center 35%', // Figma crop of this portrait photo
       items: [
         {
           title: 'Plaster & Mortar Repairs',
@@ -820,44 +808,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Root-Cause Assessment',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/surface-restoration-v01.svg',
           description:
             'Identifies whether the damage is caused by moisture ingress, weak plaster, cracking, coating failure or substrate deterioration before treatment begins.',
         },
         {
           code: 'V/02',
           title: 'Sound Surface Preparation',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/surface-restoration-v02.svg',
           description:
             'Removes loose or damaged material and rebuilds a stable base for the repair and finish.',
         },
         {
           code: 'V/03',
           title: 'Moisture & Efflorescence Control',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/surface-restoration-v03.svg',
           description:
             'Treats affected areas and helps reduce recurring dampness and salt deposits once the moisture source is addressed.',
         },
         {
           code: 'V/04',
           title: 'Compatible Repair Systems',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/surface-restoration-v04.svg',
           description:
             'Matches repair mortars, fillers and coatings to the substrate and its exposure conditions.',
         },
         {
           code: 'V/05',
           title: 'Restored Protection & Finish',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/surface-restoration-v05.svg',
           description:
             'Rebuilds damaged surfaces and improves their durability and finish using repair materials and coatings matched to the underlying condition.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Bring the Surface Back to Life',
       body:
         'Every restoration project begins with understanding the root cause, not just repairing the visible damage. We combine proven repair materials, skilled workmanship, and engineered restoration techniques to renew surfaces for long-term performance.',
@@ -917,44 +903,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Extends Structural Life',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/anti-corrosion-treatment-v01.svg',
           description:
             'Helps protect reinforced concrete from continued corrosion and deterioration.',
         },
         {
           code: 'V/02',
           title: 'Prevents Future Damage',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/anti-corrosion-treatment-v02.svg',
           description:
             'Reduces the risk of spalling, cracking, and delamination.',
         },
         {
           code: 'V/03',
           title: 'Strengthens Concrete Bond',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/anti-corrosion-treatment-v03.svg',
           description:
             'Creates a prepared surface for primers, repair mortars and re-encasement. Improves adhesion between reinforcement and concrete.',
         },
         {
           code: 'V/04',
           title: 'Enhances Surface Durability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/anti-corrosion-treatment-v04.svg',
           description:
             'Increases the performance of protective coatings and finishes.',
         },
         {
           code: 'V/05',
           title: 'Reduces Lifecycle Costs',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/anti-corrosion-treatment-v05.svg',
           description:
             'Minimizes repair needs and helps avoid premature reconstruction.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Invest in the Longevity of the Structure',
       body:
         'Corrosion protection is more than a repair; it is an investment in the longevity of the structure. Ethios works with developers, consultants, and contractors to deliver systems that protect reinforced concrete throughout its lifecycle.',
@@ -965,13 +949,14 @@ const SOLUTION_DETAILS = {
     title: 'Epoxy & PU Flooring Systems',
     intro:
       'Epoxy & PU flooring systems play a critical role in creating durable, hygienic, and easy-to-maintain surfaces, particularly for spaces that face heavy traffic, frequent cleaning and chemical exposure. We provide flooring systems tailored to the operational safety and performance requirements of industrial, commercial, and institutional facilities.',
-    heroImage: '/assets/oem-floor-2.png',
+    heroImage: '/assets/sol-detail-epoxy-hero.png',
+    heroImagePosition: 'center top', // Figma pins this hero photo to the top
     overview: {
       eyebrow: 'Overview',
       title: 'Built for Demanding Floors',
       description:
         'A seamless epoxy flooring system combines strength, chemistry, and finish into one floor built for years of demanding use.',
-      image: '/assets/oem-floor-3.png',
+      image: '/assets/sol-detail-epoxy-overview.png',
       items: [
         {
           title: 'Seamless Finish',
@@ -1014,44 +999,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Seamless & Hygienic Surface',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/epoxy-flooring-systems-v01.svg',
           description:
             "Creates a joint-free surface that's easy to clean and helps maintain hygienic conditions.",
         },
         {
           code: 'V/02',
           title: 'High Mechanical Strength',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/epoxy-flooring-systems-v02.svg',
           description:
             'Withstands heavy equipment, forklift traffic, and continuous operational loads.',
         },
         {
           code: 'V/03',
           title: 'Chemical Resistance',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/epoxy-flooring-systems-v03.svg',
           description:
             'Resists exposure to oils, chemicals, solvents, and cleaning agents.',
         },
         {
           code: 'V/04',
           title: 'Low Maintenance',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/epoxy-flooring-systems-v04.svg',
           description:
             'Reduces cleaning effort, maintenance requirements, and operational downtime.',
         },
         {
           code: 'V/05',
           title: 'Design Flexibility',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/epoxy-flooring-systems-v05.svg',
           description:
             'Available in multiple colours, finishes, and textures to suit functional and aesthetic needs.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'A Stronger Floor for Smoother Operations',
       body:
         'Strong floors are the foundation of efficient operations. We provide epoxy flooring solutions that deliver lasting durability, seamless finishes, and dependable performance across industrial, commercial, and institutional projects.',
@@ -1111,44 +1094,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'High Flexibility',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/pu-polyurethane-flooring-system-v01.svg',
           description:
             'Accommodates minor substrate movement to help reduce the risk of cracking.',
         },
         {
           code: 'V/02',
           title: 'Thermal & UV Stability',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/pu-polyurethane-flooring-system-v02.svg',
           description:
             'Performs reliably across varying temperatures and semi-exposed environments.',
         },
         {
           code: 'V/03',
           title: 'Chemical & Abrasion Resistance',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/pu-polyurethane-flooring-system-v03.svg',
           description:
             'Protects against chemicals, spills, abrasion, and everyday wear.',
         },
         {
           code: 'V/04',
           title: 'Long-Term Durability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/pu-polyurethane-flooring-system-v04.svg',
           description:
             'Maintains strength, finish, and performance under demanding operating conditions.',
         },
         {
           code: 'V/05',
           title: 'Low Maintenance & Hygienic',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/pu-polyurethane-flooring-system-v05.svg',
           description:
             'Creates seamless surfaces that are easy to clean and support hygienic environments.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Performance That Holds Up Under Pressure',
       body:
         'Ethios offers advanced PU flooring solutions tailored for environments exposed to thermal stress, heavy traffic, and high hygiene requirements. Known for their flexibility, UV resistance, and durability under dynamic loads, our PU floors provide a reliable surface that performs under pressure. The result is a resilient floor that performs across demanding indoor, outdoor and temperature-controlled environments.',
@@ -1208,44 +1189,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Accommodates Joint Movement',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/polysulphide-polyurethane-sealants-v01.svg',
           description:
             'Stretches and recovers as suitable structural joints open and close.',
         },
         {
           code: 'V/02',
           title: 'Built for Outdoor Exposure',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/polysulphide-polyurethane-sealants-v02.svg',
           description:
             'Selected grades resist UV, rain and changing weather conditions.',
         },
         {
           code: 'V/03',
           title: 'Strong Adhesion',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/polysulphide-polyurethane-sealants-v03.svg',
           description:
             'Bonds to properly prepared concrete, steel, glass and stone surfaces.',
         },
         {
           code: 'V/04',
           title: 'Chemical and Fuel Resistance',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/polysulphide-polyurethane-sealants-v04.svg',
           description:
             'Special grades are available for areas exposed to oils, fuels and industrial chemicals.',
         },
         {
           code: 'V/05',
           title: 'Long Service Life',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/polysulphide-polyurethane-sealants-v05.svg',
           description:
             'Correctly selected and applied sealants reduce frequent joint maintenance.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Seal with Strength. Flex with Confidence.',
       body:
         'Long-term structural performance begins with effective joint protection. We provide project-specific sealing solutions that accommodate movement, prevent water ingress, and support the durability of buildings and infrastructure.',
@@ -1305,44 +1284,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Exceptional Abrasion & Impact Resistance',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/heavy-duty-floor-coatings-v01.svg',
           description:
             'Protects the floor through heavy traffic, machinery and regular operational wear.',
         },
         {
           code: 'V/02',
           title: 'Chemical & Spill Protection',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/heavy-duty-floor-coatings-v02.svg',
           description:
             'Selected systems resist suitable oils, acids, alkalis and industrial chemicals.',
         },
         {
           code: 'V/03',
           title: 'Anti-Slip',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/heavy-duty-floor-coatings-v03.svg',
           description:
             'Textured and anti-slip finishes support safer movement across work areas.',
         },
         {
           code: 'V/04',
           title: 'UV & Weather Stability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/heavy-duty-floor-coatings-v04.svg',
           description:
             'Suitable for both indoor and outdoor applications.',
         },
         {
           code: 'V/05',
           title: 'Low Maintenance',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/heavy-duty-floor-coatings-v05.svg',
           description:
             'A durable, seamless finish reduces cleaning effort and routine upkeep.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Stronger Surfaces. Smarter Protection.',
       body:
         "At Ethios, we go beyond surface-level solutions. Every facility puts different demands on its floor. We select the coating type, thickness, texture and finish around the traffic, exposure and safety needs of the space. Our Heavy-Duty Floor Coatings are custom-formulated and expertly applied to match your exact operational demands, thereby ensuring that your facility's flooring is not just protected, but also optimised for performance and safety.",
@@ -1402,44 +1379,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Superior Thermal Efficiency',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/puf-spray-insulation-v01.svg',
           description:
             'Low thermal conductivity reduces energy usage and HVAC load.',
         },
         {
           code: 'V/02',
           title: 'Fast & Uniform Coverage',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/puf-spray-insulation-v02.svg',
           description:
             'Saves time as spray application covers large and complex surfaces efficiently.',
         },
         {
           code: 'V/03',
           title: 'Moisture Barrier',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/puf-spray-insulation-v03.svg',
           description:
             'A continuous closed-cell layer helps limit moisture ingress and condensation.',
         },
         {
           code: 'V/04',
           title: 'Durability & Dimensional Stability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/puf-spray-insulation-v04.svg',
           description:
             'Correctly applied PUF maintains its shape and insulation performance over time.',
         },
         {
           code: 'V/05',
           title: 'Eco-Friendly',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/puf-spray-insulation-v05.svg',
           description:
             'Available in low-GWP and CFC/HCFC-free formulations for sustainable applications.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Insulation That Fits the Surface',
       body:
         'At Ethios, we bring advanced spray insulation technology backed by expert application, on-site technical guidance, and customized project integration. Our spray PUF solutions align with modern green-building norms, helping reduce energy bills and improve occupant comfort year-round.',
@@ -1500,44 +1475,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Superior Thermal Insulation',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/xps-insulation-board-v01.svg',
           description:
             'Reduces heat transfer for improved energy efficiency and indoor comfort.',
         },
         {
           code: 'V/02',
           title: 'High Moisture Resistance',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/xps-insulation-board-v02.svg',
           description:
             'Closed-cell structure resists water absorption and maintains insulation performance.',
         },
         {
           code: 'V/03',
           title: 'Excellent Compressive Strength',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/xps-insulation-board-v03.svg',
           description:
             'Supports heavy loads without compromising structural performance.',
         },
         {
           code: 'V/04',
           title: 'Long-Term Dimensional Stability',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/xps-insulation-board-v04.svg',
           description:
             'Retains its shape and insulation properties over time.',
         },
         {
           code: 'V/05',
           title: 'Environmentally Friendly',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/xps-insulation-board-v05.svg',
           description:
             'Supports energy-efficient construction with durable, long-lasting insulation.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Smart Insulation. Long-Term Performance.',
       body:
         'We deliver engineered XPS insulation systems designed for demanding construction environments. With expert installation and high-quality insulation boards, we help improve thermal performance, protect structures from thermal shocks, and deliver reliable energy efficiency for the long term.',
@@ -1595,44 +1568,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Cost-Efficient Thermal Insulation',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/eps-insulation-board-v01.svg',
           description:
             'Delivers reliable insulation performance while helping optimize project costs.',
         },
         {
           code: 'V/02',
           title: 'Lightweight & Easy to Install',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/eps-insulation-board-v02.svg',
           description:
             'Easy to handle, cut, and install, reducing construction time and structural load.',
         },
         {
           code: 'V/03',
           title: 'Customizable Densities',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/eps-insulation-board-v03.svg',
           description:
             'Available in different densities and thicknesses to suit various project requirements.',
         },
         {
           code: 'V/04',
           title: 'Eco-Friendly & Recyclable',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/eps-insulation-board-v04.svg',
           description:
             'A recyclable insulation solution that supports sustainable construction practices.',
         },
         {
           code: 'V/05',
           title: 'Multi-Application Flexibility',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/eps-insulation-board-v05.svg',
           description:
             'Suitable for walls, roofs, floors, modular buildings, and other insulation systems.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Light on Structure. Big on Insulation.',
       body:
         'We supply quality EPS insulation boards backed by technical guidance and reliable project support. Our solutions are selected to meet the thermal, structural, and installation requirements of each application, delivering dependable insulation performance across every project.',
@@ -1643,13 +1614,14 @@ const SOLUTION_DETAILS = {
     title: 'Insulation Screed Concrete',
     intro:
       'Insulation Screed Concrete combines structural support with thermal and acoustic insulation in a single layer. Made with lightweight insulating aggregates, it helps reduce heat transfer, improve indoor comfort, and minimize dead load. Ideal for roofs, intermediate floors, and podiums, it creates a stable protection layer for waterproofing and a base for floor finishes.',
-    heroImage: '/assets/oem-tile-1.png',
+    heroImage: '/assets/sol-detail-screed-hero.png',
+    heroImagePosition: 'center 65%', // Figma crop of this square photo
     overview: {
       eyebrow: 'Overview',
       title: 'Dual-Function Screed for Thermal & Acoustic Comfort',
       description:
         'A single lightweight layer that levels the surface, insulates it thermally, and dampens sound before the next system goes on top.',
-      image: '/assets/sol-screed.png',
+      image: '/assets/sol-detail-screed-overview.png',
       items: [
         {
           title: 'Engineered Lightweight Mix',
@@ -1692,44 +1664,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Improves Thermal Resistance',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/insulation-screed-concrete-v01.svg',
           description:
             'Reduces heat transfer to improve indoor comfort and energy efficiency.',
         },
         {
           code: 'V/02',
           title: 'Reduced Sound Transfer',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/insulation-screed-concrete-v02.svg',
           description:
             'Helps limit sound movement between floors and occupied spaces.',
         },
         {
           code: 'V/03',
           title: 'Lower Added Load',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/insulation-screed-concrete-v03.svg',
           description:
             'Uses lightweight aggregates to create a stable base with less dead load.',
         },
         {
           code: 'V/04',
           title: 'Ready for Layered Systems',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/insulation-screed-concrete-v04.svg',
           description:
             'Works beneath suitable waterproofing membranes, tiles and flooring systems.',
         },
         {
           code: 'V/05',
           title: 'Practical on Site',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/insulation-screed-concrete-v05.svg',
           description:
             'Offers good workability, low shrinkage and a level base for the finish above.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Lightweight Screed. More Comfortable Spaces.',
       body:
         'We deliver insulation screed solutions designed for thermal performance, reduced structural load, and seamless integration with waterproofing and flooring systems. Every mix is selected to meet the functional requirements of the project while ensuring long-term durability.',
@@ -1740,13 +1710,14 @@ const SOLUTION_DETAILS = {
     title: 'Thermal Insulation Coatings',
     intro:
       'Insulation coatings are applied directly to roofs, walls, pipes and equipment to reduce surface heat gain and protect the substrate. Ethios selects the coating around the surface, operating temperature and exposure, helping improve thermal performance without adding heavy insulation layers.',
-    heroImage: '/assets/sol-insulation-coating.png',
+    heroImage: '/assets/sol-detail-insulation-coating-hero.png',
     overview: {
       eyebrow: 'Overview',
       title: 'Reduce Heat. Protect Surfaces. Enhance Efficiency.',
       description:
         'Applied directly over concrete, metal, or existing coatings, this thermal barrier protects the substrate while cutting the heat that reaches it.',
-      image: '/assets/sol-insulation-coating.png',
+      image: '/assets/sol-detail-insulation-coating-overview.png',
+      imagePosition: '33% center', // Figma crop: shifted slightly left
       items: [
         {
           title: 'High-Performance Thermal Barrier',
@@ -1788,36 +1759,35 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Reduces Surface Heat Gain',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/insulation-coating-v01.svg',
           description:
             'Limits the amount of heat absorbed by suitable roofs, walls, pipes and equipment.',
         },
         {
           code: 'V/02',
           title: 'Supports Energy Performance',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/insulation-coating-v02.svg',
           description:
             'Lower heat gain can reduce the cooling demand of the space or system.',
         },
         {
           code: 'V/03',
           title: 'Moisture-Resistant',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/insulation-coating-v03.svg',
           description:
             'Selected coatings protect suitable surfaces from rain, moisture and environmental wear.',
         },
         {
           code: 'V/04',
           title: 'Durable & Long-Lasting',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/insulation-coating-v04.svg',
           description:
             'Correct preparation and application help the coating retain its finish and performance for a long duration.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Maximum Heat Resistance and Long-Lasting Surface Protection',
       body:
         'High-performance insulation coating that reduces heat transfer, protects surfaces, and enhances energy efficiency. Ethios helps project teams choose an insulation system around the substrate, operating temperature, exposure and required U values.',
@@ -1828,7 +1798,8 @@ const SOLUTION_DETAILS = {
     title: 'Tile Joint Fillers',
     intro:
       'Ethios offers high-performance epoxy tile grouts that deliver exceptional bonding strength, chemical resistance, and a seamless aesthetic finish. Designed for demanding environments where hygiene, durability, and visual appeal are critical, our epoxy grouts outperform traditional cementitious grouts in every aspect.',
-    heroImage: '/assets/prodcat-flooring.png',
+    heroImage: '/assets/sol-detail-tile-joint-hero.png',
+    heroImagePosition: 'center 7%', // Figma crop: near the top of this square photo
     overview: {
       eyebrow: 'Overview',
       title: 'Built for Joints That Work Hard',
@@ -1877,44 +1848,42 @@ const SOLUTION_DETAILS = {
         {
           code: 'V/01',
           title: 'Low Water Absorption',
-          icon: '/assets/icon-benefit-lifespan.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/tile-joint-fillers-v01.svg',
           description:
             'Suitable for wet areas when the grout and full tile system are correctly specified and applied.',
         },
         {
           code: 'V/02',
           title: 'Chemical Resistance Options',
-          icon: '/assets/icon-benefit-finishes.svg',
+          icon: '/assets/benefits/tile-joint-fillers-v02.svg',
           description:
             'Selected grades can be matched to the expected cleaners or chemicals.',
         },
         {
           code: 'V/03',
           title: 'Wear Resistance',
-          icon: '/assets/icon-benefit-seepage.svg',
+          icon: '/assets/benefits/tile-joint-fillers-v03.svg',
           description:
             "Can withstand regular cleaning and foot traffic within the product's stated service conditions.",
         },
         {
           code: 'V/04',
           title: 'Easy Maintenance',
-          icon: '/assets/icon-benefit-maintenance.svg',
+          icon: '/assets/benefits/tile-joint-fillers-v04.svg',
           description:
             'A dense joint can be easier to clean and is not prone to cement-based efflorescence.',
         },
         {
           code: 'V/05',
           title: 'Colour and Finish Options',
-          icon: '/assets/icon-benefit-energy.svg',
-          bareIcon: true,
+          icon: '/assets/benefits/tile-joint-fillers-v05.svg',
           description:
             'Available shades can be selected to suit the tile and desired joint finish.',
         },
       ],
     },
     quote: {
-      image: '/assets/sol-detail-quote-bg.png',
+      image: '/assets/sol-detail-quote-construction.png',
       headline: 'Clean Joints. Strong Finish.',
       body:
         'Ethios pairs premium epoxy grout systems with expert application, ensuring every tiled surface, from hospital floors to luxury bathrooms, stays watertight, hygienic, and visually flawless for years to come.',

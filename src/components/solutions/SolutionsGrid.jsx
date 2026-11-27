@@ -175,7 +175,9 @@ const SOLUTIONS = [
 
 function SolutionCard({ title, slug, category, image, description }) {
   return (
-    <article className="group flex h-[494px] flex-col rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
+    /* The Know More link's ::after overlay covers the whole card, so clicking
+       anywhere on the card opens the solution (one link, keyboard-friendly). */
+    <article className="group relative flex h-[494px] flex-col rounded-[15px] border border-line bg-card p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-forest/40 hover:shadow-lg">
       <div className="relative h-[205px] shrink-0 overflow-hidden rounded-[10px]">
         <img
           src={image}
@@ -191,7 +193,7 @@ function SolutionCard({ title, slug, category, image, description }) {
       <div className="mt-auto border-t border-line pt-5">
         <Link
           to={`/solutions/${slug || slugify(title)}`}
-          className="inline-flex h-10 items-center gap-2 rounded-full border border-forest px-5 text-[15px] font-medium uppercase text-forest transition-colors hover:bg-forest hover:text-cream"
+          className="inline-flex h-10 items-center gap-2 rounded-full border border-forest px-5 text-[15px] font-medium uppercase text-forest transition-colors after:absolute after:inset-0 after:rounded-[15px] after:content-[''] group-hover:bg-forest group-hover:text-cream"
         >
           Know More
           <ArrowRight />

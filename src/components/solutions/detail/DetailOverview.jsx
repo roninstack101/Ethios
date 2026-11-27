@@ -3,7 +3,7 @@ import { SectionIntro, Reveal } from '../../ui.jsx'
 
 /* Numbered application list; the active entry expands into a white card
    showing its description (matches the Figma layout where "03." is open). */
-function DetailOverview({ eyebrow, title, description, image, items }) {
+function DetailOverview({ eyebrow, title, description, image, imagePosition = 'center', items }) {
   const [active, setActive] = useState(2)
 
   return (
@@ -13,9 +13,19 @@ function DetailOverview({ eyebrow, title, description, image, items }) {
           <SectionIntro eyebrow={eyebrow} title={title} description={description} />
         </Reveal>
 
-        <div className="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,595px)_minmax(0,1fr)] lg:gap-16">
-          <Reveal x={-28} y={0} className="group overflow-hidden rounded-[15px]">
-            <img src={image} alt={title} className="aspect-[595/500] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+        {/* Image keeps a fixed size; the list is vertically centred against it. */}
+        <div className="mt-10 grid items-center gap-10 lg:grid-cols-[minmax(0,595px)_minmax(0,1fr)] lg:gap-16">
+          <Reveal
+            x={-28}
+            y={0}
+            className="group relative aspect-[595/500] overflow-hidden rounded-[15px]"
+          >
+            <img
+              src={image}
+              alt={title}
+              style={{ objectPosition: imagePosition }}
+              className="absolute inset-0 size-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            />
           </Reveal>
 
           <Reveal as="ol" x={28} y={0} delay={120} className="space-y-2">
